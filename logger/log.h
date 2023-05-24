@@ -1,13 +1,21 @@
-#ifndef LOG_H
-#define LOG_H
+#ifndef __LOG__H__
+#define __LOG__H__
 
 #include <cstdio>
 #include <ctime>
 #include <cassert>
 #include <cstdarg>
+
 #include <mutex>
+#include <memory>
+#include <string>
+#include <thread>
+#include <iostream>
+
 #include <sys/stat.h>
 #include <sys/time.h>
+
+#include "blockqueue.hpp"
 
 
 class Log{
@@ -35,13 +43,19 @@ private:
     char m_buff[BUFF_SIZE]; 
     int m_buffPos;  // 读取的位置
 
+    std::unique_ptr<BlockQueue<std::string>> m_queue = nullptr;    // 异步写队列
+    std::unique_ptr<std::thread> m_writeThread = nullptr; // 从队列取日志信息写入文件的线程
+
 private:
     Log();
     virtual ~Log();
+    void asyncWrite();  // 异步写入日志信息到日志文件中
+
+    static void flushLogThread();
 
 public:
     static Log *getInstance();  // 单例模式
-    void init(const char *path, const char *suffix);    // 初始化日志
+    void init(const char *path = "./log", const char *suffix = ".log", int queueSize = 0);    // 初始化日志
 
     void write(int level, const char *format, ...); // 输出格式串到日志文件中
     void flush();
@@ -52,4 +66,4 @@ public:
 #define LOG_WARN(format, ...) { Log::getInstance()->write(2, format, ##__VA_ARGS__); }
 #define LOG_ERROR(format, ...) { Log::getInstance()->write(3, format, ##__VA_ARGS__); }
 
-#endif
+#endif  //!__LOG__H__

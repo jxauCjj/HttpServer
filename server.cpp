@@ -12,16 +12,23 @@ void printDebug(){
     }
 }
 
+void printInfo(){
+    for(int i = 0; i < 5; ++i){
+        LOG_INFO("Port:%d, OpenLinger: %s", 3306, "true");
+        std::this_thread::sleep_for(std::chrono::milliseconds(800));
+    }
+}
+
 int main(){
 
-    Log::getInstance()->init("./log", ".log");
+    Log::getInstance()->init("./log", ".log", 1024);
 
     std::thread t1(printDebug);
-    t1.detach();
+    std::thread t2(printInfo);
+    t1.join();
+    t2.join();
 
     LOG_INFO("Port:%d, OpenLinger: %s", 3306, "true");
-
-    // std::this_thread::sleep_for(std::chrono::seconds(6));
 
     return 0;
 }

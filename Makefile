@@ -6,5 +6,5 @@ ${TARGET}: server.cpp ./bin/log.o
 	$(CXX) ${CFLAGS} $^ -o ./bin/$@
 
 # 日志模块
-log.o: ./logger/log.cpp ./logger/log.h
-	$(CXX) ${CFLAGS} -c $< -o ./bin/$@
+./bin/log.o: ./logger/log.cpp ./logger/log.h ./logger/blockqueue.hpp
+	$(CXX) ${CFLAGS} -c $< -o $@
