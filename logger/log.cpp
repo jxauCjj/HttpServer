@@ -13,13 +13,12 @@ Log* Log::getInstance(){
     return &logger;
 }
 
-Log::Log(){
+Log::Log(): m_buff(BUFF_SIZE){
 
     m_path = nullptr;
     m_suffix = nullptr;
     m_fp = nullptr;
     m_lineCount = 0;
-    m_buffPos = 0;
     m_isAsync = false;
 }
 
@@ -119,33 +118,32 @@ void Log::write(int level, const char *format, ...){
     {
         std::unique_lock<std::mutex> locker(m_mtx);
         ++m_lineCount;  // 行数+1
-        int len = snprintf(m_buff + m_buffPos, 128, "%04d-%02d-%02d %02d:%02d:%02d.%06ld ",
+        int len = snprintf(m_buff.beginWrite(), 128, "%04d-%02d-%02d %02d:%02d:%02d.%06ld ",
             t.tm_year + 1900, t.tm_mon + 1, t.tm_mday, 
             t.tm_hour, t.tm_min, t.tm_sec, now.tv_usec);
         
-        m_buffPos += len;
+        m_buff.hasWritten(len);
 
         // 追加level信息
-        len = snprintf(m_buff + m_buffPos, BUFF_SIZE - m_buffPos - 2, "%s", LEVEL_INFO[level]);
-        m_buffPos += len;
+        len = snprintf(m_buff.beginWrite(), m_buff.writeableBytes(), "%s", LEVEL_INFO[level]);
+        m_buff.hasWritten(len);
 
         va_start(vaList, format);
-        len = vsnprintf(m_buff + m_buffPos, BUFF_SIZE - m_buffPos - 2, format, vaList); // 输出格式串
+        len = vsnprintf(m_buff.beginWrite(), m_buff.writeableBytes(), format, vaList); // 输出格式串
         va_end(vaList);
+        m_buff.hasWritten(len);
 
-        m_buffPos += len;
-        m_buff[m_buffPos++] = '\n';
-        m_buff[m_buffPos++] = '\0';
+        m_buff.append("\n\0", 2);   // \0表示字符串结尾
 
         if(m_isAsync && m_queue && !m_queue->full()){
             // TODO
-            m_queue->push(m_buff);
+            m_queue->push(m_buff.bufferToString());
         }
         else{
-            fputs(m_buff, m_fp);    // 写入文件
+            fputs(m_buff.peek(), m_fp);    // 写入文件
+            m_buff.clear();
         }
         flush();    // debug用
-        m_buffPos = 0;
     }
 }
 

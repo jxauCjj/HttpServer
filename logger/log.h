@@ -15,6 +15,7 @@
 #include <sys/stat.h>
 #include <sys/time.h>
 
+#include "../buffer/buffer.h"
 #include "blockqueue.hpp"
 
 
@@ -40,8 +41,7 @@ private:
     std::mutex m_mtx;   // 互斥量
 
     // 日志行缓冲区
-    char m_buff[BUFF_SIZE]; 
-    int m_buffPos;  // 读取的位置
+    Buffer m_buff;
 
     std::unique_ptr<BlockQueue<std::string>> m_queue = nullptr;    // 异步写队列
     std::unique_ptr<std::thread> m_writeThread = nullptr; // 从队列取日志信息写入文件的线程

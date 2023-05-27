@@ -21,7 +21,7 @@ void printInfo(){
 
 int main(){
 
-    Log::getInstance()->init("./log", ".log", 1024);
+    Log::getInstance()->init("./log", ".log", 0);
 
     std::thread t1(printDebug);
     std::thread t2(printInfo);

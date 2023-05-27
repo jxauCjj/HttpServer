@@ -1,0 +1,264 @@
+
+2023-05-27 16:58:16.327568 [info]: Server port : 8090
+2023-05-27 16:58:16.327675 [info]: ============ Server Start ============
+2023-05-27 16:58:18.959938 [info]: Client 6 connect !
+2023-05-27 16:58:29.430592 [info]: Receive Client 6 message: www.cctv.com
+2023-05-27 16:58:29.430934 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.686903 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687303 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687354 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687384 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687406 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687429 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687449 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687470 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687491 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687512 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687533 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687554 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687574 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687595 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687616 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687637 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687658 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687739 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687765 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687790 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687812 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687852 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687873 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687895 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687915 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.687939 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.687968 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688001 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688029 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688052 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688079 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688101 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688128 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688150 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688172 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688201 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688222 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688248 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688275 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688298 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688325 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688347 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688368 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688397 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688418 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688440 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688467 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688489 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688516 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688538 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688559 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688587 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688608 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688630 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688656 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688679 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688706 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688728 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688792 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688822 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688844 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688873 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688895 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688923 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688944 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.688966 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.688994 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689016 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689037 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689064 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689086 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689114 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689136 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689157 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689185 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689207 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689228 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689256 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689277 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689305 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689327 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689349 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689377 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689400 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689420 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689448 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689470 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689498 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689519 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689541 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689568 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689590 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689611 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689640 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689662 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689691 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689713 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689735 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689763 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689785 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689806 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689834 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689856 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689885 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689906 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689934 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.689956 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.689978 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690005 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690027 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690048 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690076 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690098 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690126 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690147 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690169 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690196 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690218 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690239 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690267 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690305 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690328 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690356 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690378 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690405 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690428 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690449 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690476 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690497 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690525 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690558 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690579 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690599 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690620 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690641 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690670 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690691 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690713 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690740 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690762 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690783 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690812 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690834 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690857 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690883 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690905 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690926 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.690962 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.690984 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691006 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691033 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691056 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691083 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691105 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691132 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691154 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691181 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691203 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691230 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691252 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691279 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691301 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691321 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691343 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691365 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691386 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691414 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691436 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691462 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691484 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691511 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691533 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691554 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691576 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691606 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691633 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691655 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691701 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691725 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691747 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691774 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691796 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691825 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691854 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691882 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691904 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691932 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.691955 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.691981 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692003 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692046 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692070 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692097 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692120 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692147 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692169 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692195 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692217 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692238 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692266 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692288 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692317 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692339 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692367 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692388 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692409 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692436 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692459 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692485 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692507 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692534 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692557 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692583 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692605 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692626 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692654 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692676 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692699 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692726 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692748 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692776 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692798 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692819 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692846 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692867 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692895 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692916 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692938 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.692965 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.692988 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693009 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693031 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693058 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693080 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693099 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693125 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693146 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693166 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693185 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693213 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693232 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693252 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693277 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693298 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693325 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693490 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.693815 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.693927 [info]: Send Client 6 message: Hello world
+2023-05-27 16:58:34.694444 [info]: Receive Client 6 message: 
+2023-05-27 16:58:34.694750 [info]: Client 6 close !
+2023-05-27 17:02:25.150943 [info]: Server port : 8090
+2023-05-27 17:02:25.151362 [info]: ============ Server Start ============
+2023-05-27 17:02:32.451946 [info]: Client 6 connect !
+2023-05-27 17:02:39.509455 [info]: Receive Client 6 message: www.cctv.com
+2023-05-27 17:02:39.509725 [info]: Send Client 6 message: Hello world
+2023-05-27 17:02:41.355352 [info]: Receive Client 6 message: www.cctv.com
+2023-05-27 17:02:41.356079 [info]: Send Client 6 message: Hello world
+2023-05-27 17:02:43.188531 [info]: Client 6 close !
