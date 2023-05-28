@@ -30,7 +30,7 @@ public:
     void append(const std::string &str);
 
     ssize_t writeFd(int fd, int &saveErrno);   // 将缓冲区的数据写入文件fd中 若发生错误则将errno保存在saveErrno中 返回写入的字节数
-    ssize_t readFd(int fd, int &saveErrno); // 将文件fd中的内容读入缓冲区中
+    ssize_t readFd(int fd, int &saveErrno);    // 将文件fd中的内容读入缓冲区中
 
     std::string bufferToString();
 

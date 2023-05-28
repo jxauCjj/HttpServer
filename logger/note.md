@@ -47,5 +47,3 @@ lock_guard<std::mutex> locker(mutex)    // 构造初始化时自动给mutex加�
 1.为何需要先写入阻塞队列
 
 非异步模式下，write会将日志信息直接写入文件中,意味着需要进行I/O操作，占用单个线程中正常的程序执行时间。因此，可以先写入阻塞队列(内存)中，再由某个工作线程从队列中取出元素并写入文件中
-
-token: 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

@@ -1,0 +1,27 @@
+2023-05-28 20:29:18.242178 [info]: Server port : 8091
+2023-05-28 20:29:18.242604 [info]: ============ Server Start ============
+2023-05-28 20:29:20.745445 [info]: Client[6] (192.168.192.1:14965) Connect, UserCount:1
+2023-05-28 20:29:20.745572 [info]: Client 6 connect !
+2023-05-28 20:29:20.745663 [info]: Receive Client [6] (192.168.192.1:14965) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-28 20:29:20.745862 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-28 20:29:20.746523 [debug]: Request Header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-28 20:29:20.746568 [debug]: Request Header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-28 20:29:20.746578 [debug]: Request Header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-28 20:29:20.746585 [debug]: Request Header Accept-Encoding: gzip, deflate
+2023-05-28 20:29:20.746593 [debug]: Request Header Upgrade-Insecure-Requests: 1
+2023-05-28 20:29:20.746600 [debug]: Request Header Cache-Control: max-age=0
+2023-05-28 20:29:20.746607 [debug]: Request Header Connection: keep-alive
+2023-05-28 20:29:20.746615 [debug]: Request Header Host: 192.168.192.129:8091
+2023-05-28 20:29:20.746922 [info]: Send Client [6] (192.168.192.1:14965) Message
+2023-05-28 20:29:20.747581 [info]: Client[6] quit!
+2023-05-28 20:29:20.748241 [info]: Client[6] (192.168.192.1:14965) Close, UserCount:0

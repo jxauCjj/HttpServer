@@ -4,7 +4,7 @@ WebServer::WebServer(int port):
         m_port(port), m_listenFd(-1), m_isRunning(true), 
         m_epoller(new Epoller())
 {
-
+    HttpConn::g_userCount = 0;
     Log::getInstance()->init("./log", ".log", 0);    // 初始化日志对象
 
     // 初始化监听事件类型
@@ -44,15 +44,18 @@ void WebServer::start() {
             }
             else if(eventsType & (EPOLLHUP | EPOLLERR | EPOLLRDHUP)){
                 // 关闭连接
-                closeConn(fd);
+                assert(m_users.count(fd) > 0);
+                closeConn(m_users[fd]);
             }
             else if(eventsType & EPOLLIN){
                 // 读取数据
-                handleRead(fd);
+                assert(m_users.count(fd) > 0);
+                handleRead(m_users[fd]);
             }
             else if(eventsType & EPOLLOUT){
                 // 写数据
-                handleWrite(fd);
+                assert(m_users.count(fd) > 0);
+                handleWrite(m_users[fd]);
             }
         }
     }
@@ -126,41 +129,54 @@ void WebServer::handleConn(){
     int fd = accept(m_listenFd, (struct sockaddr *)&addr, &len);
 
     if(fd < 0){
+        LOG_ERROR("Accept Error!");
         return;
     }
-    // 加入epoll监听
+    // 加入epoll监听并创建HttpConn(连接)对象
     m_epoller->addFd(fd, m_connEvent | EPOLLIN);
+    m_users[fd].init(fd, addr);
+
+    setNonBlocking(fd);
+
     LOG_INFO("Client %d connect !", fd);
 }
 
-void WebServer::closeConn(int fd) {
+void WebServer::closeConn(HttpConn &httpConn) {
     // 删除监听 关闭连接
-    assert(fd >= 0);
-    close(fd);
-    m_epoller->delFd(fd);
-    LOG_INFO("Client %d close !", fd);
+    LOG_INFO("Client[%d] quit!", httpConn.getFd());
+    m_epoller->delFd(httpConn.getFd());
+    httpConn.closeConn();
 }
 
-void WebServer::handleRead(int fd) {
+void WebServer::handleRead(HttpConn &httpConn) {
 
-    assert(fd >= 0);
-    
-    char buff[256] = {0};
-    int len = read(fd, buff, 255);
+    int saveErrno = 0;
 
-    buff[len] = '\0';
-
-    LOG_INFO("Receive Client %d message: %s", fd, buff);
-
-    m_epoller->modFd(fd, m_connEvent | EPOLLOUT);
+    int len = httpConn.read(saveErrno);
+    if(len < 0){ 
+        if(saveErrno != EAGAIN && saveErrno != EINTR)
+            closeConn(httpConn);
+        else
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);        
+    }
+    else{
+        httpConn.process();
+        m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);
+    }
 }
 
-void WebServer::handleWrite(int fd) {
+void WebServer::handleWrite(HttpConn &httpConn) {
 
-    assert(fd >= 0);
-    
-    char buff[] = "Hello world";
-    write(fd, buff, 12);
-    LOG_INFO("Send Client %d message: %s", fd, buff);
-    m_epoller->modFd(fd, m_connEvent | EPOLLIN);
+    int saveErrno = 0;
+
+    int len = httpConn.write(saveErrno);
+    if(len < 0){    // 写入失败则分情况讨论
+        if(saveErrno != EAGAIN && saveErrno != EINTR)
+            closeConn(httpConn);
+        else
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);        
+    }
+    else{
+        m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);
+    }
 }

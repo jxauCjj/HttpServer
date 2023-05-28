@@ -121,7 +121,7 @@ ssize_t Buffer::readFd(int fd, int &saveErrno){\
 
 std::string Buffer::bufferToString(){
     std::string res(peek(), readableBytes());
-    clear();
+    // clear();
     return res;
 }
 
