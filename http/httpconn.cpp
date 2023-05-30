@@ -77,7 +77,8 @@ ssize_t HttpConn::write(int &saveErrno){
 // 解析http请求
 bool HttpConn::process() {
 
-    m_request.parse(m_rdBuff);
+    m_request.init();
 
+    m_request.parse(m_rdBuff);  // 解析成功则发送响应数据 失败则说明数据包不完整
     return true;
 }

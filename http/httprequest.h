@@ -4,6 +4,8 @@
 #include <string>
 #include <regex>
 #include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
 
 #include "../buffer/buffer.h"
 #include "../logger/log.h"
@@ -41,13 +43,23 @@ public:
     bool parse(Buffer &buff);
     void init();                // 初始化
 
+    const std::string& path() const { return m_path; }
+
+    static void strToUpper(std::string &str);    // 字符串转小写
+
 private:
     LINE_STATE parseLine(Buffer &buff, std::string &line); // 解析出\r\n分隔的每行数据
     bool parseRequestLine(const std::string &line);   // 解析请求行
     bool parseHeader(const std::string &line);        // 解析响应行
     bool parseBody(const std::string &line);          // 解析响应体
 
+    void parsePath(HTTP_CODE status);   // 根据解析状态得到最终的资源路径
+
+    HTTP_CODE parseRequest(Buffer &buff); 
+
 private:
+
+    static const std::unordered_set<std::string> DEFAULT_HTML;  // 默认静态页面
 
     LINE_STATE m_lineState;
     PARSE_STATE m_parseState;
@@ -55,6 +67,7 @@ private:
     std::string m_method, m_path, m_version;  // 请求方法 请求url 协议版本
     std::unordered_map<std::string, std::string> m_headers;   // 存储请求头字段
 
+    int m_statusCode; // 解析得到的状态码
 };
 
 #endif  //!__HTTPREQUEST__H__

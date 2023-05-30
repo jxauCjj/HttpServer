@@ -1,0 +1,120 @@
+2023-05-29 09:37:54.430806 [info]: Server port : 8091
+2023-05-29 09:37:54.431063 [info]: ============ Server Start ============
+2023-05-29 09:38:34.005815 [info]: Client[6] (192.168.192.1:9826) Connect, UserCount:1
+2023-05-29 09:38:34.005897 [info]: Client 6 connect !
+2023-05-29 09:38:34.006564 [info]: Receive Client [6] (192.168.192.1:9826) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:38:34.008512 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-29 09:38:34.009899 [debug]: Request Header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-29 09:38:34.010234 [debug]: Request Header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-29 09:38:34.010411 [debug]: Request Header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-29 09:38:34.010567 [debug]: Request Header Accept-Encoding: gzip, deflate
+2023-05-29 09:38:34.010726 [debug]: Request Header Upgrade-Insecure-Requests: 1
+2023-05-29 09:38:34.010884 [debug]: Request Header Connection: keep-alive
+2023-05-29 09:38:34.010979 [debug]: Request Header Host: 192.168.192.129:8091
+2023-05-29 09:38:34.011615 [info]: Send Client [6] (192.168.192.1:9826) Message
+2023-05-29 09:38:34.012365 [info]: Client[6] quit!
+2023-05-29 09:38:34.013083 [info]: Client[6] (192.168.192.1:9826) Close, UserCount:0
+2023-05-29 09:38:35.123249 [info]: Client[6] (192.168.192.1:9828) Connect, UserCount:1
+2023-05-29 09:38:35.123375 [info]: Client 6 connect !
+2023-05-29 09:38:35.123432 [info]: Receive Client [6] (192.168.192.1:9828) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:38:35.123455 [debug]: Parse BODY
+2023-05-29 09:38:35.123834 [info]: Send Client [6] (192.168.192.1:9828) Message
+2023-05-29 09:38:35.124425 [info]: Client[6] quit!
+2023-05-29 09:38:35.124707 [info]: Client[6] (192.168.192.1:9828) Close, UserCount:0
+2023-05-29 09:38:40.164954 [info]: Client[6] (192.168.192.1:9831) Connect, UserCount:1
+2023-05-29 09:38:40.165042 [info]: Client 6 connect !
+2023-05-29 09:38:40.165152 [info]: Receive Client [6] (192.168.192.1:9831) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:38:40.165168 [debug]: Parse BODY
+2023-05-29 09:38:40.165392 [info]: Send Client [6] (192.168.192.1:9831) Message
+2023-05-29 09:38:40.166021 [info]: Client[6] quit!
+2023-05-29 09:38:40.166297 [info]: Client[6] (192.168.192.1:9831) Close, UserCount:0
+2023-05-29 09:39:10.243629 [info]: Client[6] (192.168.192.1:9841) Connect, UserCount:1
+2023-05-29 09:39:10.243728 [info]: Client 6 connect !
+2023-05-29 09:39:10.243917 [info]: Receive Client [6] (192.168.192.1:9841) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:39:10.243938 [debug]: Parse BODY
+2023-05-29 09:39:10.244094 [info]: Send Client [6] (192.168.192.1:9841) Message
+2023-05-29 09:39:10.245120 [info]: Client[6] quit!
+2023-05-29 09:39:10.245473 [info]: Client[6] (192.168.192.1:9841) Close, UserCount:0
+2023-05-29 09:55:19.782639 [info]: Server port : 8091
+2023-05-29 09:55:19.783330 [info]: ============ Server Start ============
+2023-05-29 09:55:31.750934 [info]: Client[6] (192.168.192.1:10162) Connect, UserCount:1
+2023-05-29 09:55:31.751085 [info]: Client 6 connect !
+2023-05-29 09:55:31.751910 [info]: Receive Client [6] (192.168.192.1:10162) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:55:31.752423 [debug]: Method: get, Path: /, Version: http/1.1
+2023-05-29 09:55:31.753711 [debug]: Request Header accept-encoding: gzip, deflate
+2023-05-29 09:55:31.753832 [debug]: Request Header accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-29 09:55:31.753863 [debug]: Request Header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-29 09:55:31.753885 [debug]: Request Header upgrade-insecure-requests: 1
+2023-05-29 09:55:31.753902 [debug]: Request Header accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-29 09:55:31.753919 [debug]: Request Header cache-control: max-age=0
+2023-05-29 09:55:31.753936 [debug]: Request Header connection: keep-alive
+2023-05-29 09:55:31.753952 [debug]: Request Header host: 192.168.192.129:8091
+2023-05-29 09:55:31.754429 [info]: Send Client [6] (192.168.192.1:10162) Message
+2023-05-29 09:55:31.754679 [info]: Client[6] quit!
+2023-05-29 09:55:31.755065 [info]: Client[6] (192.168.192.1:10162) Close, UserCount:0
+2023-05-29 09:56:31.849679 [info]: Client[6] (192.168.192.1:10181) Connect, UserCount:1
+2023-05-29 09:56:31.849761 [info]: Client 6 connect !
+2023-05-29 09:56:31.849843 [info]: Receive Client [6] (192.168.192.1:10181) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-29 09:56:31.849855 [debug]: Parse BODY
+2023-05-29 09:56:31.850060 [info]: Send Client [6] (192.168.192.1:10181) Message
+2023-05-29 09:56:31.850807 [info]: Client[6] quit!
+2023-05-29 09:56:31.851069 [info]: Client[6] (192.168.192.1:10181) Close, UserCount:0

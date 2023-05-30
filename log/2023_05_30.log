@@ -1,0 +1,412 @@
+2023-05-30 11:09:45.412456 [info]: Server port : 8091
+2023-05-30 11:09:45.412574 [info]: ============ Server Start ============
+2023-05-30 11:09:54.624883 [info]: Client[6] (192.168.192.1:3633) Connect, UserCount:1
+2023-05-30 11:09:54.624965 [info]: Client 6 connect !
+2023-05-30 11:09:54.625043 [info]: Receive Client [6] (192.168.192.1:3633) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:09:54.625250 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-30 11:09:54.625799 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:09:54.625819 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:09:54.625827 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:09:54.625839 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:09:54.625845 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:09:54.625852 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:09:54.625858 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:09:54.625865 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:09:54.625872 [debug]: Parse Request Finish -------
+2023-05-30 11:09:54.625879 [debug]: Start Parse Path-----
+2023-05-30 11:09:54.625885 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:09:54.626132 [info]: Send Client [6] (192.168.192.1:3633) Message
+2023-05-30 11:09:54.627128 [info]: Client[6] quit!
+2023-05-30 11:09:54.627377 [info]: Client[6] (192.168.192.1:3633) Close, UserCount:0
+2023-05-30 11:09:55.693894 [info]: Client[6] (192.168.192.1:3636) Connect, UserCount:1
+2023-05-30 11:09:55.694043 [info]: Client 6 connect !
+2023-05-30 11:09:55.694110 [info]: Receive Client [6] (192.168.192.1:3636) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:09:55.694487 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-30 11:09:55.696309 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:09:55.696389 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:09:55.696411 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:09:55.696429 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:09:55.696446 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:09:55.696463 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:09:55.696479 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:09:55.696497 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:09:55.696515 [debug]: Parse Request Finish -------
+2023-05-30 11:09:55.696570 [debug]: Start Parse Path-----
+2023-05-30 11:09:55.696588 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:09:55.697515 [info]: Send Client [6] (192.168.192.1:3636) Message
+2023-05-30 11:09:55.698848 [info]: Client[6] quit!
+2023-05-30 11:09:55.699152 [info]: Client[6] (192.168.192.1:3636) Close, UserCount:0
+2023-05-30 11:10:13.114448 [info]: Client[6] (192.168.192.1:3648) Connect, UserCount:1
+2023-05-30 11:10:13.114576 [info]: Client 6 connect !
+2023-05-30 11:10:13.114627 [info]: Receive Client [6] (192.168.192.1:3648) Message: GET / HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:10:13.114912 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-30 11:10:13.116172 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:10:13.116281 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:10:13.116306 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:10:13.116315 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:10:13.116322 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:10:13.116329 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:10:13.116336 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:10:13.116343 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:10:13.116350 [debug]: Parse Request Finish -------
+2023-05-30 11:10:13.116358 [debug]: Start Parse Path-----
+2023-05-30 11:10:13.116365 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:10:13.116693 [info]: Send Client [6] (192.168.192.1:3648) Message
+2023-05-30 11:10:13.117902 [info]: Client[6] quit!
+2023-05-30 11:10:13.118151 [info]: Client[6] (192.168.192.1:3648) Close, UserCount:0
+2023-05-30 11:10:17.289057 [info]: Client[6] (192.168.192.1:3653) Connect, UserCount:1
+2023-05-30 11:10:17.289146 [info]: Client 6 connect !
+2023-05-30 11:10:17.289186 [info]: Receive Client [6] (192.168.192.1:3653) Message: GET /picture HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:10:17.289463 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-05-30 11:10:17.290521 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:10:17.290644 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:10:17.290674 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:10:17.290684 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:10:17.290698 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:10:17.290712 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:10:17.290753 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:10:17.290768 [debug]: Parse Request Finish -------
+2023-05-30 11:10:17.290782 [debug]: Start Parse Path-----
+2023-05-30 11:10:17.290795 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:10:17.290962 [info]: Send Client [6] (192.168.192.1:3653) Message
+2023-05-30 11:10:17.292021 [info]: Client[6] quit!
+2023-05-30 11:10:17.292245 [info]: Client[6] (192.168.192.1:3653) Close, UserCount:0
+2023-05-30 11:10:18.362212 [info]: Client[6] (192.168.192.1:3654) Connect, UserCount:1
+2023-05-30 11:10:18.362331 [info]: Client 6 connect !
+2023-05-30 11:10:18.362384 [info]: Receive Client [6] (192.168.192.1:3654) Message: GET /picture HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:10:18.362670 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-05-30 11:10:18.363584 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:10:18.363640 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:10:18.363652 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:10:18.363660 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:10:18.363666 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:10:18.363673 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:10:18.363679 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:10:18.363686 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:10:18.363693 [debug]: Parse Request Finish -------
+2023-05-30 11:10:18.363699 [debug]: Start Parse Path-----
+2023-05-30 11:10:18.363706 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:10:18.363811 [info]: Send Client [6] (192.168.192.1:3654) Message
+2023-05-30 11:10:18.364820 [info]: Client[6] quit!
+2023-05-30 11:10:18.364975 [info]: Client[6] (192.168.192.1:3654) Close, UserCount:0
+2023-05-30 11:11:16.897675 [info]: Client[6] (192.168.192.1:3713) Connect, UserCount:1
+2023-05-30 11:11:16.897750 [info]: Client 6 connect !
+2023-05-30 11:11:16.897777 [info]: Receive Client [6] (192.168.192.1:3713) Message: GET /picture HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:11:16.897927 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-05-30 11:11:16.898805 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:11:16.898917 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:11:16.898945 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:11:16.898965 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:11:16.899012 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:11:16.899027 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:11:16.899041 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:11:16.899054 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:11:16.899075 [debug]: Parse Request Finish -------
+2023-05-30 11:11:16.899089 [debug]: Start Parse Path-----
+2023-05-30 11:11:16.899105 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:11:16.899340 [info]: Send Client [6] (192.168.192.1:3713) Message
+2023-05-30 11:11:16.900421 [info]: Client[6] quit!
+2023-05-30 11:11:16.900594 [info]: Client[6] (192.168.192.1:3713) Close, UserCount:0
+2023-05-30 11:11:18.101710 [info]: Client[6] (192.168.192.1:3715) Connect, UserCount:1
+2023-05-30 11:11:18.101783 [info]: Client 6 connect !
+2023-05-30 11:11:18.101824 [info]: Receive Client [6] (192.168.192.1:3715) Message: GET /video HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:11:18.102089 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-05-30 11:11:18.103162 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:11:18.103259 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:11:18.103275 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:11:18.103313 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:11:18.103321 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:11:18.103327 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:11:18.103333 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:11:18.103340 [debug]: Parse Request Finish -------
+2023-05-30 11:11:18.103346 [debug]: Start Parse Path-----
+2023-05-30 11:11:18.103355 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:11:18.103544 [info]: Send Client [6] (192.168.192.1:3715) Message
+2023-05-30 11:11:18.104544 [info]: Client[6] quit!
+2023-05-30 11:11:18.104816 [info]: Client[6] (192.168.192.1:3715) Close, UserCount:0
+2023-05-30 11:11:19.165857 [info]: Client[6] (192.168.192.1:3718) Connect, UserCount:1
+2023-05-30 11:11:19.165934 [info]: Client 6 connect !
+2023-05-30 11:11:19.165966 [info]: Receive Client [6] (192.168.192.1:3718) Message: GET /video HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:11:19.166114 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-05-30 11:11:19.166680 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:11:19.166753 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:11:19.166767 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:11:19.166794 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:11:19.166802 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:11:19.166809 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:11:19.166816 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:11:19.166822 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:11:19.166832 [debug]: Parse Request Finish -------
+2023-05-30 11:11:19.166839 [debug]: Start Parse Path-----
+2023-05-30 11:11:19.166846 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:11:19.166966 [info]: Send Client [6] (192.168.192.1:3718) Message
+2023-05-30 11:11:19.167778 [info]: Client[6] quit!
+2023-05-30 11:11:19.167960 [info]: Client[6] (192.168.192.1:3718) Close, UserCount:0
+2023-05-30 11:13:05.731874 [info]: Client[6] (192.168.192.1:3777) Connect, UserCount:1
+2023-05-30 11:13:05.731968 [info]: Client 6 connect !
+2023-05-30 11:13:05.732012 [info]: Receive Client [6] (192.168.192.1:3777) Message: GET /video HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:13:05.732295 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-05-30 11:13:05.733028 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:13:05.733135 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:13:05.733164 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:13:05.733181 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:13:05.733195 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:13:05.733209 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:13:05.733222 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:13:05.733237 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:13:05.733257 [debug]: Parse Request Finish -------
+2023-05-30 11:13:05.733271 [debug]: Start Parse Path-----
+2023-05-30 11:13:05.733286 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:13:05.733762 [info]: Send Client [6] (192.168.192.1:3777) Message
+2023-05-30 11:13:05.734373 [info]: Client[6] quit!
+2023-05-30 11:13:05.734574 [info]: Client[6] (192.168.192.1:3777) Close, UserCount:0
+2023-05-30 11:13:47.075759 [info]: Client[6] (192.168.192.1:3811) Connect, UserCount:1
+2023-05-30 11:13:47.075888 [info]: Client 6 connect !
+2023-05-30 11:13:47.075946 [info]: Receive Client [6] (192.168.192.1:3811) Message: GET /css/animate.css HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:13:47.076249 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-05-30 11:13:47.077267 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:13:47.077417 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:13:47.077445 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:13:47.077455 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:13:47.077465 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:13:47.077472 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:13:47.077480 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:13:47.077487 [debug]: Parse Request Finish -------
+2023-05-30 11:13:47.077495 [debug]: Start Parse Path-----
+2023-05-30 11:13:47.077510 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:13:47.077661 [info]: Send Client [6] (192.168.192.1:3811) Message
+2023-05-30 11:13:47.078809 [info]: Client[6] quit!
+2023-05-30 11:13:47.079154 [info]: Client[6] (192.168.192.1:3811) Close, UserCount:0
+2023-05-30 11:13:48.145756 [info]: Client[6] (192.168.192.1:3813) Connect, UserCount:1
+2023-05-30 11:13:48.145814 [info]: Client 6 connect !
+2023-05-30 11:13:48.145839 [info]: Receive Client [6] (192.168.192.1:3813) Message: GET /css/animate.css HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:13:48.145980 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-05-30 11:13:48.146505 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:13:48.146554 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:13:48.146567 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:13:48.146575 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:13:48.146582 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:13:48.146589 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:13:48.146599 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:13:48.146606 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:13:48.146613 [debug]: Parse Request Finish -------
+2023-05-30 11:13:48.146622 [debug]: Start Parse Path-----
+2023-05-30 11:13:48.146634 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-30 11:13:48.146800 [info]: Send Client [6] (192.168.192.1:3813) Message
+2023-05-30 11:13:48.147894 [info]: Client[6] quit!
+2023-05-30 11:13:48.148115 [info]: Client[6] (192.168.192.1:3813) Close, UserCount:0
+2023-05-30 11:14:13.796056 [info]: Client[6] (192.168.192.1:3821) Connect, UserCount:1
+2023-05-30 11:14:13.796208 [info]: Client 6 connect !
+2023-05-30 11:14:13.796270 [info]: Receive Client [6] (192.168.192.1:3821) Message: GET /css/dasdsad HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:14:13.796631 [debug]: Method: GET, Path: /css/dasdsad, Version: HTTP/1.1
+2023-05-30 11:14:13.798019 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:14:13.798198 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:14:13.798260 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:14:13.798285 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:14:13.798305 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:14:13.798323 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:14:13.798339 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:14:13.798356 [debug]: Parse Request Finish -------
+2023-05-30 11:14:13.798373 [debug]: Start Parse Path-----
+2023-05-30 11:14:13.798420 [debug]: Parse Finish:  Method = GET, Path = /404.html, Version = HTTP/1.1, StatusCode = 404
+2023-05-30 11:14:13.798752 [info]: Send Client [6] (192.168.192.1:3821) Message
+2023-05-30 11:14:13.799944 [info]: Client[6] quit!
+2023-05-30 11:14:13.800223 [info]: Client[6] (192.168.192.1:3821) Close, UserCount:0
+2023-05-30 11:14:14.866158 [info]: Client[6] (192.168.192.1:3822) Connect, UserCount:1
+2023-05-30 11:14:14.866213 [info]: Client 6 connect !
+2023-05-30 11:14:14.866250 [info]: Receive Client [6] (192.168.192.1:3822) Message: GET /css/dasdsad HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:14:14.866394 [debug]: Method: GET, Path: /css/dasdsad, Version: HTTP/1.1
+2023-05-30 11:14:14.866900 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:14:14.866907 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:14:14.866913 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:14:14.866919 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:14:14.866925 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:14:14.866930 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:14:14.866936 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:14:14.866942 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:14:14.866948 [debug]: Parse Request Finish -------
+2023-05-30 11:14:14.866954 [debug]: Start Parse Path-----
+2023-05-30 11:14:14.866964 [debug]: Parse Finish:  Method = GET, Path = /404.html, Version = HTTP/1.1, StatusCode = 404
+2023-05-30 11:14:14.867159 [info]: Send Client [6] (192.168.192.1:3822) Message
+2023-05-30 11:14:14.868950 [info]: Client[6] quit!
+2023-05-30 11:14:14.869090 [info]: Client[6] (192.168.192.1:3822) Close, UserCount:0
+2023-05-30 11:14:39.368113 [info]: Client[6] (192.168.192.1:3843) Connect, UserCount:1
+2023-05-30 11:14:39.368225 [info]: Client 6 connect !
+2023-05-30 11:14:39.368280 [info]: Receive Client [6] (192.168.192.1:3843) Message: GET /dsadasdsa HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:14:39.368572 [debug]: Method: GET, Path: /dsadasdsa, Version: HTTP/1.1
+2023-05-30 11:14:39.369256 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:14:39.369345 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:14:39.369374 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:14:39.369393 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:14:39.369410 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:14:39.369417 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:14:39.369424 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:14:39.369431 [debug]: Parse Request Finish -------
+2023-05-30 11:14:39.369438 [debug]: Start Parse Path-----
+2023-05-30 11:14:39.369475 [debug]: Parse Finish:  Method = GET, Path = /404.html, Version = HTTP/1.1, StatusCode = 404
+2023-05-30 11:14:39.369670 [info]: Send Client [6] (192.168.192.1:3843) Message
+2023-05-30 11:14:39.370560 [info]: Client[6] quit!
+2023-05-30 11:14:39.370799 [info]: Client[6] (192.168.192.1:3843) Close, UserCount:0
+2023-05-30 11:14:40.445659 [info]: Client[6] (192.168.192.1:3844) Connect, UserCount:1
+2023-05-30 11:14:40.445777 [info]: Client 6 connect !
+2023-05-30 11:14:40.445831 [info]: Receive Client [6] (192.168.192.1:3844) Message: GET /dsadasdsa HTTP/1.1
+Host: 192.168.192.129:8091
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+
+
+2023-05-30 11:14:40.446070 [debug]: Method: GET, Path: /dsadasdsa, Version: HTTP/1.1
+2023-05-30 11:14:40.446973 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-05-30 11:14:40.447083 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-05-30 11:14:40.447112 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-05-30 11:14:40.447131 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+2023-05-30 11:14:40.447146 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-05-30 11:14:40.447156 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-05-30 11:14:40.447170 [debug]: Request Header CONNECTION: keep-alive
+2023-05-30 11:14:40.447184 [debug]: Request Header HOST: 192.168.192.129:8091
+2023-05-30 11:14:40.447195 [debug]: Parse Request Finish -------
+2023-05-30 11:14:40.447202 [debug]: Start Parse Path-----
+2023-05-30 11:14:40.447213 [debug]: Parse Finish:  Method = GET, Path = /404.html, Version = HTTP/1.1, StatusCode = 404
+2023-05-30 11:14:40.447423 [info]: Send Client [6] (192.168.192.1:3844) Message
+2023-05-30 11:14:40.448309 [info]: Client[6] quit!
+2023-05-30 11:14:40.448483 [info]: Client[6] (192.168.192.1:3844) Close, UserCount:0
