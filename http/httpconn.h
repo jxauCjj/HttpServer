@@ -7,12 +7,14 @@
 
 #include <unistd.h>
 #include <sys/socket.h>
+#include <sys/uio.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
 
 #include "../buffer/buffer.h"
 #include "../logger/log.h"
 #include "httprequest.h"
+#include "httpresponse.h"
 
 /**
  * http连接对象类
@@ -26,6 +28,7 @@ public:
 
 public:
     HttpConn();
+    HttpConn(const HttpConn&) = delete; // 禁止拷贝构造
 
     void init(int fd, struct sockaddr_in &addr);   // 初始化
     void closeConn();   // 关闭连接
@@ -37,7 +40,13 @@ public:
     ssize_t read(int &saveErrno);   // 读请求数据到rdBuff
     ssize_t write(int &saveErrno);  // 发送数据
 
-    bool process(); // 解析报文  
+    bool process(); // 解析报文
+    bool isKeepAlive() const { return m_request.isKeepAlive(); }    // 判断客户端是否为长连接
+
+private:
+    std::size_t toWriteBytes() {
+        return m_iovCnt == 1 ? m_iov[0].iov_len : m_iov[0].iov_len + m_iov[1].iov_len; 
+    }
 
 private:
     int m_fd;   // socket描述符
@@ -49,7 +58,11 @@ private:
     Buffer m_wrBuff;    // 存放响应报文头部
 
     HttpRequest m_request;  // 解析请求报文对象
+    HttpResponse m_response;    // 组装响应报文对象
 
+    // 发送的数据块位置和数目
+    struct iovec m_iov[2];
+    int m_iovCnt;
 };
 
 

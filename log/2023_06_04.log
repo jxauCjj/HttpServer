@@ -1,0 +1,58 @@
+2023-06-04 19:25:25.231619 [info]: Server port : 8090
+2023-06-04 19:25:25.231807 [info]: ============ Server Start ============
+2023-06-04 19:25:49.952545 [info]: Client[6] (192.168.192.1:8489) Connect, UserCount:1
+2023-06-04 19:25:49.952687 [info]: Client 6 connect !
+2023-06-04 19:25:49.953173 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-06-04 19:25:50.047810 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-04 19:25:50.051170 [info]: Client[7] (192.168.192.1:8491) Connect, UserCount:2
+2023-06-04 19:25:50.051222 [info]: Client 7 connect !
+2023-06-04 19:25:50.051267 [info]: Client[8] (192.168.192.1:8492) Connect, UserCount:3
+2023-06-04 19:25:50.051279 [info]: Client 8 connect !
+2023-06-04 19:25:50.051333 [info]: Client[9] (192.168.192.1:8493) Connect, UserCount:4
+2023-06-04 19:25:50.051349 [info]: Client 9 connect !
+2023-06-04 19:25:50.051396 [info]: Client[10] (192.168.192.1:8494) Connect, UserCount:5
+2023-06-04 19:25:50.051412 [info]: Client 10 connect !
+2023-06-04 19:25:50.051820 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-04 19:25:50.052143 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-04 19:25:50.052540 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-04 19:25:50.052933 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-04 19:25:50.090502 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-04 19:25:50.153711 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-04 19:25:50.155778 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-04 19:25:50.154015 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-04 19:25:50.155159 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-04 19:25:50.163436 [info]: Client[12] (192.168.192.1:8500) Connect, UserCount:6
+2023-06-04 19:25:50.163586 [info]: Client 12 connect !
+2023-06-04 19:25:50.168677 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-04 19:25:50.179213 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-04 19:25:50.190919 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-04 19:26:06.285195 [debug]: Method: GET, Path: /login, Version: HTTP/1.1
+2023-06-04 19:26:06.363987 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-04 19:26:06.364318 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-04 19:26:06.364753 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-04 19:26:06.365093 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-04 19:26:06.365479 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-04 19:26:06.438853 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-04 19:26:06.439704 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-04 19:26:06.440489 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-04 19:26:06.442619 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-04 19:26:06.443761 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-04 19:26:06.445438 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-04 19:26:06.452973 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-04 19:26:17.033125 [debug]: Method: POST, Path: /login, Version: HTTP/1.1
+2023-06-04 19:26:17.034910 [debug]: Parse BODY
+2023-06-04 19:26:17.034937 [debug]: Body username=name&password=12345, len: 28
+2023-06-04 19:26:17.034955 [debug]: Form data username = name
+2023-06-04 19:26:17.034972 [debug]: Form data password = 12345
+2023-06-04 19:26:17.098930 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-04 19:26:17.101278 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-04 19:26:17.101601 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-04 19:26:17.102484 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-04 19:26:17.103440 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-04 19:26:17.104400 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-04 19:26:17.117003 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-04 19:26:17.117822 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-04 19:26:17.122057 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-04 19:26:17.125596 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-04 19:26:17.127185 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-04 19:26:17.128245 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1

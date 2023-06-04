@@ -1,0 +1,382 @@
+2023-05-31 21:28:23.859477 [info]: Server port : 8091
+2023-05-31 21:28:23.859633 [info]: ============ Server Start ============
+2023-05-31 21:29:30.030087 [info]: Client[6] (192.168.192.1:2931) Connect, UserCount:1
+2023-05-31 21:29:30.030251 [info]: Client 6 connect !
+2023-05-31 21:29:30.032225 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-05-31 21:29:30.033632 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.034151 [debug]: Response File Path = ./resources/index.html
+2023-05-31 21:29:30.034475 [debug]: FileSize: 3148, 2 to 3270
+2023-05-31 21:29:30.037314 [info]: Client[6] quit!
+2023-05-31 21:29:30.038164 [info]: Client[6] (192.168.192.1:2931) Close, UserCount:0
+2023-05-31 21:29:30.140713 [info]: Client[6] (192.168.192.1:2932) Connect, UserCount:1
+2023-05-31 21:29:30.140777 [info]: Client 6 connect !
+2023-05-31 21:29:30.141024 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-05-31 21:29:30.141705 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.141771 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-05-31 21:29:30.141895 [debug]: FileSize: 121260, 2 to 121384
+2023-05-31 21:29:30.141982 [info]: Client[7] (192.168.192.1:2933) Connect, UserCount:2
+2023-05-31 21:29:30.142004 [info]: Client 7 connect !
+2023-05-31 21:29:30.160834 [info]: Client[6] quit!
+2023-05-31 21:29:30.161608 [info]: Client[6] (192.168.192.1:2932) Close, UserCount:1
+2023-05-31 21:29:30.161998 [info]: Client[6] (192.168.192.1:2934) Connect, UserCount:2
+2023-05-31 21:29:30.162439 [info]: Client 6 connect !
+2023-05-31 21:29:30.162772 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-05-31 21:29:30.163468 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.163745 [debug]: Response File Path = ./resources/css/animate.css
+2023-05-31 21:29:30.163943 [debug]: FileSize: 72922, 2 to 73045
+2023-05-31 21:29:30.164154 [info]: Client[8] (192.168.192.1:2935) Connect, UserCount:3
+2023-05-31 21:29:30.164311 [info]: Client 8 connect !
+2023-05-31 21:29:30.164667 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-05-31 21:29:30.165483 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.166174 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-05-31 21:29:30.166579 [debug]: FileSize: 6951, 2 to 7073
+2023-05-31 21:29:30.180161 [info]: Client[7] quit!
+2023-05-31 21:29:30.181138 [info]: Client[7] (192.168.192.1:2933) Close, UserCount:2
+2023-05-31 21:29:30.181645 [info]: Client[7] (192.168.192.1:2936) Connect, UserCount:3
+2023-05-31 21:29:30.181876 [info]: Client 7 connect !
+2023-05-31 21:29:30.182719 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-05-31 21:29:30.183560 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.183805 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-05-31 21:29:30.183979 [debug]: FileSize: 27392, 2 to 27515
+2023-05-31 21:29:30.186323 [info]: Client[6] quit!
+2023-05-31 21:29:30.187088 [info]: Client[6] (192.168.192.1:2934) Close, UserCount:2
+2023-05-31 21:29:30.187673 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-05-31 21:29:30.189014 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.189363 [debug]: Response File Path = ./resources/css/style.css
+2023-05-31 21:29:30.189816 [debug]: FileSize: 9807, 2 to 9929
+2023-05-31 21:29:30.193698 [info]: Client[8] quit!
+2023-05-31 21:29:30.194362 [info]: Client[8] (192.168.192.1:2935) Close, UserCount:1
+2023-05-31 21:29:30.197098 [info]: Client[7] quit!
+2023-05-31 21:29:30.197752 [info]: Client[7] (192.168.192.1:2936) Close, UserCount:0
+2023-05-31 21:29:30.198124 [info]: Client[6] (192.168.192.1:2937) Connect, UserCount:1
+2023-05-31 21:29:30.198369 [info]: Client 6 connect !
+2023-05-31 21:29:30.198860 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-05-31 21:29:30.200055 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.200529 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-05-31 21:29:30.200830 [debug]: FileSize: 47176, 2 to 47300
+2023-05-31 21:29:30.207357 [info]: Client[6] quit!
+2023-05-31 21:29:30.208003 [info]: Client[6] (192.168.192.1:2937) Close, UserCount:0
+2023-05-31 21:29:30.239591 [info]: Client[6] (192.168.192.1:2940) Connect, UserCount:1
+2023-05-31 21:29:30.240014 [info]: Client 6 connect !
+2023-05-31 21:29:30.240330 [info]: Client[7] (192.168.192.1:2941) Connect, UserCount:2
+2023-05-31 21:29:30.240796 [info]: Client 7 connect !
+2023-05-31 21:29:30.241174 [info]: Client[8] (192.168.192.1:2942) Connect, UserCount:3
+2023-05-31 21:29:30.241552 [info]: Client 8 connect !
+2023-05-31 21:29:30.242173 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-05-31 21:29:30.244204 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.244868 [debug]: Response File Path = ./resources/js/jquery.js
+2023-05-31 21:29:30.245261 [debug]: FileSize: 85658, 2 to 85788
+2023-05-31 21:29:30.246411 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-05-31 21:29:30.248369 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.248945 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-05-31 21:29:30.249290 [debug]: FileSize: 36868, 2 to 36998
+2023-05-31 21:29:30.249525 [info]: Client[9] (192.168.192.1:2943) Connect, UserCount:4
+2023-05-31 21:29:30.249581 [info]: Client 9 connect !
+2023-05-31 21:29:30.249870 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-05-31 21:29:30.250994 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.251104 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-05-31 21:29:30.251242 [debug]: FileSize: 4474, 2 to 4603
+2023-05-31 21:29:30.265444 [info]: Client[6] quit!
+2023-05-31 21:29:30.266074 [info]: Client[6] (192.168.192.1:2940) Close, UserCount:3
+2023-05-31 21:29:30.275498 [info]: Client[7] quit!
+2023-05-31 21:29:30.276630 [info]: Client[7] (192.168.192.1:2941) Close, UserCount:2
+2023-05-31 21:29:30.276951 [info]: Client[6] (192.168.192.1:2944) Connect, UserCount:3
+2023-05-31 21:29:30.277126 [info]: Client 6 connect !
+2023-05-31 21:29:30.277834 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-05-31 21:29:30.278619 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.279191 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-05-31 21:29:30.279549 [debug]: FileSize: 20932, 2 to 21062
+2023-05-31 21:29:30.282050 [info]: Client[8] quit!
+2023-05-31 21:29:30.282987 [info]: Client[8] (192.168.192.1:2942) Close, UserCount:2
+2023-05-31 21:29:30.283406 [info]: Client[7] (192.168.192.1:2945) Connect, UserCount:3
+2023-05-31 21:29:30.283654 [info]: Client 7 connect !
+2023-05-31 21:29:30.284544 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-05-31 21:29:30.286040 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.286784 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-05-31 21:29:30.286994 [debug]: FileSize: 1069, 2 to 1198
+2023-05-31 21:29:30.290280 [info]: Client[9] quit!
+2023-05-31 21:29:30.292138 [info]: Client[9] (192.168.192.1:2943) Close, UserCount:2
+2023-05-31 21:29:30.292597 [info]: Client[8] (192.168.192.1:2946) Connect, UserCount:3
+2023-05-31 21:29:30.292835 [info]: Client 8 connect !
+2023-05-31 21:29:30.293325 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-05-31 21:29:30.294322 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.294846 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-05-31 21:29:30.295250 [debug]: FileSize: 7082, 2 to 7211
+2023-05-31 21:29:30.297444 [info]: Client[6] quit!
+2023-05-31 21:29:30.298310 [info]: Client[6] (192.168.192.1:2944) Close, UserCount:2
+2023-05-31 21:29:30.299034 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-05-31 21:29:30.300536 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:30.300908 [debug]: Response File Path = ./resources/js/custom.js
+2023-05-31 21:29:30.301177 [debug]: FileSize: 1047, 2 to 1176
+2023-05-31 21:29:30.303909 [info]: Client[7] quit!
+2023-05-31 21:29:30.304514 [info]: Client[7] (192.168.192.1:2945) Close, UserCount:1
+2023-05-31 21:29:30.306550 [info]: Client[8] quit!
+2023-05-31 21:29:30.307042 [info]: Client[8] (192.168.192.1:2946) Close, UserCount:0
+2023-05-31 21:29:33.812929 [info]: Client[6] (192.168.192.1:2951) Connect, UserCount:1
+2023-05-31 21:29:33.813048 [info]: Client 6 connect !
+2023-05-31 21:29:33.813349 [debug]: Method: GET, Path: /images/favicon.ico, Version: HTTP/1.1
+2023-05-31 21:29:33.814523 [debug]: Parse Finish:  Method = GET, Path = /images/favicon.ico, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:33.814737 [debug]: Response File Path = ./resources/images/favicon.ico
+2023-05-31 21:29:33.815212 [debug]: FileSize: 60990, 2 to 61114
+2023-05-31 21:29:33.826902 [info]: Client[6] quit!
+2023-05-31 21:29:33.827264 [info]: Client[6] (192.168.192.1:2951) Close, UserCount:0
+2023-05-31 21:29:50.140801 [info]: Client[6] (192.168.192.1:2962) Connect, UserCount:1
+2023-05-31 21:29:50.140901 [info]: Client 6 connect !
+2023-05-31 21:29:50.141458 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-05-31 21:29:50.142551 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.143516 [debug]: Response File Path = ./resources/video.html
+2023-05-31 21:29:50.143673 [debug]: FileSize: 3347, 2 to 3469
+2023-05-31 21:29:50.145717 [info]: Client[6] quit!
+2023-05-31 21:29:50.146155 [info]: Client[6] (192.168.192.1:2962) Close, UserCount:0
+2023-05-31 21:29:50.201011 [info]: Client[6] (192.168.192.1:2963) Connect, UserCount:1
+2023-05-31 21:29:50.201101 [info]: Client 6 connect !
+2023-05-31 21:29:50.201295 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-05-31 21:29:50.201838 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.201879 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-05-31 21:29:50.201905 [debug]: FileSize: 121260, 2 to 121384
+2023-05-31 21:29:50.201937 [info]: Client[7] (192.168.192.1:2964) Connect, UserCount:2
+2023-05-31 21:29:50.201948 [info]: Client 7 connect !
+2023-05-31 21:29:50.202058 [info]: Client[6] quit!
+2023-05-31 21:29:50.202261 [info]: Client[6] (192.168.192.1:2963) Close, UserCount:1
+2023-05-31 21:29:50.203375 [info]: Client[6] (192.168.192.1:2965) Connect, UserCount:2
+2023-05-31 21:29:50.203424 [info]: Client 6 connect !
+2023-05-31 21:29:50.203596 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-05-31 21:29:50.204274 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.204343 [debug]: Response File Path = ./resources/css/animate.css
+2023-05-31 21:29:50.204373 [debug]: FileSize: 72922, 2 to 73045
+2023-05-31 21:29:50.204479 [info]: Client[8] (192.168.192.1:2966) Connect, UserCount:3
+2023-05-31 21:29:50.204520 [info]: Client 8 connect !
+2023-05-31 21:29:50.204679 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-05-31 21:29:50.205326 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.205354 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-05-31 21:29:50.205390 [debug]: FileSize: 6951, 2 to 7073
+2023-05-31 21:29:50.205843 [info]: Client[7] quit!
+2023-05-31 21:29:50.205920 [info]: Client[7] (192.168.192.1:2964) Close, UserCount:2
+2023-05-31 21:29:50.205955 [info]: Client[7] (192.168.192.1:2967) Connect, UserCount:3
+2023-05-31 21:29:50.205966 [info]: Client 7 connect !
+2023-05-31 21:29:50.206201 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-05-31 21:29:50.206963 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.207014 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-05-31 21:29:50.207038 [debug]: FileSize: 27392, 2 to 27515
+2023-05-31 21:29:50.228379 [info]: Client[6] quit!
+2023-05-31 21:29:50.229116 [info]: Client[6] (192.168.192.1:2965) Close, UserCount:2
+2023-05-31 21:29:50.229511 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-05-31 21:29:50.230730 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.231025 [debug]: Response File Path = ./resources/css/style.css
+2023-05-31 21:29:50.231204 [debug]: FileSize: 9807, 2 to 9929
+2023-05-31 21:29:50.232607 [info]: Client[8] quit!
+2023-05-31 21:29:50.233687 [info]: Client[8] (192.168.192.1:2966) Close, UserCount:1
+2023-05-31 21:29:50.234794 [info]: Client[7] quit!
+2023-05-31 21:29:50.235077 [info]: Client[7] (192.168.192.1:2967) Close, UserCount:0
+2023-05-31 21:29:50.235217 [info]: Client[6] (192.168.192.1:2968) Connect, UserCount:1
+2023-05-31 21:29:50.235331 [info]: Client 6 connect !
+2023-05-31 21:29:50.235620 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-05-31 21:29:50.236776 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.237075 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-05-31 21:29:50.237335 [debug]: FileSize: 47176, 2 to 47300
+2023-05-31 21:29:50.237498 [info]: Client[7] (192.168.192.1:2969) Connect, UserCount:2
+2023-05-31 21:29:50.237631 [info]: Client 7 connect !
+2023-05-31 21:29:50.238062 [info]: Client[6] quit!
+2023-05-31 21:29:50.238271 [info]: Client[6] (192.168.192.1:2968) Close, UserCount:1
+2023-05-31 21:29:50.238529 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-05-31 21:29:50.240264 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.240606 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-05-31 21:29:50.240759 [debug]: FileSize: 39667571, 2 to 39667698
+2023-05-31 21:29:50.297594 [info]: Client[6] (192.168.192.1:2970) Connect, UserCount:2
+2023-05-31 21:29:50.297671 [info]: Client 6 connect !
+2023-05-31 21:29:50.297696 [info]: Client[8] (192.168.192.1:2971) Connect, UserCount:3
+2023-05-31 21:29:50.297707 [info]: Client 8 connect !
+2023-05-31 21:29:50.297905 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-05-31 21:29:50.298452 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.298488 [debug]: Response File Path = ./resources/js/jquery.js
+2023-05-31 21:29:50.298515 [debug]: FileSize: 85658, 2 to 85788
+2023-05-31 21:29:50.298544 [info]: Client[9] (192.168.192.1:2972) Connect, UserCount:4
+2023-05-31 21:29:50.298554 [info]: Client 9 connect !
+2023-05-31 21:29:50.299161 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-05-31 21:29:50.299829 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.299898 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-05-31 21:29:50.299923 [debug]: FileSize: 36868, 2 to 36998
+2023-05-31 21:29:50.300622 [info]: Client[6] quit!
+2023-05-31 21:29:50.301620 [info]: Client[6] (192.168.192.1:2970) Close, UserCount:3
+2023-05-31 21:29:50.301724 [info]: Client[6] (192.168.192.1:2973) Connect, UserCount:4
+2023-05-31 21:29:50.301756 [info]: Client 6 connect !
+2023-05-31 21:29:50.301931 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-05-31 21:29:50.302687 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.302734 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-05-31 21:29:50.302760 [debug]: FileSize: 4474, 2 to 4603
+2023-05-31 21:29:50.302844 [info]: Client[8] quit!
+2023-05-31 21:29:50.302922 [info]: Client[8] (192.168.192.1:2971) Close, UserCount:3
+2023-05-31 21:29:50.302955 [info]: Client[8] (192.168.192.1:2974) Connect, UserCount:4
+2023-05-31 21:29:50.302965 [info]: Client 8 connect !
+2023-05-31 21:29:50.303142 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-05-31 21:29:50.303936 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.303982 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-05-31 21:29:50.304028 [debug]: FileSize: 20932, 2 to 21062
+2023-05-31 21:29:50.324891 [info]: Client[9] quit!
+2023-05-31 21:29:50.325404 [info]: Client[9] (192.168.192.1:2972) Close, UserCount:3
+2023-05-31 21:29:50.325808 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-05-31 21:29:50.326603 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.326827 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-05-31 21:29:50.326920 [debug]: FileSize: 1069, 2 to 1198
+2023-05-31 21:29:50.327062 [info]: Client[6] quit!
+2023-05-31 21:29:50.327195 [info]: Client[6] (192.168.192.1:2973) Close, UserCount:2
+2023-05-31 21:29:50.328998 [info]: Client[8] quit!
+2023-05-31 21:29:50.329244 [info]: Client[8] (192.168.192.1:2974) Close, UserCount:1
+2023-05-31 21:29:50.329386 [info]: Client[6] (192.168.192.1:2975) Connect, UserCount:2
+2023-05-31 21:29:50.329575 [info]: Client 6 connect !
+2023-05-31 21:29:50.329845 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-05-31 21:29:50.330469 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.331102 [debug]: Response File Path = ./resources/js/custom.js
+2023-05-31 21:29:50.331277 [debug]: FileSize: 1047, 2 to 1176
+2023-05-31 21:29:50.331485 [info]: Client[8] (192.168.192.1:2976) Connect, UserCount:3
+2023-05-31 21:29:50.331694 [info]: Client 8 connect !
+2023-05-31 21:29:50.332142 [info]: Client[6] quit!
+2023-05-31 21:29:50.332314 [info]: Client[6] (192.168.192.1:2975) Close, UserCount:2
+2023-05-31 21:29:50.332842 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-05-31 21:29:50.334172 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:29:50.334410 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-05-31 21:29:50.334551 [debug]: FileSize: 7082, 2 to 7211
+2023-05-31 21:29:50.334900 [info]: Client[8] quit!
+2023-05-31 21:29:50.335090 [info]: Client[8] (192.168.192.1:2976) Close, UserCount:1
+2023-05-31 21:29:53.635532 [info]: Send Client [7] (192.168.192.1:2969) Message
+2023-05-31 21:30:17.791577 [info]: Client[6] (192.168.192.1:2986) Connect, UserCount:2
+2023-05-31 21:30:17.791722 [info]: Client 6 connect !
+2023-05-31 21:30:17.798665 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-05-31 21:30:17.799939 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:30:17.800171 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-05-31 21:30:17.800230 [debug]: FileSize: 39667571, 2 to 39667661
+2023-05-31 21:30:17.823383 [info]: Client[8] (192.168.192.1:2987) Connect, UserCount:3
+2023-05-31 21:30:17.823516 [info]: Client 8 connect !
+2023-05-31 21:30:17.836686 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-05-31 21:30:17.837394 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:30:17.837465 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-05-31 21:30:17.837493 [debug]: FileSize: 39667571, 2 to 39667661
+2023-05-31 21:34:28.036939 [info]: Server port : 8091
+2023-05-31 21:34:28.037475 [info]: ============ Server Start ============
+2023-05-31 21:34:32.909091 [info]: Client[6] (192.168.192.1:3143) Connect, UserCount:1
+2023-05-31 21:34:32.909244 [info]: Client 6 connect !
+2023-05-31 21:34:32.910323 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-05-31 21:34:32.911569 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:32.911721 [debug]: Response File Path = ./resources/video.html
+2023-05-31 21:34:32.911761 [debug]: FileSize: 3347, 2 to 3469
+2023-05-31 21:34:32.913316 [info]: Client[6] quit!
+2023-05-31 21:34:32.913837 [info]: Client[6] (192.168.192.1:3143) Close, UserCount:0
+2023-05-31 21:34:32.985779 [info]: Client[6] (192.168.192.1:3144) Connect, UserCount:1
+2023-05-31 21:34:32.985862 [info]: Client 6 connect !
+2023-05-31 21:34:32.987250 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-05-31 21:34:32.987771 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:32.987804 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-05-31 21:34:32.987825 [debug]: FileSize: 121260, 2 to 121384
+2023-05-31 21:34:32.987855 [info]: Client[7] (192.168.192.1:3145) Connect, UserCount:2
+2023-05-31 21:34:32.987865 [info]: Client 7 connect !
+2023-05-31 21:34:32.987892 [info]: Client[8] (192.168.192.1:3146) Connect, UserCount:3
+2023-05-31 21:34:32.987908 [info]: Client 8 connect !
+2023-05-31 21:34:32.000845 [info]: Client[6] quit!
+2023-05-31 21:34:32.002502 [info]: Client[6] (192.168.192.1:3144) Close, UserCount:2
+2023-05-31 21:34:32.002807 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-05-31 21:34:33.005740 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.006022 [debug]: Response File Path = ./resources/css/animate.css
+2023-05-31 21:34:33.006188 [debug]: FileSize: 72922, 2 to 73045
+2023-05-31 21:34:33.006410 [info]: Client[6] (192.168.192.1:3147) Connect, UserCount:3
+2023-05-31 21:34:33.006582 [info]: Client 6 connect !
+2023-05-31 21:34:33.007204 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-05-31 21:34:33.008490 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.008879 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-05-31 21:34:33.008995 [debug]: FileSize: 6951, 2 to 7073
+2023-05-31 21:34:33.016016 [info]: Client[7] quit!
+2023-05-31 21:34:33.017699 [info]: Client[7] (192.168.192.1:3145) Close, UserCount:2
+2023-05-31 21:34:33.017786 [info]: Client[7] (192.168.192.1:3148) Connect, UserCount:3
+2023-05-31 21:34:33.017804 [info]: Client 7 connect !
+2023-05-31 21:34:33.018054 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-05-31 21:34:33.018647 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.018755 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-05-31 21:34:33.018819 [debug]: FileSize: 27392, 2 to 27515
+2023-05-31 21:34:33.019953 [info]: Client[8] quit!
+2023-05-31 21:34:33.021078 [info]: Client[8] (192.168.192.1:3146) Close, UserCount:2
+2023-05-31 21:34:33.021190 [info]: Client[8] (192.168.192.1:3149) Connect, UserCount:3
+2023-05-31 21:34:33.021215 [info]: Client 8 connect !
+2023-05-31 21:34:33.021463 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-05-31 21:34:33.022767 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.022831 [debug]: Response File Path = ./resources/css/style.css
+2023-05-31 21:34:33.022882 [debug]: FileSize: 9807, 2 to 9929
+2023-05-31 21:34:33.027083 [info]: Client[6] quit!
+2023-05-31 21:34:33.027253 [info]: Client[6] (192.168.192.1:3147) Close, UserCount:2
+2023-05-31 21:34:33.027504 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-05-31 21:34:33.028534 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.028591 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-05-31 21:34:33.028615 [debug]: FileSize: 47176, 2 to 47300
+2023-05-31 21:34:33.029682 [info]: Client[7] quit!
+2023-05-31 21:34:33.029807 [info]: Client[7] (192.168.192.1:3148) Close, UserCount:1
+2023-05-31 21:34:33.034593 [info]: Client[8] quit!
+2023-05-31 21:34:33.034744 [info]: Client[8] (192.168.192.1:3149) Close, UserCount:0
+2023-05-31 21:34:33.035019 [info]: Client[6] (192.168.192.1:3150) Connect, UserCount:1
+2023-05-31 21:34:33.035124 [info]: Client 6 connect !
+2023-05-31 21:34:33.035358 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-05-31 21:34:33.035966 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.036463 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-05-31 21:34:33.036553 [debug]: FileSize: 39667571, 2 to 39667698
+2023-05-31 21:34:33.098406 [info]: Client[7] (192.168.192.1:3151) Connect, UserCount:2
+2023-05-31 21:34:33.098542 [info]: Client 7 connect !
+2023-05-31 21:34:33.098575 [info]: Client[8] (192.168.192.1:3152) Connect, UserCount:3
+2023-05-31 21:34:33.098585 [info]: Client 8 connect !
+2023-05-31 21:34:33.098894 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-05-31 21:34:33.100026 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.100094 [debug]: Response File Path = ./resources/js/jquery.js
+2023-05-31 21:34:33.100120 [debug]: FileSize: 85658, 2 to 85788
+2023-05-31 21:34:33.100160 [info]: Client[9] (192.168.192.1:3153) Connect, UserCount:4
+2023-05-31 21:34:33.100172 [info]: Client 9 connect !
+2023-05-31 21:34:33.100356 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-05-31 21:34:33.101387 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.101484 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-05-31 21:34:33.101534 [debug]: FileSize: 36868, 2 to 36998
+2023-05-31 21:34:33.128659 [info]: Client[7] quit!
+2023-05-31 21:34:33.129283 [info]: Client[7] (192.168.192.1:3151) Close, UserCount:3
+2023-05-31 21:34:33.129630 [info]: Client[7] (192.168.192.1:3154) Connect, UserCount:4
+2023-05-31 21:34:33.129841 [info]: Client 7 connect !
+2023-05-31 21:34:33.130302 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-05-31 21:34:33.132134 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.132674 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-05-31 21:34:33.133019 [debug]: FileSize: 4474, 2 to 4603
+2023-05-31 21:34:33.147257 [info]: Client[8] quit!
+2023-05-31 21:34:33.147519 [info]: Client[8] (192.168.192.1:3152) Close, UserCount:3
+2023-05-31 21:34:33.147626 [info]: Client[8] (192.168.192.1:3155) Connect, UserCount:4
+2023-05-31 21:34:33.147702 [info]: Client 8 connect !
+2023-05-31 21:34:33.148127 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-05-31 21:34:33.155259 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.157399 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-05-31 21:34:33.157687 [debug]: FileSize: 20932, 2 to 21062
+2023-05-31 21:34:33.158038 [info]: Client[9] quit!
+2023-05-31 21:34:33.158252 [info]: Client[9] (192.168.192.1:3153) Close, UserCount:3
+2023-05-31 21:34:33.158690 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-05-31 21:34:33.166808 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.171810 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-05-31 21:34:33.171871 [debug]: FileSize: 1069, 2 to 1198
+2023-05-31 21:34:33.176486 [info]: Client[7] quit!
+2023-05-31 21:34:33.176595 [info]: Client[7] (192.168.192.1:3154) Close, UserCount:2
+2023-05-31 21:34:33.176630 [info]: Client[8] quit!
+2023-05-31 21:34:33.176662 [info]: Client[8] (192.168.192.1:3155) Close, UserCount:1
+2023-05-31 21:34:33.176702 [info]: Client[7] (192.168.192.1:3156) Connect, UserCount:2
+2023-05-31 21:34:33.176712 [info]: Client 7 connect !
+2023-05-31 21:34:33.176885 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-05-31 21:34:33.177500 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.177547 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-05-31 21:34:33.177570 [debug]: FileSize: 7082, 2 to 7211
+2023-05-31 21:34:33.177602 [info]: Client[8] (192.168.192.1:3157) Connect, UserCount:3
+2023-05-31 21:34:33.177612 [info]: Client 8 connect !
+2023-05-31 21:34:33.177651 [info]: Client[7] quit!
+2023-05-31 21:34:33.177694 [info]: Client[7] (192.168.192.1:3156) Close, UserCount:2
+2023-05-31 21:34:33.177849 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-05-31 21:34:33.178436 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.178473 [debug]: Response File Path = ./resources/js/custom.js
+2023-05-31 21:34:33.178492 [debug]: FileSize: 1047, 2 to 1176
+2023-05-31 21:34:33.178528 [info]: Client[8] quit!
+2023-05-31 21:34:33.178568 [info]: Client[8] (192.168.192.1:3157) Close, UserCount:1
+2023-05-31 21:34:33.265228 [info]: Client[7] (192.168.192.1:3160) Connect, UserCount:2
+2023-05-31 21:34:33.265291 [info]: Client 7 connect !
+2023-05-31 21:34:33.265518 [debug]: Method: GET, Path: /images/favicon.ico, Version: HTTP/1.1
+2023-05-31 21:34:33.266014 [debug]: Parse Finish:  Method = GET, Path = /images/favicon.ico, Version = HTTP/1.1, StatusCode = 200
+2023-05-31 21:34:33.266610 [debug]: Response File Path = ./resources/images/favicon.ico
+2023-05-31 21:34:33.266659 [debug]: FileSize: 60990, 2 to 61114
+2023-05-31 21:34:33.266755 [info]: Client[7] quit!
+2023-05-31 21:34:33.266825 [info]: Client[7] (192.168.192.1:3160) Close, UserCount:1
+2023-05-31 21:34:36.579167 [info]: Send Client [6] (192.168.192.1:3150) Message

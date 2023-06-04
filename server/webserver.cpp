@@ -2,7 +2,7 @@
 
 WebServer::WebServer(int port): 
         m_port(port), m_listenFd(-1), m_isRunning(true), 
-        m_epoller(new Epoller())
+        m_epoller(new Epoller()), m_threadPool(new ThreadPool())
 {
     HttpConn::g_userCount = 0;
     Log::getInstance()->init("./log", ".log", 0);    // 初始化日志对象
@@ -50,12 +50,16 @@ void WebServer::start() {
             else if(eventsType & EPOLLIN){
                 // 读取数据
                 assert(m_users.count(fd) > 0);
-                handleRead(m_users[fd]);
+                
+                m_threadPool->addTask(std::bind(&WebServer::handleRead, this, std::ref(m_users[fd])));
+                // handleRead(m_users[fd]);
             }
             else if(eventsType & EPOLLOUT){
                 // 写数据
                 assert(m_users.count(fd) > 0);
-                handleWrite(m_users[fd]);
+                m_threadPool->addTask(std::bind(&WebServer::handleWrite, this, std::ref(m_users[fd]))); // bind 默认值传递
+                
+                // handleWrite(m_users[fd]);
             }
         }
     }
@@ -159,9 +163,11 @@ void WebServer::handleRead(HttpConn &httpConn) {
         else
             m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);        
     }
-    else{
-        httpConn.process();
-        m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);
+    else{// 读取成功则直接处理
+        if(httpConn.process())
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);
+        else
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);
     }
 }
 
@@ -173,10 +179,19 @@ void WebServer::handleWrite(HttpConn &httpConn) {
     if(len < 0){    // 写入失败则分情况讨论
         if(saveErrno != EAGAIN && saveErrno != EINTR)
             closeConn(httpConn);
-        else
-            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);        
+        else{
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLOUT);
+            // LOG_DEBUG("Write Again");
+        }        
     }
     else{
-        m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);
+        if(httpConn.isKeepAlive()){
+            m_epoller->modFd(httpConn.getFd(), m_connEvent | EPOLLIN);
+        }
+        else {
+            closeConn(httpConn); // 短连接则直接关闭
+        }
+        // closeConn(httpConn);
+        // LOG_DEBUG("Write Complete");
     }
 }

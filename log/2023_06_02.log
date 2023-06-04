@@ -1,0 +1,438 @@
+2023-06-02 11:06:38.382243 [info]: Server port : 8090
+2023-06-02 11:06:38.382506 [info]: ============ Server Start ============
+2023-06-02 11:07:05.371181 [info]: Client[6] (192.168.192.1:5807) Connect, UserCount:1
+2023-06-02 11:07:05.371362 [info]: Client 6 connect !
+2023-06-02 11:07:05.371726 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-06-02 11:07:05.372259 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.372386 [debug]: Response File Path = ./resources/index.html
+2023-06-02 11:07:05.372428 [debug]: FileSize: 3148, 2 totalSize 3270
+2023-06-02 11:07:05.482290 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:05.483170 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.483321 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:05.483375 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:05.488733 [info]: Client[7] (192.168.192.1:5808) Connect, UserCount:2
+2023-06-02 11:07:05.488785 [info]: Client 7 connect !
+2023-06-02 11:07:05.488817 [info]: Client[8] (192.168.192.1:5809) Connect, UserCount:3
+2023-06-02 11:07:05.488829 [info]: Client 8 connect !
+2023-06-02 11:07:05.488853 [info]: Client[9] (192.168.192.1:5810) Connect, UserCount:4
+2023-06-02 11:07:05.488862 [info]: Client 9 connect !
+2023-06-02 11:07:05.488890 [info]: Client[10] (192.168.192.1:5811) Connect, UserCount:5
+2023-06-02 11:07:05.488900 [info]: Client 10 connect !
+2023-06-02 11:07:05.489536 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:05.490447 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.490517 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:05.490586 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:05.490612 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:05.491092 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:05.491959 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.492017 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:05.492068 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:05.492415 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.492483 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:05.492503 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:05.492567 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:05.496101 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.496269 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:05.496353 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:05.498100 [info]: Client[11] (192.168.192.1:5812) Connect, UserCount:6
+2023-06-02 11:07:05.512398 [info]: Client 11 connect !
+2023-06-02 11:07:05.514387 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-02 11:07:05.515722 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.517062 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-02 11:07:05.517274 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-02 11:07:05.529847 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:05.531496 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.532254 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:05.532533 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:05.531980 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:05.532050 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:05.533593 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.533760 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:05.533867 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:05.534323 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:05.534785 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.534924 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:05.535018 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:05.531615 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:05.535379 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.531893 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:05.536365 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.536824 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:05.536954 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:05.537256 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:05.537951 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.538395 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:05.540785 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:05.541623 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:05.550733 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:05.551645 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.551999 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:05.552325 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:05.799305 [debug]: Method: GET, Path: /images/favicon.ico, Version: HTTP/1.1
+2023-06-02 11:07:05.800595 [debug]: Parse Finish:  Method = GET, Path = /images/favicon.ico, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:05.800802 [debug]: Response File Path = ./resources/images/favicon.ico
+2023-06-02 11:07:05.801136 [debug]: FileSize: 60990, 2 totalSize 61114
+2023-06-02 11:07:14.710865 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-06-02 11:07:14.712397 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.712602 [debug]: Response File Path = ./resources/picture.html
+2023-06-02 11:07:14.712655 [debug]: FileSize: 3960, 2 totalSize 4082
+2023-06-02 11:07:14.793265 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:14.794341 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:14.794493 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.794579 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:14.794607 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:14.794775 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:14.794954 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.795026 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:14.795054 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:14.795330 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.795420 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:14.795443 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:14.802842 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:14.803992 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.804080 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:14.804130 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:14.804419 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:14.805426 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.806311 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.807823 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.808234 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-02 11:07:14.808454 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-02 11:07:14.808658 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:14.808849 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:14.819165 [debug]: Method: GET, Path: /images/instagram-image1.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.820379 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image1.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.820599 [debug]: Response File Path = ./resources/images/instagram-image1.jpg
+2023-06-02 11:07:14.822247 [debug]: FileSize: 75836, 2 totalSize 75960
+2023-06-02 11:07:14.826012 [debug]: Method: GET, Path: /images/instagram-image2.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.827155 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image2.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.827483 [debug]: Response File Path = ./resources/images/instagram-image2.jpg
+2023-06-02 11:07:14.827750 [debug]: FileSize: 67313, 2 totalSize 67437
+2023-06-02 11:07:14.831451 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:14.832430 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.832810 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:14.832966 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:14.833435 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:14.834282 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:14.834495 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.835031 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:14.835268 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:14.835568 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:14.839640 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.836621 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.840324 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:14.841745 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.842278 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:14.842500 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:14.842670 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:14.842553 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:14.842741 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:14.842618 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:14.847902 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:14.848649 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.848800 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:14.848847 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:14.852608 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:14.853635 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.853799 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:14.854053 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:14.855090 [debug]: Method: GET, Path: /images/instagram-image3.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.855699 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image3.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.855783 [debug]: Response File Path = ./resources/images/instagram-image3.jpg
+2023-06-02 11:07:14.855814 [debug]: FileSize: 59528, 2 totalSize 59652
+2023-06-02 11:07:14.856002 [debug]: Method: GET, Path: /images/instagram-image4.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.856475 [debug]: Method: GET, Path: /images/instagram-image5.jpg, Version: HTTP/1.1
+2023-06-02 11:07:14.856917 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image4.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.857040 [debug]: Response File Path = ./resources/images/instagram-image4.jpg
+2023-06-02 11:07:14.857067 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image5.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:14.857088 [debug]: FileSize: 103418, 2 totalSize 103543
+2023-06-02 11:07:14.857831 [debug]: Response File Path = ./resources/images/instagram-image5.jpg
+2023-06-02 11:07:14.857914 [debug]: FileSize: 49545, 2 totalSize 49669
+2023-06-02 11:07:16.442750 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-06-02 11:07:16.443880 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.443980 [debug]: Response File Path = ./resources/video.html
+2023-06-02 11:07:16.444021 [debug]: FileSize: 3347, 2 totalSize 3469
+2023-06-02 11:07:16.511131 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:16.511873 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.512043 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:16.512098 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:16.512232 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:16.512318 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:16.513112 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:16.514057 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.514200 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:16.514239 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:16.514408 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:16.516829 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.517211 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:16.517303 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:16.517375 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.517452 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:16.517478 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:16.517570 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-02 11:07:16.519006 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.521418 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-02 11:07:16.521457 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-02 11:07:16.527114 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.527908 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:16.528113 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:16.538663 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-02 11:07:16.539468 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.539654 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-02 11:07:16.539791 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-02 11:07:16.560819 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:16.562379 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:16.561784 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:16.563340 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.563530 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:16.563672 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:16.562500 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.562657 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:16.564195 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:16.564318 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:16.564542 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:16.565751 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.567622 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:16.567856 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:16.565882 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.566076 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.568248 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:16.568338 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:16.569074 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:16.569354 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:16.574959 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:16.576417 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.576691 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:16.576802 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:16.581846 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:16.582856 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:16.583188 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:16.583657 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:21.363908 [debug]: Method: GET, Path: /login, Version: HTTP/1.1
+2023-06-02 11:07:21.365149 [debug]: Parse Finish:  Method = GET, Path = /login.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.365276 [debug]: Response File Path = ./resources/login.html
+2023-06-02 11:07:21.365327 [debug]: FileSize: 3385, 2 totalSize 3507
+2023-06-02 11:07:21.380047 [info]: Client[9] quit!
+2023-06-02 11:07:21.380679 [info]: Client[9] (192.168.192.1:5810) Close, UserCount:5
+2023-06-02 11:07:21.430731 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:21.431498 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.431586 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:21.431629 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:21.431931 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:21.432899 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.432962 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:21.432999 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:21.433275 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:21.434683 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:21.435926 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.436034 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:21.436085 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:21.436452 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:21.437710 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.437787 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:21.437828 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:21.437957 [info]: Client[9] (192.168.192.1:5823) Connect, UserCount:6
+2023-06-02 11:07:21.437984 [info]: Client 9 connect !
+2023-06-02 11:07:21.446700 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:21.447129 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.447390 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:21.447569 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:21.448675 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.448866 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:21.449104 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:21.455994 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:21.457008 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.457297 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:21.457511 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:21.457874 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:21.458552 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:21.459446 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.459780 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:21.459987 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:21.462000 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.462435 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:21.462725 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:21.470526 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:21.473876 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.474434 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:21.474729 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:21.475095 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:21.476120 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:21.476476 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.477595 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:21.477695 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:21.477731 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:21.477970 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:21.478098 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:23.714893 [debug]: Method: GET, Path: /register, Version: HTTP/1.1
+2023-06-02 11:07:23.716266 [debug]: Parse Finish:  Method = GET, Path = /register.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.716450 [debug]: Response File Path = ./resources/register.html
+2023-06-02 11:07:23.716500 [debug]: FileSize: 3380, 2 totalSize 3502
+2023-06-02 11:07:23.796954 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:23.797222 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:23.797680 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:23.798439 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.798555 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.798725 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:23.798772 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:23.798734 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:23.798927 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:23.797389 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:23.799119 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:23.799733 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.799803 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:23.799825 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:23.802848 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:23.802921 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.803003 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:23.803025 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:23.803553 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.803784 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:23.803840 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:23.805284 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.805365 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:23.805407 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:23.816939 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:23.817660 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.817872 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:23.817945 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:23.818220 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:23.818772 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.818870 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:23.818921 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:23.819423 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:23.820777 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.820949 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:23.821093 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:23.826031 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:23.827392 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.827689 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:23.827861 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:23.829681 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:23.831524 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.831793 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:23.831944 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:23.830264 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:23.832957 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:23.833738 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:23.834002 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:25.565233 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-06-02 11:07:25.566385 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.566484 [debug]: Response File Path = ./resources/video.html
+2023-06-02 11:07:25.566518 [debug]: FileSize: 3347, 2 totalSize 3469
+2023-06-02 11:07:25.620557 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:25.621244 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.621323 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:25.621353 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:25.630703 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:25.631667 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:25.632135 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:25.632459 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.632547 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:25.632577 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:25.632909 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:25.633020 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.633093 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:25.633140 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:25.633358 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.633452 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:25.633485 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:25.634340 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.634414 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:25.634431 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:25.640710 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-02 11:07:25.641802 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.641924 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-02 11:07:25.641954 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-02 11:07:25.646197 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-02 11:07:25.646941 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.647107 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-02 11:07:25.647147 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-02 11:07:25.679424 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:25.679849 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:25.680108 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:25.680416 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.680507 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:25.680531 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:25.680709 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:25.681340 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.681449 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:25.681487 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:25.681718 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.681905 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:25.681938 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:25.682367 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:25.685507 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.686948 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:25.687036 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:25.687436 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.687511 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:25.687534 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:25.691796 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:25.692651 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.693074 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:25.693237 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:25.696212 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:25.697628 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:25.697964 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:25.698381 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-02 11:07:43.330046 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-06-02 11:07:43.331358 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.334649 [debug]: Response File Path = ./resources/video.html
+2023-06-02 11:07:43.334823 [debug]: FileSize: 3347, 2 totalSize 3469
+2023-06-02 11:07:43.437593 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-02 11:07:43.438430 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.438532 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-02 11:07:43.438579 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-02 11:07:43.438749 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-02 11:07:43.439276 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-02 11:07:43.439320 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.439402 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-02 11:07:43.439427 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-02 11:07:43.439600 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-02 11:07:43.440399 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.440477 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-02 11:07:43.440511 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.440524 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-02 11:07:43.440663 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-02 11:07:43.440691 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-02 11:07:43.440977 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-02 11:07:43.441543 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.441752 [debug]: Response File Path = ./resources/css/style.css
+2023-06-02 11:07:43.441798 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-02 11:07:43.448434 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-02 11:07:43.449014 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.449347 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-02 11:07:43.449392 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-02 11:07:43.463250 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-02 11:07:43.464525 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.464929 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-02 11:07:43.465116 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-02 11:07:43.478004 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-02 11:07:43.478389 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-02 11:07:43.479321 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-02 11:07:43.478599 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-02 11:07:43.480109 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.480867 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-02 11:07:43.481094 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-02 11:07:43.480412 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.480632 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.482190 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-02 11:07:43.482559 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-02 11:07:43.481775 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-02 11:07:43.482977 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-02 11:07:43.480171 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.483585 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-02 11:07:43.483636 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-02 11:07:43.479143 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-02 11:07:43.484801 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.485685 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-02 11:07:43.486517 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-02 11:07:43.498701 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-02 11:07:43.499402 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-02 11:07:43.499479 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.500127 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-02 11:07:43.500322 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-02 11:07:43.502720 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-02 11:07:43.503105 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-02 11:07:43.503242 [debug]: FileSize: 1047, 2 totalSize 1176

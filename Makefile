@@ -2,11 +2,11 @@ CXX = g++
 CFLAGS = -std=c++17 -O2 -Wall -g
 TARGET = server
 
-${TARGET}: main.cpp ./bin/server.o ./bin/epoller.o ./bin/httpconn.o ./bin/httprequest.o ./bin/log.o ./bin/buffer.o
+${TARGET}: main.cpp ./bin/server.o ./bin/epoller.o ./bin/httpconn.o ./bin/httprequest.o ./bin/httpresponse.o ./bin/log.o ./bin/buffer.o -pthread -lmysqlclient
 	$(CXX) ${CFLAGS} $^ -o ./bin/$@
 
 # webserver 模块
-./bin/server.o: ./server/webserver.cpp ./server/webserver.h
+./bin/server.o: ./server/webserver.cpp ./server/webserver.h ./pool/threadpool.hpp
 	$(CXX) ${CFLAGS} -c $< -o $@
 
 # httpConn 模块
@@ -15,6 +15,10 @@ ${TARGET}: main.cpp ./bin/server.o ./bin/epoller.o ./bin/httpconn.o ./bin/httpre
 
 # httprequest 模块
 ./bin/httprequest.o: ./http/httprequest.cpp ./http/httprequest.h
+	$(CXX) ${CFLAGS} -c $< -o $@
+
+# httpresponse 模块
+./bin/httpresponse.o: ./http/httpresponse.cpp ./http/httpresponse.h
 	$(CXX) ${CFLAGS} -c $< -o $@
 
 # epoller 模块

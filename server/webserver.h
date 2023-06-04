@@ -12,6 +12,7 @@
 #include <fcntl.h>
 
 #include "../logger/log.h"
+#include "../pool/threadpool.hpp"
 #include "../http/httpconn.h"
 #include "epoller.h"
 
@@ -46,6 +47,8 @@ private:
 
     std::unique_ptr<Epoller> m_epoller = nullptr;
     std::unordered_map<int, HttpConn> m_users;  // 存储已创建的用户连接 fd: httpConn
+
+    std::unique_ptr<ThreadPool> m_threadPool = nullptr;   // 线程池
 };
 
 

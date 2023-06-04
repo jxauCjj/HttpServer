@@ -29,3 +29,7 @@ HttpRequest对象 负责解析请求
                 根据请求得到资源文件路径 和 对应的状态码(200 404 500)
 
 HttpResponse对象只负责根据解析的结果组装响应报文，不再进行资源的检验
+
+状态行 
+响应行 Connection Content-type Content-length(由文件大小决定)
+响应体

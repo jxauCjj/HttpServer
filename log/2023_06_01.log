@@ -1,0 +1,2005 @@
+2023-06-01 19:30:24.518682 [info]: Client[6] (192.168.192.1:9261) Connect, UserCount:1
+2023-06-01 19:30:24.518967 [info]: Client 6 connect !
+2023-06-01 19:30:24.520617 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-01 19:30:24.521836 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:30:24.521955 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:30:24.521984 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:30:24.522002 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:30:24.522017 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:30:24.522032 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:30:24.522046 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:30:24.522076 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:30:24.522126 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-01 19:30:24.522172 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-01 19:30:24.543330 [debug]: Send File 143080 bytes, Remain 39524617 bytes
+2023-06-01 19:30:24.553205 [debug]: Send File 167900 bytes, Remain 39356717 bytes
+2023-06-01 19:30:24.590821 [debug]: Send File 852568 bytes, Remain 38504149 bytes
+2023-06-01 19:30:24.628058 [debug]: Send File 1027840 bytes, Remain 37476309 bytes
+2023-06-01 19:31:43.829473 [info]: Server port : 8090
+2023-06-01 19:31:43.829550 [info]: ============ Server Start ============
+2023-06-01 19:31:48.018398 [info]: Client[6] (192.168.192.1:9288) Connect, UserCount:1
+2023-06-01 19:31:48.018471 [info]: Client 6 connect !
+2023-06-01 19:31:48.019737 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-01 19:31:48.021011 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:31:48.021040 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:31:48.021055 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:31:48.021069 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:31:48.021083 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:31:48.021097 [debug]: Request Header CACHE-CONTROL: max-age=0
+2023-06-01 19:31:48.021111 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:31:48.021125 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:31:48.021147 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:31:48.021193 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-01 19:31:48.021228 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-01 19:31:48.022228 [debug]: Send File 143080 bytes, Remain 39524617 bytes
+2023-06-01 19:31:48.022274 [debug]: Write Again
+2023-06-01 19:31:48.029094 [debug]: Send File 128480 bytes, Remain 39396137 bytes
+2023-06-01 19:31:48.029187 [debug]: Write Again
+2023-06-01 19:31:48.045951 [debug]: Send File 128480 bytes, Remain 39267657 bytes
+2023-06-01 19:31:48.046039 [debug]: Write Again
+2023-06-01 19:31:48.058028 [debug]: Send File 128480 bytes, Remain 39139177 bytes
+2023-06-01 19:31:48.058105 [debug]: Write Again
+2023-06-01 19:31:48.084047 [debug]: Send File 192720 bytes, Remain 38946457 bytes
+2023-06-01 19:31:48.084109 [debug]: Write Again
+2023-06-01 19:31:48.088644 [info]: Client[6] quit!
+2023-06-01 19:31:48.088911 [info]: Client[6] (192.168.192.1:9288) Close, UserCount:0
+2023-06-01 19:31:48.110574 [info]: Client[6] (192.168.192.1:9289) Connect, UserCount:1
+2023-06-01 19:31:48.110634 [info]: Client 6 connect !
+2023-06-01 19:31:48.110953 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-01 19:31:48.111634 [debug]: Request Header RANGE: bytes=0-
+2023-06-01 19:31:48.111647 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:31:48.111653 [debug]: Request Header REFERER: http://192.168.192.129:8090/video/xxx.mp4
+2023-06-01 19:31:48.111659 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:31:48.111665 [debug]: Request Header ACCEPT-ENCODING: identity;q=1, *;q=0
+2023-06-01 19:31:48.111671 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:31:48.111678 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:31:48.111692 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:31:48.111711 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:31:48.111741 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-01 19:31:48.111764 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-01 19:31:48.112097 [debug]: Send File 143080 bytes, Remain 39524617 bytes
+2023-06-01 19:31:48.112128 [debug]: Write Again
+2023-06-01 19:31:48.115068 [debug]: Send File 128480 bytes, Remain 39396137 bytes
+2023-06-01 19:31:48.115138 [debug]: Write Again
+2023-06-01 19:31:48.121205 [debug]: Send File 192720 bytes, Remain 39203417 bytes
+2023-06-01 19:31:48.121410 [debug]: Send File 192720 bytes, Remain 39010697 bytes
+2023-06-01 19:31:48.121436 [debug]: Write Again
+2023-06-01 19:31:48.129849 [debug]: Send File 321200 bytes, Remain 38689497 bytes
+2023-06-01 19:31:48.130801 [debug]: Send File 449680 bytes, Remain 38239817 bytes
+2023-06-01 19:31:48.130858 [debug]: Write Again
+2023-06-01 19:31:48.144188 [debug]: Send File 578160 bytes, Remain 37661657 bytes
+2023-06-01 19:31:48.144429 [debug]: Write Again
+2023-06-01 19:31:48.176714 [debug]: Send File 578160 bytes, Remain 37083497 bytes
+2023-06-01 19:31:48.177657 [debug]: Send File 64240 bytes, Remain 37019257 bytes
+2023-06-01 19:31:48.177722 [debug]: Write Again
+2023-06-01 19:31:48.214830 [debug]: Send File 578160 bytes, Remain 36441097 bytes
+2023-06-01 19:31:48.216612 [debug]: Send File 128480 bytes, Remain 36312617 bytes
+2023-06-01 19:31:48.216928 [debug]: Write Again
+2023-06-01 19:31:48.253159 [debug]: Send File 578160 bytes, Remain 35734457 bytes
+2023-06-01 19:31:48.253740 [debug]: Send File 64240 bytes, Remain 35670217 bytes
+2023-06-01 19:31:48.253886 [debug]: Write Again
+2023-06-01 19:31:48.291487 [debug]: Send File 578160 bytes, Remain 35092057 bytes
+2023-06-01 19:31:48.293113 [debug]: Send File 128480 bytes, Remain 34963577 bytes
+2023-06-01 19:31:48.293274 [debug]: Write Again
+2023-06-01 19:31:48.351326 [debug]: Send File 578160 bytes, Remain 34385417 bytes
+2023-06-01 19:31:48.351699 [debug]: Write Again
+2023-06-01 19:31:48.389231 [debug]: Send File 578160 bytes, Remain 33807257 bytes
+2023-06-01 19:31:48.389423 [debug]: Write Again
+2023-06-01 19:31:48.428252 [debug]: Send File 578160 bytes, Remain 33229097 bytes
+2023-06-01 19:31:48.428579 [debug]: Send File 128480 bytes, Remain 33100617 bytes
+2023-06-01 19:31:48.428604 [debug]: Write Again
+2023-06-01 19:31:48.493007 [debug]: Send File 578160 bytes, Remain 32522457 bytes
+2023-06-01 19:31:48.493704 [debug]: Send File 128480 bytes, Remain 32393977 bytes
+2023-06-01 19:31:48.496890 [debug]: Send File 64240 bytes, Remain 32329737 bytes
+2023-06-01 19:31:48.497065 [debug]: Write Again
+2023-06-01 19:31:48.549271 [debug]: Send File 578160 bytes, Remain 31751577 bytes
+2023-06-01 19:31:48.549340 [debug]: Write Again
+2023-06-01 19:31:48.593749 [debug]: Send File 578160 bytes, Remain 31173417 bytes
+2023-06-01 19:31:48.594463 [debug]: Send File 64240 bytes, Remain 31109177 bytes
+2023-06-01 19:31:48.594520 [debug]: Write Again
+2023-06-01 19:31:48.640679 [debug]: Send File 578160 bytes, Remain 30531017 bytes
+2023-06-01 19:31:48.646589 [debug]: Send File 64240 bytes, Remain 30466777 bytes
+2023-06-01 19:31:48.654028 [debug]: Write Again
+2023-06-01 19:31:48.703373 [debug]: Send File 642400 bytes, Remain 29824377 bytes
+2023-06-01 19:31:48.703558 [debug]: Send File 64240 bytes, Remain 29760137 bytes
+2023-06-01 19:31:48.703599 [debug]: Write Again
+2023-06-01 19:31:48.743080 [debug]: Send File 578160 bytes, Remain 29181977 bytes
+2023-06-01 19:31:48.743478 [debug]: Send File 64240 bytes, Remain 29117737 bytes
+2023-06-01 19:31:48.743501 [debug]: Write Again
+2023-06-01 19:31:48.787902 [debug]: Send File 578160 bytes, Remain 28539577 bytes
+2023-06-01 19:31:48.788064 [debug]: Write Again
+2023-06-01 19:31:48.833006 [debug]: Send File 642400 bytes, Remain 27897177 bytes
+2023-06-01 19:31:48.833130 [debug]: Write Again
+2023-06-01 19:31:48.880260 [debug]: Send File 578160 bytes, Remain 27319017 bytes
+2023-06-01 19:31:48.880694 [debug]: Send File 64240 bytes, Remain 27254777 bytes
+2023-06-01 19:31:48.880723 [debug]: Write Again
+2023-06-01 19:31:48.925832 [debug]: Send File 578160 bytes, Remain 26676617 bytes
+2023-06-01 19:31:48.926253 [debug]: Write Again
+2023-06-01 19:31:48.981807 [debug]: Send File 578160 bytes, Remain 26098457 bytes
+2023-06-01 19:31:48.983276 [debug]: Send File 64240 bytes, Remain 26034217 bytes
+2023-06-01 19:31:48.983451 [debug]: Write Again
+2023-06-01 19:31:49.025557 [debug]: Send File 578160 bytes, Remain 25456057 bytes
+2023-06-01 19:31:49.026402 [debug]: Send File 128480 bytes, Remain 25327577 bytes
+2023-06-01 19:31:49.026614 [debug]: Write Again
+2023-06-01 19:31:49.084878 [debug]: Send File 642400 bytes, Remain 24685177 bytes
+2023-06-01 19:31:49.084985 [debug]: Write Again
+2023-06-01 19:31:49.136649 [debug]: Send File 578160 bytes, Remain 24107017 bytes
+2023-06-01 19:31:49.139515 [debug]: Send File 64240 bytes, Remain 24042777 bytes
+2023-06-01 19:31:49.139594 [debug]: Write Again
+2023-06-01 19:31:49.204266 [debug]: Send File 578160 bytes, Remain 23464617 bytes
+2023-06-01 19:31:49.207786 [debug]: Send File 192720 bytes, Remain 23271897 bytes
+2023-06-01 19:31:49.208111 [debug]: Write Again
+2023-06-01 19:31:49.248245 [debug]: Send File 578160 bytes, Remain 22693737 bytes
+2023-06-01 19:31:49.248673 [debug]: Send File 64240 bytes, Remain 22629497 bytes
+2023-06-01 19:31:49.248706 [debug]: Write Again
+2023-06-01 19:31:49.288974 [debug]: Send File 578160 bytes, Remain 22051337 bytes
+2023-06-01 19:31:49.289785 [debug]: Send File 64240 bytes, Remain 21987097 bytes
+2023-06-01 19:31:49.289979 [debug]: Write Again
+2023-06-01 19:31:49.334577 [debug]: Send File 578160 bytes, Remain 21408937 bytes
+2023-06-01 19:31:49.335066 [debug]: Write Again
+2023-06-01 19:31:49.390920 [debug]: Send File 642400 bytes, Remain 20766537 bytes
+2023-06-01 19:31:49.391057 [debug]: Send File 64240 bytes, Remain 20702297 bytes
+2023-06-01 19:31:49.391096 [debug]: Write Again
+2023-06-01 19:31:49.445195 [debug]: Send File 578160 bytes, Remain 20124137 bytes
+2023-06-01 19:31:49.445282 [debug]: Write Again
+2023-06-01 19:31:49.479553 [debug]: Send File 578160 bytes, Remain 19545977 bytes
+2023-06-01 19:31:49.479640 [debug]: Write Again
+2023-06-01 19:31:49.518693 [debug]: Send File 578160 bytes, Remain 18967817 bytes
+2023-06-01 19:31:49.519060 [debug]: Write Again
+2023-06-01 19:31:49.576113 [debug]: Send File 578160 bytes, Remain 18389657 bytes
+2023-06-01 19:31:49.577348 [debug]: Send File 128480 bytes, Remain 18261177 bytes
+2023-06-01 19:31:49.577424 [debug]: Write Again
+2023-06-01 19:31:49.622334 [debug]: Send File 578160 bytes, Remain 17683017 bytes
+2023-06-01 19:31:49.626842 [debug]: Send File 64240 bytes, Remain 17618777 bytes
+2023-06-01 19:31:49.627013 [debug]: Send File 64240 bytes, Remain 17554537 bytes
+2023-06-01 19:31:49.627060 [debug]: Write Again
+2023-06-01 19:31:49.668869 [debug]: Send File 578160 bytes, Remain 16976377 bytes
+2023-06-01 19:31:49.669397 [debug]: Send File 128480 bytes, Remain 16847897 bytes
+2023-06-01 19:31:49.669491 [debug]: Write Again
+2023-06-01 19:31:49.721981 [debug]: Send File 578160 bytes, Remain 16269737 bytes
+2023-06-01 19:31:49.722078 [debug]: Write Again
+2023-06-01 19:31:49.753576 [debug]: Send File 642400 bytes, Remain 15627337 bytes
+2023-06-01 19:31:49.753636 [debug]: Write Again
+2023-06-01 19:31:49.795203 [debug]: Send File 642400 bytes, Remain 14984937 bytes
+2023-06-01 19:31:49.798375 [debug]: Send File 128480 bytes, Remain 14856457 bytes
+2023-06-01 19:31:49.798442 [debug]: Write Again
+2023-06-01 19:31:49.840255 [debug]: Send File 578160 bytes, Remain 14278297 bytes
+2023-06-01 19:31:49.841740 [debug]: Send File 128480 bytes, Remain 14149817 bytes
+2023-06-01 19:31:49.841897 [debug]: Write Again
+2023-06-01 19:31:49.885961 [debug]: Send File 578160 bytes, Remain 13571657 bytes
+2023-06-01 19:31:49.886148 [debug]: Send File 64240 bytes, Remain 13507417 bytes
+2023-06-01 19:31:49.886180 [debug]: Write Again
+2023-06-01 19:31:49.929085 [debug]: Send File 578160 bytes, Remain 12929257 bytes
+2023-06-01 19:31:49.929170 [debug]: Write Again
+2023-06-01 19:31:49.975381 [debug]: Send File 578160 bytes, Remain 12351097 bytes
+2023-06-01 19:31:49.976084 [debug]: Send File 64240 bytes, Remain 12286857 bytes
+2023-06-01 19:31:49.976195 [debug]: Write Again
+2023-06-01 19:31:50.021455 [debug]: Send File 578160 bytes, Remain 11708697 bytes
+2023-06-01 19:31:50.021872 [debug]: Write Again
+2023-06-01 19:31:50.053698 [debug]: Send File 578160 bytes, Remain 11130537 bytes
+2023-06-01 19:31:50.054043 [debug]: Write Again
+2023-06-01 19:31:50.092307 [debug]: Send File 578160 bytes, Remain 10552377 bytes
+2023-06-01 19:31:50.092428 [debug]: Write Again
+2023-06-01 19:31:50.139877 [debug]: Send File 642400 bytes, Remain 9909977 bytes
+2023-06-01 19:31:50.145335 [debug]: Send File 64240 bytes, Remain 9845737 bytes
+2023-06-01 19:31:50.146696 [debug]: Send File 64240 bytes, Remain 9781497 bytes
+2023-06-01 19:31:50.146805 [debug]: Write Again
+2023-06-01 19:31:50.189841 [debug]: Send File 578160 bytes, Remain 9203337 bytes
+2023-06-01 19:31:50.198399 [debug]: Send File 128480 bytes, Remain 9074857 bytes
+2023-06-01 19:31:50.201954 [debug]: Send File 64240 bytes, Remain 9010617 bytes
+2023-06-01 19:31:50.202128 [debug]: Write Again
+2023-06-01 19:31:50.242077 [debug]: Send File 578160 bytes, Remain 8432457 bytes
+2023-06-01 19:31:50.242364 [debug]: Send File 64240 bytes, Remain 8368217 bytes
+2023-06-01 19:31:50.242429 [debug]: Write Again
+2023-06-01 19:31:50.290701 [debug]: Send File 642400 bytes, Remain 7725817 bytes
+2023-06-01 19:31:50.295298 [debug]: Send File 64240 bytes, Remain 7661577 bytes
+2023-06-01 19:31:50.295450 [debug]: Write Again
+2023-06-01 19:31:50.341259 [debug]: Send File 578160 bytes, Remain 7083417 bytes
+2023-06-01 19:31:50.341431 [debug]: Write Again
+2023-06-01 19:31:50.406720 [debug]: Send File 578160 bytes, Remain 6505257 bytes
+2023-06-01 19:31:50.408659 [debug]: Send File 192720 bytes, Remain 6312537 bytes
+2023-06-01 19:31:50.408732 [debug]: Write Again
+2023-06-01 19:31:50.457418 [debug]: Send File 578160 bytes, Remain 5734377 bytes
+2023-06-01 19:31:50.457688 [debug]: Write Again
+2023-06-01 19:31:50.502587 [debug]: Send File 578160 bytes, Remain 5156217 bytes
+2023-06-01 19:31:50.502747 [debug]: Send File 64240 bytes, Remain 5091977 bytes
+2023-06-01 19:31:50.502779 [debug]: Write Again
+2023-06-01 19:31:50.546346 [debug]: Send File 578160 bytes, Remain 4513817 bytes
+2023-06-01 19:31:50.547499 [debug]: Send File 64240 bytes, Remain 4449577 bytes
+2023-06-01 19:31:50.547729 [debug]: Write Again
+2023-06-01 19:31:50.594567 [debug]: Send File 642400 bytes, Remain 3807177 bytes
+2023-06-01 19:31:50.597214 [debug]: Send File 64240 bytes, Remain 3742937 bytes
+2023-06-01 19:31:50.597321 [debug]: Write Again
+2023-06-01 19:31:50.639301 [debug]: Send File 578160 bytes, Remain 3164777 bytes
+2023-06-01 19:31:50.640479 [debug]: Send File 64240 bytes, Remain 3100537 bytes
+2023-06-01 19:31:50.640536 [debug]: Write Again
+2023-06-01 19:31:50.678153 [debug]: Send File 578160 bytes, Remain 2522377 bytes
+2023-06-01 19:31:50.678753 [debug]: Write Again
+2023-06-01 19:31:50.720607 [debug]: Send File 578160 bytes, Remain 1944217 bytes
+2023-06-01 19:31:50.722227 [debug]: Send File 128480 bytes, Remain 1815737 bytes
+2023-06-01 19:31:50.722455 [debug]: Write Again
+2023-06-01 19:31:51.132161 [debug]: Send File 578160 bytes, Remain 1237577 bytes
+2023-06-01 19:31:51.132286 [debug]: Write Again
+2023-06-01 19:31:51.176850 [debug]: Send File 578160 bytes, Remain 659417 bytes
+2023-06-01 19:31:51.177697 [debug]: Send File 128480 bytes, Remain 530937 bytes
+2023-06-01 19:31:51.177863 [debug]: Write Again
+2023-06-01 19:31:51.804343 [debug]: Send File 530937 bytes, Remain 0 bytes
+2023-06-01 19:31:51.804799 [info]: Client[6] quit!
+2023-06-01 19:31:51.807673 [info]: Client[6] (192.168.192.1:9289) Close, UserCount:0
+2023-06-01 19:31:51.807849 [debug]: Write Complete
+2023-06-01 19:33:02.738323 [info]: Client[6] (192.168.192.1:9352) Connect, UserCount:1
+2023-06-01 19:33:02.738464 [info]: Client 6 connect !
+2023-06-01 19:33:02.738817 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-06-01 19:33:02.740060 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.740178 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.740207 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:33:02.740225 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.740283 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:33:02.740300 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.740316 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.740340 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.740382 [debug]: Response File Path = ./resources/index.html
+2023-06-01 19:33:02.740431 [debug]: FileSize: 3148, 2 totalSize 3270
+2023-06-01 19:33:02.742450 [debug]: Send File 3270 bytes, Remain 0 bytes
+2023-06-01 19:33:02.742892 [info]: Client[6] quit!
+2023-06-01 19:33:02.743880 [info]: Client[6] (192.168.192.1:9352) Close, UserCount:0
+2023-06-01 19:33:02.744073 [debug]: Write Complete
+2023-06-01 19:33:02.843684 [info]: Client[6] (192.168.192.1:9353) Connect, UserCount:1
+2023-06-01 19:33:02.843794 [info]: Client 6 connect !
+2023-06-01 19:33:02.843991 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 19:33:02.844624 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.844702 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.844718 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.844727 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:02.844735 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.844768 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.844776 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.844789 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.844819 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 19:33:02.844846 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 19:33:02.847572 [debug]: Send File 121384 bytes, Remain 0 bytes
+2023-06-01 19:33:02.850556 [info]: Client[6] quit!
+2023-06-01 19:33:02.852426 [info]: Client[6] (192.168.192.1:9353) Close, UserCount:0
+2023-06-01 19:33:02.852567 [debug]: Write Complete
+2023-06-01 19:33:02.852636 [info]: Client[6] (192.168.192.1:9354) Connect, UserCount:1
+2023-06-01 19:33:02.852658 [info]: Client 6 connect !
+2023-06-01 19:33:02.852703 [info]: Client[7] (192.168.192.1:9355) Connect, UserCount:2
+2023-06-01 19:33:02.852720 [info]: Client 7 connect !
+2023-06-01 19:33:02.853067 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 19:33:02.854030 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.854120 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.854144 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.854158 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:02.854171 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.854184 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.854197 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.854218 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.854270 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 19:33:02.854295 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 19:33:02.854347 [info]: Client[8] (192.168.192.1:9356) Connect, UserCount:3
+2023-06-01 19:33:02.854373 [info]: Client 8 connect !
+2023-06-01 19:33:02.854615 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 19:33:02.857434 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.857517 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.857526 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.857532 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:02.857538 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.857545 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.857551 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.857566 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.857599 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 19:33:02.857630 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 19:33:02.860787 [debug]: Send File 73045 bytes, Remain 0 bytes
+2023-06-01 19:33:02.860855 [info]: Client[6] quit!
+2023-06-01 19:33:02.860942 [info]: Client[6] (192.168.192.1:9354) Close, UserCount:2
+2023-06-01 19:33:02.861023 [debug]: Write Complete
+2023-06-01 19:33:02.861066 [info]: Client[6] (192.168.192.1:9357) Connect, UserCount:3
+2023-06-01 19:33:02.861077 [info]: Client 6 connect !
+2023-06-01 19:33:02.861272 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 19:33:02.861924 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.862010 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.862029 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.862038 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:02.862045 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.862051 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.862064 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.862078 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.862241 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 19:33:02.862277 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 19:33:02.863278 [debug]: Send File 7073 bytes, Remain 0 bytes
+2023-06-01 19:33:02.863338 [info]: Client[7] quit!
+2023-06-01 19:33:02.863421 [info]: Client[7] (192.168.192.1:9355) Close, UserCount:2
+2023-06-01 19:33:02.863442 [debug]: Write Complete
+2023-06-01 19:33:02.863494 [info]: Client[7] (192.168.192.1:9358) Connect, UserCount:3
+2023-06-01 19:33:02.863532 [info]: Client 7 connect !
+2023-06-01 19:33:02.863715 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 19:33:02.864615 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.864683 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.864709 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.864717 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:02.864724 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.864730 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.864775 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.864805 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.864844 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 19:33:02.864881 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 19:33:02.866253 [debug]: Send File 9929 bytes, Remain 0 bytes
+2023-06-01 19:33:02.866306 [info]: Client[8] quit!
+2023-06-01 19:33:02.866456 [info]: Client[8] (192.168.192.1:9356) Close, UserCount:2
+2023-06-01 19:33:02.866470 [debug]: Write Complete
+2023-06-01 19:33:02.866640 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 19:33:02.867419 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.867469 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.867486 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.867499 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:02.867512 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.867519 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.867525 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.867537 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.867563 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 19:33:02.867585 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 19:33:02.869249 [debug]: Send File 27515 bytes, Remain 0 bytes
+2023-06-01 19:33:02.869340 [info]: Client[6] quit!
+2023-06-01 19:33:02.869424 [info]: Client[6] (192.168.192.1:9357) Close, UserCount:1
+2023-06-01 19:33:02.869441 [debug]: Write Complete
+2023-06-01 19:33:02.870497 [debug]: Send File 47300 bytes, Remain 0 bytes
+2023-06-01 19:33:02.870607 [info]: Client[7] quit!
+2023-06-01 19:33:02.870705 [info]: Client[7] (192.168.192.1:9358) Close, UserCount:0
+2023-06-01 19:33:02.870728 [debug]: Write Complete
+2023-06-01 19:33:02.893081 [info]: Client[6] (192.168.192.1:9360) Connect, UserCount:1
+2023-06-01 19:33:02.893136 [info]: Client 6 connect !
+2023-06-01 19:33:02.893168 [info]: Client[7] (192.168.192.1:9361) Connect, UserCount:2
+2023-06-01 19:33:02.893177 [info]: Client 7 connect !
+2023-06-01 19:33:02.893189 [info]: Client[8] (192.168.192.1:9362) Connect, UserCount:3
+2023-06-01 19:33:02.893197 [info]: Client 8 connect !
+2023-06-01 19:33:02.893214 [info]: Client[9] (192.168.192.1:9364) Connect, UserCount:4
+2023-06-01 19:33:02.893222 [info]: Client 9 connect !
+2023-06-01 19:33:02.893236 [info]: Client[10] (192.168.192.1:9365) Connect, UserCount:5
+2023-06-01 19:33:02.893243 [info]: Client 10 connect !
+2023-06-01 19:33:02.893558 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 19:33:02.894124 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.894195 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.894209 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.894216 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.894223 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.894229 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.894235 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.894247 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.894273 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 19:33:02.894296 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 19:33:02.894326 [info]: Client[11] (192.168.192.1:9366) Connect, UserCount:6
+2023-06-01 19:33:02.894338 [info]: Client 11 connect !
+2023-06-01 19:33:02.894493 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 19:33:02.895149 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.895203 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.895216 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.895223 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.895230 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.895238 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.895245 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.895258 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.895280 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 19:33:02.895299 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 19:33:02.895469 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 19:33:02.896283 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.896343 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.896356 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.896364 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.896370 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.896377 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.896384 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.896397 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.896417 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 19:33:02.896441 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 19:33:02.896593 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 19:33:02.897330 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.897396 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.897410 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.897418 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.897424 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.897432 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.897438 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.897464 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.897527 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 19:33:02.897561 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 19:33:02.897897 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 19:33:02.898634 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.898691 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.898703 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.898722 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.898738 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.898757 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.898773 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.898792 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.898816 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 19:33:02.898835 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 19:33:02.900696 [debug]: Send File 85788 bytes, Remain 0 bytes
+2023-06-01 19:33:02.900835 [info]: Client[6] quit!
+2023-06-01 19:33:02.900938 [info]: Client[6] (192.168.192.1:9360) Close, UserCount:5
+2023-06-01 19:33:02.900961 [debug]: Write Complete
+2023-06-01 19:33:02.901265 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 19:33:02.902240 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.902303 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.902317 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.902325 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.902332 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.902338 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.902344 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.902357 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.902381 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 19:33:02.902406 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 19:33:02.903596 [debug]: Send File 36998 bytes, Remain 0 bytes
+2023-06-01 19:33:02.903804 [info]: Client[7] quit!
+2023-06-01 19:33:02.903892 [info]: Client[7] (192.168.192.1:9361) Close, UserCount:4
+2023-06-01 19:33:02.903904 [debug]: Write Complete
+2023-06-01 19:33:02.908633 [debug]: Send File 4603 bytes, Remain 0 bytes
+2023-06-01 19:33:02.908940 [info]: Client[8] quit!
+2023-06-01 19:33:02.909247 [info]: Client[8] (192.168.192.1:9362) Close, UserCount:3
+2023-06-01 19:33:02.909405 [debug]: Write Complete
+2023-06-01 19:33:02.911444 [debug]: Send File 21062 bytes, Remain 0 bytes
+2023-06-01 19:33:02.911699 [info]: Client[9] quit!
+2023-06-01 19:33:02.911911 [info]: Client[9] (192.168.192.1:9364) Close, UserCount:2
+2023-06-01 19:33:02.912039 [debug]: Write Complete
+2023-06-01 19:33:02.913230 [debug]: Send File 1198 bytes, Remain 0 bytes
+2023-06-01 19:33:02.913399 [info]: Client[10] quit!
+2023-06-01 19:33:02.913625 [info]: Client[10] (192.168.192.1:9365) Close, UserCount:1
+2023-06-01 19:33:02.913730 [debug]: Write Complete
+2023-06-01 19:33:02.916085 [debug]: Send File 7211 bytes, Remain 0 bytes
+2023-06-01 19:33:02.916522 [info]: Client[11] quit!
+2023-06-01 19:33:02.917032 [info]: Client[11] (192.168.192.1:9366) Close, UserCount:0
+2023-06-01 19:33:02.917178 [debug]: Write Complete
+2023-06-01 19:33:02.917362 [info]: Client[6] (192.168.192.1:9367) Connect, UserCount:1
+2023-06-01 19:33:02.917632 [info]: Client 6 connect !
+2023-06-01 19:33:02.917878 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 19:33:02.918523 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:02.918790 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:02.918878 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:02.918959 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:02.919083 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:02.919209 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:02.919294 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:02.919382 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:02.919536 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 19:33:02.919779 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 19:33:02.921428 [debug]: Send File 1176 bytes, Remain 0 bytes
+2023-06-01 19:33:02.921757 [info]: Client[6] quit!
+2023-06-01 19:33:02.922713 [info]: Client[6] (192.168.192.1:9367) Close, UserCount:0
+2023-06-01 19:33:02.922949 [debug]: Write Complete
+2023-06-01 19:33:05.880903 [info]: Client[6] (192.168.192.1:9371) Connect, UserCount:1
+2023-06-01 19:33:05.880975 [info]: Client 6 connect !
+2023-06-01 19:33:05.881275 [debug]: Method: GET, Path: /images/favicon.ico, Version: HTTP/1.1
+2023-06-01 19:33:05.882095 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:05.882165 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:05.882180 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:05.882188 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:05.882194 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:05.882201 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:05.882207 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:05.882220 [debug]: Parse Finish:  Method = GET, Path = /images/favicon.ico, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:05.882248 [debug]: Response File Path = ./resources/images/favicon.ico
+2023-06-01 19:33:05.882274 [debug]: FileSize: 60990, 2 totalSize 61114
+2023-06-01 19:33:05.884593 [debug]: Send File 61114 bytes, Remain 0 bytes
+2023-06-01 19:33:05.884673 [info]: Client[6] quit!
+2023-06-01 19:33:05.884817 [info]: Client[6] (192.168.192.1:9371) Close, UserCount:0
+2023-06-01 19:33:05.884843 [debug]: Write Complete
+2023-06-01 19:33:15.705473 [info]: Client[6] (192.168.192.1:9377) Connect, UserCount:1
+2023-06-01 19:33:15.705548 [info]: Client 6 connect !
+2023-06-01 19:33:15.705726 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-06-01 19:33:15.706248 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.706309 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.706323 [debug]: Request Header REFERER: http://192.168.192.129:8090/
+2023-06-01 19:33:15.706331 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:33:15.706338 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.706345 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:33:15.706351 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.706358 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.706383 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.706406 [debug]: Response File Path = ./resources/picture.html
+2023-06-01 19:33:15.707151 [debug]: FileSize: 3960, 2 totalSize 4082
+2023-06-01 19:33:15.708558 [debug]: Send File 4082 bytes, Remain 0 bytes
+2023-06-01 19:33:15.708657 [info]: Client[6] quit!
+2023-06-01 19:33:15.709219 [info]: Client[6] (192.168.192.1:9377) Close, UserCount:0
+2023-06-01 19:33:15.709269 [debug]: Write Complete
+2023-06-01 19:33:15.789513 [info]: Client[6] (192.168.192.1:9378) Connect, UserCount:1
+2023-06-01 19:33:15.789586 [info]: Client 6 connect !
+2023-06-01 19:33:15.789618 [info]: Client[7] (192.168.192.1:9379) Connect, UserCount:2
+2023-06-01 19:33:15.789628 [info]: Client 7 connect !
+2023-06-01 19:33:15.789796 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 19:33:15.790295 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.790345 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.790360 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.790368 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:15.790375 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.790382 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.790389 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.790402 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.790428 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 19:33:15.790455 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 19:33:15.790489 [info]: Client[8] (192.168.192.1:9380) Connect, UserCount:3
+2023-06-01 19:33:15.790502 [info]: Client 8 connect !
+2023-06-01 19:33:15.790657 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 19:33:15.791144 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.791161 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.791169 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.791176 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:15.791183 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.791190 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.791197 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.791206 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.791224 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 19:33:15.791244 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 19:33:15.792594 [debug]: Send File 121384 bytes, Remain 0 bytes
+2023-06-01 19:33:15.792646 [info]: Client[6] quit!
+2023-06-01 19:33:15.792718 [info]: Client[6] (192.168.192.1:9378) Close, UserCount:2
+2023-06-01 19:33:15.792729 [debug]: Write Complete
+2023-06-01 19:33:15.792796 [info]: Client[6] (192.168.192.1:9381) Connect, UserCount:3
+2023-06-01 19:33:15.792807 [info]: Client 6 connect !
+2023-06-01 19:33:15.792960 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 19:33:15.793418 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.793978 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.794002 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.794009 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:15.794032 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.794039 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.794045 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.794057 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.794078 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 19:33:15.794101 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 19:33:15.794169 [debug]: Send File 73045 bytes, Remain 0 bytes
+2023-06-01 19:33:15.794179 [info]: Client[7] quit!
+2023-06-01 19:33:15.794221 [info]: Client[7] (192.168.192.1:9379) Close, UserCount:2
+2023-06-01 19:33:15.794230 [debug]: Write Complete
+2023-06-01 19:33:15.794253 [info]: Client[7] (192.168.192.1:9382) Connect, UserCount:3
+2023-06-01 19:33:15.794262 [info]: Client 7 connect !
+2023-06-01 19:33:15.794408 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 19:33:15.794866 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.794876 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.794882 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.794888 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:15.794894 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.794900 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.794906 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.794916 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.794930 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 19:33:15.794945 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 19:33:15.794984 [debug]: Send File 7073 bytes, Remain 0 bytes
+2023-06-01 19:33:15.794996 [info]: Client[8] quit!
+2023-06-01 19:33:15.795029 [info]: Client[8] (192.168.192.1:9380) Close, UserCount:2
+2023-06-01 19:33:15.795040 [debug]: Write Complete
+2023-06-01 19:33:15.795059 [info]: Client[8] (192.168.192.1:9383) Connect, UserCount:3
+2023-06-01 19:33:15.795067 [info]: Client 8 connect !
+2023-06-01 19:33:15.795259 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 19:33:15.795741 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.795754 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.795760 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.795766 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:15.795772 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.795778 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.795784 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.795794 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.795810 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 19:33:15.795828 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 19:33:15.795874 [debug]: Send File 27515 bytes, Remain 0 bytes
+2023-06-01 19:33:15.795886 [info]: Client[6] quit!
+2023-06-01 19:33:15.795919 [info]: Client[6] (192.168.192.1:9381) Close, UserCount:2
+2023-06-01 19:33:15.795928 [debug]: Write Complete
+2023-06-01 19:33:15.796074 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.796532 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.796557 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.796564 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.796570 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.796576 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.796582 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.796588 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.796598 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.796612 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 19:33:15.796626 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 19:33:15.804592 [debug]: Send File 9929 bytes, Remain 0 bytes
+2023-06-01 19:33:15.804932 [info]: Client[7] quit!
+2023-06-01 19:33:15.805100 [info]: Client[7] (192.168.192.1:9382) Close, UserCount:1
+2023-06-01 19:33:15.805166 [debug]: Write Complete
+2023-06-01 19:33:15.806808 [debug]: Send File 47300 bytes, Remain 0 bytes
+2023-06-01 19:33:15.806969 [info]: Client[8] quit!
+2023-06-01 19:33:15.807089 [info]: Client[8] (192.168.192.1:9383) Close, UserCount:0
+2023-06-01 19:33:15.807143 [debug]: Write Complete
+2023-06-01 19:33:15.808714 [info]: Client[6] (192.168.192.1:9384) Connect, UserCount:1
+2023-06-01 19:33:15.809037 [info]: Client 6 connect !
+2023-06-01 19:33:15.809323 [debug]: Method: GET, Path: /images/instagram-image1.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.809930 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.810167 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.810267 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.810363 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.810534 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.810623 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.810671 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.810721 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image1.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.810785 [debug]: Response File Path = ./resources/images/instagram-image1.jpg
+2023-06-01 19:33:15.811098 [debug]: FileSize: 75836, 2 totalSize 75960
+2023-06-01 19:33:15.813913 [debug]: Send File 75960 bytes, Remain 0 bytes
+2023-06-01 19:33:15.814112 [info]: Client[6] quit!
+2023-06-01 19:33:15.814322 [info]: Client[6] (192.168.192.1:9384) Close, UserCount:0
+2023-06-01 19:33:15.814378 [debug]: Write Complete
+2023-06-01 19:33:15.814456 [info]: Client[6] (192.168.192.1:9385) Connect, UserCount:1
+2023-06-01 19:33:15.814519 [info]: Client 6 connect !
+2023-06-01 19:33:15.814566 [info]: Client[7] (192.168.192.1:9386) Connect, UserCount:2
+2023-06-01 19:33:15.814695 [info]: Client 7 connect !
+2023-06-01 19:33:15.814766 [info]: Client[8] (192.168.192.1:9387) Connect, UserCount:3
+2023-06-01 19:33:15.814819 [info]: Client 8 connect !
+2023-06-01 19:33:15.815526 [debug]: Method: GET, Path: /images/instagram-image2.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.816424 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.816597 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.816663 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.816722 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.816910 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.817043 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.817297 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.817406 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image2.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.817502 [debug]: Response File Path = ./resources/images/instagram-image2.jpg
+2023-06-01 19:33:15.817584 [debug]: FileSize: 67313, 2 totalSize 67437
+2023-06-01 19:33:15.817824 [debug]: Method: GET, Path: /images/instagram-image3.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.818584 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.818757 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.818861 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.818960 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.819062 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.819167 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.819487 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.819588 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image3.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.819685 [debug]: Response File Path = ./resources/images/instagram-image3.jpg
+2023-06-01 19:33:15.819770 [debug]: FileSize: 59528, 2 totalSize 59652
+2023-06-01 19:33:15.819998 [debug]: Method: GET, Path: /images/instagram-image4.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.820603 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.820731 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.820857 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.820957 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.821053 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.821148 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.821244 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.821344 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image4.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.821461 [debug]: Response File Path = ./resources/images/instagram-image4.jpg
+2023-06-01 19:33:15.821766 [debug]: FileSize: 103418, 2 totalSize 103543
+2023-06-01 19:33:15.821871 [info]: Client[9] (192.168.192.1:9388) Connect, UserCount:4
+2023-06-01 19:33:15.821999 [info]: Client 9 connect !
+2023-06-01 19:33:15.823408 [debug]: Send File 67437 bytes, Remain 0 bytes
+2023-06-01 19:33:15.823651 [info]: Client[7] quit!
+2023-06-01 19:33:15.823911 [info]: Client[7] (192.168.192.1:9386) Close, UserCount:3
+2023-06-01 19:33:15.824044 [debug]: Write Complete
+2023-06-01 19:33:15.827932 [debug]: Send File 59652 bytes, Remain 0 bytes
+2023-06-01 19:33:15.828349 [info]: Client[6] quit!
+2023-06-01 19:33:15.828631 [info]: Client[6] (192.168.192.1:9385) Close, UserCount:2
+2023-06-01 19:33:15.828734 [debug]: Write Complete
+2023-06-01 19:33:15.831610 [debug]: Send File 103543 bytes, Remain 0 bytes
+2023-06-01 19:33:15.831792 [info]: Client[8] quit!
+2023-06-01 19:33:15.831927 [info]: Client[8] (192.168.192.1:9387) Close, UserCount:1
+2023-06-01 19:33:15.832001 [debug]: Write Complete
+2023-06-01 19:33:15.832338 [debug]: Method: GET, Path: /images/instagram-image5.jpg, Version: HTTP/1.1
+2023-06-01 19:33:15.833279 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.833556 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.833669 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.833749 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:15.833828 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.833908 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.833988 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.834092 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image5.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.834217 [debug]: Response File Path = ./resources/images/instagram-image5.jpg
+2023-06-01 19:33:15.834337 [debug]: FileSize: 49545, 2 totalSize 49669
+2023-06-01 19:33:15.835843 [debug]: Send File 49669 bytes, Remain 0 bytes
+2023-06-01 19:33:15.836056 [info]: Client[9] quit!
+2023-06-01 19:33:15.836273 [info]: Client[9] (192.168.192.1:9388) Close, UserCount:0
+2023-06-01 19:33:15.836390 [debug]: Write Complete
+2023-06-01 19:33:15.856058 [info]: Client[6] (192.168.192.1:9389) Connect, UserCount:1
+2023-06-01 19:33:15.856251 [info]: Client 6 connect !
+2023-06-01 19:33:15.856344 [info]: Client[7] (192.168.192.1:9390) Connect, UserCount:2
+2023-06-01 19:33:15.856416 [info]: Client 7 connect !
+2023-06-01 19:33:15.856862 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 19:33:15.858320 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.858503 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.858645 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.858785 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.858947 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.859024 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.859095 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.859223 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.859396 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 19:33:15.859499 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 19:33:15.859681 [info]: Client[8] (192.168.192.1:9391) Connect, UserCount:3
+2023-06-01 19:33:15.859826 [info]: Client 8 connect !
+2023-06-01 19:33:15.860384 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 19:33:15.861701 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.861904 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.862052 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.862194 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.862333 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.862576 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.862726 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.862851 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.862997 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 19:33:15.863079 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 19:33:15.864910 [debug]: Send File 85788 bytes, Remain 0 bytes
+2023-06-01 19:33:15.865222 [info]: Client[6] quit!
+2023-06-01 19:33:15.865755 [info]: Client[6] (192.168.192.1:9389) Close, UserCount:2
+2023-06-01 19:33:15.866040 [debug]: Write Complete
+2023-06-01 19:33:15.866171 [info]: Client[6] (192.168.192.1:9392) Connect, UserCount:3
+2023-06-01 19:33:15.866254 [info]: Client 6 connect !
+2023-06-01 19:33:15.866758 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 19:33:15.868003 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.868164 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.868238 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.868307 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.868377 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.868451 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.868521 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.868598 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.868691 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 19:33:15.868898 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 19:33:15.873513 [debug]: Send File 36998 bytes, Remain 0 bytes
+2023-06-01 19:33:15.873906 [info]: Client[7] quit!
+2023-06-01 19:33:15.874437 [info]: Client[7] (192.168.192.1:9390) Close, UserCount:2
+2023-06-01 19:33:15.874602 [debug]: Write Complete
+2023-06-01 19:33:15.874796 [info]: Client[7] (192.168.192.1:9393) Connect, UserCount:3
+2023-06-01 19:33:15.874874 [info]: Client 7 connect !
+2023-06-01 19:33:15.875105 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 19:33:15.876426 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.876585 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.876726 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.877180 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.877284 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.877358 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.877442 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.877518 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.877609 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 19:33:15.877711 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 19:33:15.877946 [debug]: Send File 4603 bytes, Remain 0 bytes
+2023-06-01 19:33:15.878182 [info]: Client[8] quit!
+2023-06-01 19:33:15.878362 [info]: Client[8] (192.168.192.1:9391) Close, UserCount:2
+2023-06-01 19:33:15.878455 [debug]: Write Complete
+2023-06-01 19:33:15.878555 [info]: Client[8] (192.168.192.1:9394) Connect, UserCount:3
+2023-06-01 19:33:15.878629 [info]: Client 8 connect !
+2023-06-01 19:33:15.878862 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 19:33:15.879748 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.879873 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.879949 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.880115 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.880186 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.880396 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.880700 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.880871 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.880976 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 19:33:15.881078 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 19:33:15.881681 [debug]: Send File 21062 bytes, Remain 0 bytes
+2023-06-01 19:33:15.881808 [info]: Client[6] quit!
+2023-06-01 19:33:15.881917 [info]: Client[6] (192.168.192.1:9392) Close, UserCount:2
+2023-06-01 19:33:15.881988 [debug]: Write Complete
+2023-06-01 19:33:15.882207 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 19:33:15.883267 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.883624 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.883715 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.883785 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.883855 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.883929 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.884009 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.884093 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.884186 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 19:33:15.884286 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 19:33:15.884476 [debug]: Send File 1198 bytes, Remain 0 bytes
+2023-06-01 19:33:15.884591 [info]: Client[7] quit!
+2023-06-01 19:33:15.885008 [info]: Client[7] (192.168.192.1:9393) Close, UserCount:1
+2023-06-01 19:33:15.885137 [debug]: Write Complete
+2023-06-01 19:33:15.885409 [debug]: Send File 7211 bytes, Remain 0 bytes
+2023-06-01 19:33:15.885521 [info]: Client[8] quit!
+2023-06-01 19:33:15.885642 [info]: Client[8] (192.168.192.1:9394) Close, UserCount:0
+2023-06-01 19:33:15.885723 [debug]: Write Complete
+2023-06-01 19:33:15.888955 [info]: Client[6] (192.168.192.1:9395) Connect, UserCount:1
+2023-06-01 19:33:15.889291 [info]: Client 6 connect !
+2023-06-01 19:33:15.889737 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 19:33:15.890520 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:15.890685 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:15.890939 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:15.891034 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:15.891138 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:15.891278 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:15.891416 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:15.891563 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:15.891750 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 19:33:15.892356 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 19:33:15.892692 [debug]: Send File 1176 bytes, Remain 0 bytes
+2023-06-01 19:33:15.893161 [info]: Client[6] quit!
+2023-06-01 19:33:15.893465 [info]: Client[6] (192.168.192.1:9395) Close, UserCount:0
+2023-06-01 19:33:15.893653 [debug]: Write Complete
+2023-06-01 19:33:23.364258 [info]: Client[6] (192.168.192.1:9398) Connect, UserCount:1
+2023-06-01 19:33:23.364330 [info]: Client 6 connect !
+2023-06-01 19:33:23.364628 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-06-01 19:33:23.365585 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.365704 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.365758 [debug]: Request Header REFERER: http://192.168.192.129:8090/picture
+2023-06-01 19:33:23.365776 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:33:23.365791 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.365806 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:33:23.365812 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.365818 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.365826 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.365849 [debug]: Response File Path = ./resources/video.html
+2023-06-01 19:33:23.365881 [debug]: FileSize: 3347, 2 totalSize 3469
+2023-06-01 19:33:23.367023 [debug]: Send File 3469 bytes, Remain 0 bytes
+2023-06-01 19:33:23.367104 [info]: Client[6] quit!
+2023-06-01 19:33:23.367342 [info]: Client[6] (192.168.192.1:9398) Close, UserCount:0
+2023-06-01 19:33:23.367370 [debug]: Write Complete
+2023-06-01 19:33:23.416825 [info]: Client[6] (192.168.192.1:9399) Connect, UserCount:1
+2023-06-01 19:33:23.416962 [info]: Client 6 connect !
+2023-06-01 19:33:23.417056 [info]: Client[7] (192.168.192.1:9400) Connect, UserCount:2
+2023-06-01 19:33:23.417104 [info]: Client 7 connect !
+2023-06-01 19:33:23.417305 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 19:33:23.417947 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.418058 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.418106 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.418144 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:23.418176 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.418212 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.418246 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.418288 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.418391 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 19:33:23.418507 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 19:33:23.418618 [info]: Client[8] (192.168.192.1:9401) Connect, UserCount:3
+2023-06-01 19:33:23.418706 [info]: Client 8 connect !
+2023-06-01 19:33:23.418956 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 19:33:23.419566 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.419686 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.419746 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.419787 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:23.419823 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.419914 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.419967 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.420014 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.420111 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 19:33:23.420296 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 19:33:23.421187 [debug]: Send File 121384 bytes, Remain 0 bytes
+2023-06-01 19:33:23.421377 [info]: Client[6] quit!
+2023-06-01 19:33:23.428913 [info]: Client[6] (192.168.192.1:9399) Close, UserCount:2
+2023-06-01 19:33:23.429600 [debug]: Write Complete
+2023-06-01 19:33:23.429779 [info]: Client[6] (192.168.192.1:9402) Connect, UserCount:3
+2023-06-01 19:33:23.429832 [info]: Client 6 connect !
+2023-06-01 19:33:23.430060 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 19:33:23.430665 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.430732 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.430775 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.430817 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:23.430856 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.430927 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.430957 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.430995 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.431044 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 19:33:23.431091 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 19:33:23.432655 [debug]: Send File 73045 bytes, Remain 0 bytes
+2023-06-01 19:33:23.432827 [info]: Client[7] quit!
+2023-06-01 19:33:23.432989 [info]: Client[7] (192.168.192.1:9400) Close, UserCount:2
+2023-06-01 19:33:23.433106 [debug]: Write Complete
+2023-06-01 19:33:23.433227 [info]: Client[7] (192.168.192.1:9403) Connect, UserCount:3
+2023-06-01 19:33:23.433334 [info]: Client 7 connect !
+2023-06-01 19:33:23.433581 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 19:33:23.434807 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.434968 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.435070 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.435119 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:23.435158 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.435196 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.435265 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.435343 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.435437 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 19:33:23.435594 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 19:33:23.441911 [debug]: Send File 7073 bytes, Remain 0 bytes
+2023-06-01 19:33:23.442060 [info]: Client[8] quit!
+2023-06-01 19:33:23.442201 [info]: Client[8] (192.168.192.1:9401) Close, UserCount:2
+2023-06-01 19:33:23.442271 [debug]: Write Complete
+2023-06-01 19:33:23.442370 [info]: Client[8] (192.168.192.1:9404) Connect, UserCount:3
+2023-06-01 19:33:23.442438 [info]: Client 8 connect !
+2023-06-01 19:33:23.442782 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 19:33:23.443883 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.444046 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.444139 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.444216 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:23.444285 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.444354 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.444421 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.444813 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.444924 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 19:33:23.445010 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 19:33:23.445339 [debug]: Send File 27515 bytes, Remain 0 bytes
+2023-06-01 19:33:23.445492 [info]: Client[6] quit!
+2023-06-01 19:33:23.445623 [info]: Client[6] (192.168.192.1:9402) Close, UserCount:2
+2023-06-01 19:33:23.445869 [debug]: Write Complete
+2023-06-01 19:33:23.446308 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 19:33:23.447427 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.447576 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.447660 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.447731 [debug]: Request Header ACCEPT: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-01 19:33:23.447804 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.447988 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.448085 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.448189 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.448288 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 19:33:23.448493 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 19:33:23.449313 [debug]: Send File 9929 bytes, Remain 0 bytes
+2023-06-01 19:33:23.449546 [info]: Client[7] quit!
+2023-06-01 19:33:23.449660 [info]: Client[7] (192.168.192.1:9403) Close, UserCount:1
+2023-06-01 19:33:23.449719 [debug]: Write Complete
+2023-06-01 19:33:23.451587 [debug]: Send File 47300 bytes, Remain 0 bytes
+2023-06-01 19:33:23.451787 [info]: Client[8] quit!
+2023-06-01 19:33:23.451934 [info]: Client[8] (192.168.192.1:9404) Close, UserCount:0
+2023-06-01 19:33:23.452029 [debug]: Write Complete
+2023-06-01 19:33:23.453092 [info]: Client[6] (192.168.192.1:9405) Connect, UserCount:1
+2023-06-01 19:33:23.453234 [info]: Client 6 connect !
+2023-06-01 19:33:23.453463 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-01 19:33:23.454206 [debug]: Request Header RANGE: bytes=0-
+2023-06-01 19:33:23.454358 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.454413 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.454453 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.454508 [debug]: Request Header ACCEPT-ENCODING: identity;q=1, *;q=0
+2023-06-01 19:33:23.454553 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.454627 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.454705 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.455159 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.455304 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-01 19:33:23.455389 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-01 19:33:23.455583 [debug]: Send File 143080 bytes, Remain 39524617 bytes
+2023-06-01 19:33:23.455746 [debug]: Write Again
+2023-06-01 19:33:23.462572 [debug]: Send File 192720 bytes, Remain 39331897 bytes
+2023-06-01 19:33:23.464167 [debug]: Send File 128480 bytes, Remain 39203417 bytes
+2023-06-01 19:33:23.464481 [debug]: Write Again
+2023-06-01 19:33:23.477074 [debug]: Send File 192720 bytes, Remain 39010697 bytes
+2023-06-01 19:33:23.477385 [debug]: Write Again
+2023-06-01 19:33:23.479349 [info]: Client[7] (192.168.192.1:9406) Connect, UserCount:2
+2023-06-01 19:33:23.479752 [info]: Client 7 connect !
+2023-06-01 19:33:23.479917 [info]: Client[8] (192.168.192.1:9407) Connect, UserCount:3
+2023-06-01 19:33:23.480010 [info]: Client 8 connect !
+2023-06-01 19:33:23.480300 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 19:33:23.481274 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.481390 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.481469 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.481538 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.481606 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.481676 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.481806 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.481934 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.482059 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 19:33:23.482149 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 19:33:23.482277 [info]: Client[9] (192.168.192.1:9408) Connect, UserCount:4
+2023-06-01 19:33:23.482453 [info]: Client 9 connect !
+2023-06-01 19:33:23.482905 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 19:33:23.484164 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.484337 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.484485 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.484831 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.485004 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.485133 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.485340 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.485519 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.485708 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 19:33:23.485879 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 19:33:23.488168 [debug]: Send File 85788 bytes, Remain 0 bytes
+2023-06-01 19:33:23.488368 [info]: Client[7] quit!
+2023-06-01 19:33:23.493203 [info]: Client[7] (192.168.192.1:9406) Close, UserCount:3
+2023-06-01 19:33:23.493727 [debug]: Write Complete
+2023-06-01 19:33:23.493825 [info]: Client[7] (192.168.192.1:9409) Connect, UserCount:4
+2023-06-01 19:33:23.493852 [info]: Client 7 connect !
+2023-06-01 19:33:23.494238 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 19:33:23.495281 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.495315 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.495335 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.495351 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.495365 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.495382 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.495397 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.495424 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.495471 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 19:33:23.495514 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 19:33:23.495878 [debug]: Send File 36998 bytes, Remain 0 bytes
+2023-06-01 19:33:23.495956 [info]: Client[8] quit!
+2023-06-01 19:33:23.496055 [info]: Client[8] (192.168.192.1:9407) Close, UserCount:3
+2023-06-01 19:33:23.496086 [debug]: Write Complete
+2023-06-01 19:33:23.496368 [debug]: Send File 256960 bytes, Remain 38753737 bytes
+2023-06-01 19:33:23.496423 [debug]: Write Again
+2023-06-01 19:33:23.496478 [info]: Client[8] (192.168.192.1:9410) Connect, UserCount:4
+2023-06-01 19:33:23.496500 [info]: Client 8 connect !
+2023-06-01 19:33:23.497267 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 19:33:23.498363 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.498385 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.498392 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.498398 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.498405 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.498411 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.498417 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.498429 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.498451 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 19:33:23.498487 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 19:33:23.498631 [debug]: Send File 1198 bytes, Remain 0 bytes
+2023-06-01 19:33:23.498665 [info]: Client[9] quit!
+2023-06-01 19:33:23.498790 [info]: Client[9] (192.168.192.1:9408) Close, UserCount:3
+2023-06-01 19:33:23.498833 [debug]: Write Complete
+2023-06-01 19:33:23.499167 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 19:33:23.500221 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.500266 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.500282 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.500296 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.500308 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.500321 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.500344 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.500364 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.500399 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 19:33:23.500434 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 19:33:23.500769 [debug]: Send File 21062 bytes, Remain 0 bytes
+2023-06-01 19:33:23.500847 [info]: Client[7] quit!
+2023-06-01 19:33:23.500897 [info]: Client[7] (192.168.192.1:9409) Close, UserCount:2
+2023-06-01 19:33:23.500908 [debug]: Write Complete
+2023-06-01 19:33:23.501065 [debug]: Send File 4603 bytes, Remain 0 bytes
+2023-06-01 19:33:23.501093 [info]: Client[8] quit!
+2023-06-01 19:33:23.501176 [info]: Client[8] (192.168.192.1:9410) Close, UserCount:1
+2023-06-01 19:33:23.501201 [debug]: Write Complete
+2023-06-01 19:33:23.517958 [debug]: Send File 192720 bytes, Remain 38561017 bytes
+2023-06-01 19:33:23.518023 [debug]: Write Again
+2023-06-01 19:33:23.525459 [info]: Client[7] (192.168.192.1:9411) Connect, UserCount:2
+2023-06-01 19:33:23.525508 [info]: Client 7 connect !
+2023-06-01 19:33:23.525535 [info]: Client[8] (192.168.192.1:9412) Connect, UserCount:3
+2023-06-01 19:33:23.525545 [info]: Client 8 connect !
+2023-06-01 19:33:23.525701 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 19:33:23.526289 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.526329 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.526337 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.526349 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.526365 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.526382 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.526396 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.526414 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.526448 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 19:33:23.526495 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 19:33:23.526790 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 19:33:23.527726 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:23.527828 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:23.527843 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:23.527850 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:23.527858 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:23.527865 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:23.527872 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:23.527891 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:23.527921 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 19:33:23.527952 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 19:33:23.528901 [debug]: Send File 7211 bytes, Remain 0 bytes
+2023-06-01 19:33:23.528999 [info]: Client[7] quit!
+2023-06-01 19:33:23.529093 [info]: Client[7] (192.168.192.1:9411) Close, UserCount:2
+2023-06-01 19:33:23.529134 [debug]: Write Complete
+2023-06-01 19:33:23.529210 [debug]: Send File 1176 bytes, Remain 0 bytes
+2023-06-01 19:33:23.529230 [info]: Client[8] quit!
+2023-06-01 19:33:23.529268 [info]: Client[8] (192.168.192.1:9412) Close, UserCount:1
+2023-06-01 19:33:23.529278 [debug]: Write Complete
+2023-06-01 19:33:23.538226 [debug]: Send File 192720 bytes, Remain 38368297 bytes
+2023-06-01 19:33:23.538360 [debug]: Write Again
+2023-06-01 19:33:23.547934 [debug]: Send File 256960 bytes, Remain 38111337 bytes
+2023-06-01 19:33:23.548070 [debug]: Write Again
+2023-06-01 19:33:23.563721 [debug]: Send File 256960 bytes, Remain 37854377 bytes
+2023-06-01 19:33:23.564082 [debug]: Write Again
+2023-06-01 19:33:23.576242 [debug]: Send File 256960 bytes, Remain 37597417 bytes
+2023-06-01 19:33:23.576597 [debug]: Send File 64240 bytes, Remain 37533177 bytes
+2023-06-01 19:33:23.576625 [debug]: Write Again
+2023-06-01 19:33:23.589850 [debug]: Send File 256960 bytes, Remain 37276217 bytes
+2023-06-01 19:33:23.590005 [debug]: Write Again
+2023-06-01 19:33:23.603463 [debug]: Send File 321200 bytes, Remain 36955017 bytes
+2023-06-01 19:33:23.603575 [debug]: Write Again
+2023-06-01 19:33:23.628246 [debug]: Send File 321200 bytes, Remain 36633817 bytes
+2023-06-01 19:33:23.628320 [debug]: Write Again
+2023-06-01 19:33:23.645657 [debug]: Send File 321200 bytes, Remain 36312617 bytes
+2023-06-01 19:33:23.645712 [debug]: Write Again
+2023-06-01 19:33:23.668419 [debug]: Send File 321200 bytes, Remain 35991417 bytes
+2023-06-01 19:33:23.668482 [debug]: Write Again
+2023-06-01 19:33:23.683411 [debug]: Send File 321200 bytes, Remain 35670217 bytes
+2023-06-01 19:33:23.683472 [debug]: Write Again
+2023-06-01 19:33:23.706922 [debug]: Send File 385440 bytes, Remain 35284777 bytes
+2023-06-01 19:33:23.707420 [debug]: Write Again
+2023-06-01 19:33:23.735815 [debug]: Send File 449680 bytes, Remain 34835097 bytes
+2023-06-01 19:33:23.735918 [debug]: Write Again
+2023-06-01 19:33:23.767153 [debug]: Send File 385440 bytes, Remain 34449657 bytes
+2023-06-01 19:33:23.767431 [debug]: Write Again
+2023-06-01 19:33:23.801263 [debug]: Send File 449680 bytes, Remain 33999977 bytes
+2023-06-01 19:33:23.801830 [debug]: Write Again
+2023-06-01 19:33:23.821236 [debug]: Send File 513920 bytes, Remain 33486057 bytes
+2023-06-01 19:33:23.821333 [debug]: Write Again
+2023-06-01 19:33:23.842757 [debug]: Send File 513920 bytes, Remain 32972137 bytes
+2023-06-01 19:33:23.842920 [debug]: Write Again
+2023-06-01 19:33:23.865282 [debug]: Send File 513920 bytes, Remain 32458217 bytes
+2023-06-01 19:33:23.865694 [debug]: Write Again
+2023-06-01 19:33:23.887196 [debug]: Send File 578160 bytes, Remain 31880057 bytes
+2023-06-01 19:33:23.887342 [debug]: Write Again
+2023-06-01 19:33:23.914137 [debug]: Send File 578160 bytes, Remain 31301897 bytes
+2023-06-01 19:33:23.914252 [debug]: Write Again
+2023-06-01 19:33:23.945283 [debug]: Send File 706640 bytes, Remain 30595257 bytes
+2023-06-01 19:33:23.945431 [debug]: Write Again
+2023-06-01 19:33:23.985533 [debug]: Send File 770880 bytes, Remain 29824377 bytes
+2023-06-01 19:33:23.985649 [debug]: Write Again
+2023-06-01 19:33:24.017238 [debug]: Send File 642400 bytes, Remain 29181977 bytes
+2023-06-01 19:33:24.017542 [debug]: Write Again
+2023-06-01 19:33:24.046646 [debug]: Send File 706640 bytes, Remain 28475337 bytes
+2023-06-01 19:33:24.047146 [debug]: Write Again
+2023-06-01 19:33:27.969276 [debug]: Send File 706640 bytes, Remain 27768697 bytes
+2023-06-01 19:33:27.969372 [debug]: Write Again
+2023-06-01 19:33:28.006483 [debug]: Send File 706640 bytes, Remain 27062057 bytes
+2023-06-01 19:33:28.006559 [debug]: Write Again
+2023-06-01 19:33:28.046081 [debug]: Send File 770880 bytes, Remain 26291177 bytes
+2023-06-01 19:33:28.046171 [debug]: Write Again
+2023-06-01 19:33:28.093195 [debug]: Send File 835120 bytes, Remain 25456057 bytes
+2023-06-01 19:33:28.093252 [debug]: Write Again
+2023-06-01 19:33:28.126501 [debug]: Send File 706640 bytes, Remain 24749417 bytes
+2023-06-01 19:33:28.126777 [debug]: Write Again
+2023-06-01 19:33:28.161622 [debug]: Send File 835120 bytes, Remain 23914297 bytes
+2023-06-01 19:33:28.161706 [debug]: Write Again
+2023-06-01 19:33:28.201517 [debug]: Send File 770880 bytes, Remain 23143417 bytes
+2023-06-01 19:33:28.201591 [debug]: Write Again
+2023-06-01 19:33:28.240109 [debug]: Send File 770880 bytes, Remain 22372537 bytes
+2023-06-01 19:33:28.240194 [debug]: Write Again
+2023-06-01 19:33:28.283613 [debug]: Send File 770880 bytes, Remain 21601657 bytes
+2023-06-01 19:33:28.283669 [debug]: Write Again
+2023-06-01 19:33:28.317881 [debug]: Send File 706640 bytes, Remain 20895017 bytes
+2023-06-01 19:33:28.317964 [debug]: Write Again
+2023-06-01 19:33:28.357059 [debug]: Send File 835120 bytes, Remain 20059897 bytes
+2023-06-01 19:33:28.357133 [debug]: Write Again
+2023-06-01 19:33:28.397291 [debug]: Send File 835120 bytes, Remain 19224777 bytes
+2023-06-01 19:33:28.397374 [debug]: Write Again
+2023-06-01 19:33:28.437379 [debug]: Send File 770880 bytes, Remain 18453897 bytes
+2023-06-01 19:33:28.437465 [debug]: Write Again
+2023-06-01 19:33:28.465133 [debug]: Send File 770880 bytes, Remain 17683017 bytes
+2023-06-01 19:33:28.465207 [debug]: Write Again
+2023-06-01 19:33:28.498268 [debug]: Send File 770880 bytes, Remain 16912137 bytes
+2023-06-01 19:33:28.498336 [debug]: Write Again
+2023-06-01 19:33:28.538537 [debug]: Send File 770880 bytes, Remain 16141257 bytes
+2023-06-01 19:33:28.538612 [debug]: Write Again
+2023-06-01 19:33:28.568368 [debug]: Send File 770880 bytes, Remain 15370377 bytes
+2023-06-01 19:33:28.568442 [debug]: Write Again
+2023-06-01 19:33:28.607293 [debug]: Send File 770880 bytes, Remain 14599497 bytes
+2023-06-01 19:33:28.607350 [debug]: Write Again
+2023-06-01 19:33:28.645358 [debug]: Send File 770880 bytes, Remain 13828617 bytes
+2023-06-01 19:33:28.645447 [debug]: Write Again
+2023-06-01 19:33:28.694188 [debug]: Send File 770880 bytes, Remain 13057737 bytes
+2023-06-01 19:33:28.694247 [debug]: Write Again
+2023-06-01 19:33:28.723881 [debug]: Send File 899360 bytes, Remain 12158377 bytes
+2023-06-01 19:33:28.723953 [debug]: Write Again
+2023-06-01 19:33:28.765255 [debug]: Send File 835120 bytes, Remain 11323257 bytes
+2023-06-01 19:33:28.765748 [debug]: Write Again
+2023-06-01 19:33:28.805302 [debug]: Send File 770880 bytes, Remain 10552377 bytes
+2023-06-01 19:33:28.805375 [debug]: Write Again
+2023-06-01 19:33:28.845703 [debug]: Send File 835120 bytes, Remain 9717257 bytes
+2023-06-01 19:33:28.845790 [debug]: Write Again
+2023-06-01 19:33:28.885789 [debug]: Send File 770880 bytes, Remain 8946377 bytes
+2023-06-01 19:33:28.885845 [debug]: Write Again
+2023-06-01 19:33:28.919062 [debug]: Send File 835120 bytes, Remain 8111257 bytes
+2023-06-01 19:33:28.919480 [debug]: Send File 128480 bytes, Remain 7982777 bytes
+2023-06-01 19:33:28.919640 [debug]: Write Again
+2023-06-01 19:33:28.948467 [debug]: Send File 770880 bytes, Remain 7211897 bytes
+2023-06-01 19:33:28.948569 [debug]: Write Again
+2023-06-01 19:33:28.986650 [debug]: Send File 899360 bytes, Remain 6312537 bytes
+2023-06-01 19:33:28.987228 [debug]: Write Again
+2023-06-01 19:33:29.020602 [debug]: Send File 770880 bytes, Remain 5541657 bytes
+2023-06-01 19:33:29.020657 [debug]: Write Again
+2023-06-01 19:33:29.050330 [debug]: Send File 835120 bytes, Remain 4706537 bytes
+2023-06-01 19:33:29.050415 [debug]: Write Again
+2023-06-01 19:33:29.089337 [debug]: Send File 899360 bytes, Remain 3807177 bytes
+2023-06-01 19:33:29.089630 [debug]: Write Again
+2023-06-01 19:33:29.129897 [debug]: Send File 835120 bytes, Remain 2972057 bytes
+2023-06-01 19:33:29.129978 [debug]: Write Again
+2023-06-01 19:33:29.482948 [debug]: Send File 835120 bytes, Remain 2136937 bytes
+2023-06-01 19:33:29.483466 [debug]: Send File 64240 bytes, Remain 2072697 bytes
+2023-06-01 19:33:29.483655 [debug]: Write Again
+2023-06-01 19:33:29.535559 [debug]: Send File 899360 bytes, Remain 1173337 bytes
+2023-06-01 19:33:29.535656 [debug]: Write Again
+2023-06-01 19:33:30.477558 [debug]: Send File 835120 bytes, Remain 338217 bytes
+2023-06-01 19:33:30.477644 [debug]: Write Again
+2023-06-01 19:33:30.517126 [debug]: Send File 338217 bytes, Remain 0 bytes
+2023-06-01 19:33:30.517212 [info]: Client[6] quit!
+2023-06-01 19:33:30.519867 [info]: Client[6] (192.168.192.1:9405) Close, UserCount:0
+2023-06-01 19:33:30.520252 [debug]: Write Complete
+2023-06-01 19:33:48.747727 [info]: Client[6] (192.168.192.1:9417) Connect, UserCount:1
+2023-06-01 19:33:48.747865 [info]: Client 6 connect !
+2023-06-01 19:33:48.748170 [debug]: Method: GET, Path: /login, Version: HTTP/1.1
+2023-06-01 19:33:48.749092 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.749162 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.749176 [debug]: Request Header REFERER: http://192.168.192.129:8090/video
+2023-06-01 19:33:48.749184 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:33:48.749190 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.749197 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:33:48.749203 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.749215 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.749233 [debug]: Parse Finish:  Method = GET, Path = /login.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.749273 [debug]: Response File Path = ./resources/login.html
+2023-06-01 19:33:48.749332 [debug]: FileSize: 3385, 2 totalSize 3507
+2023-06-01 19:33:48.751527 [debug]: Send File 3507 bytes, Remain 0 bytes
+2023-06-01 19:33:48.752071 [info]: Client[6] quit!
+2023-06-01 19:33:48.752627 [info]: Client[6] (192.168.192.1:9417) Close, UserCount:0
+2023-06-01 19:33:48.752729 [debug]: Write Complete
+2023-06-01 19:33:48.810173 [info]: Client[6] (192.168.192.1:9418) Connect, UserCount:1
+2023-06-01 19:33:48.810632 [info]: Client 6 connect !
+2023-06-01 19:33:48.810743 [info]: Client[7] (192.168.192.1:9419) Connect, UserCount:2
+2023-06-01 19:33:48.810765 [info]: Client 7 connect !
+2023-06-01 19:33:48.810953 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 19:33:48.811547 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.811582 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.811591 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.811598 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:48.811605 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.811612 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.811618 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.811632 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.811656 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 19:33:48.811679 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 19:33:48.811713 [info]: Client[8] (192.168.192.1:9420) Connect, UserCount:3
+2023-06-01 19:33:48.811723 [info]: Client 8 connect !
+2023-06-01 19:33:48.811897 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 19:33:48.812480 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.812513 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.812521 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.812528 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:48.812535 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.812543 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.812549 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.812564 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.812588 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 19:33:48.812610 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 19:33:48.814362 [debug]: Send File 121384 bytes, Remain 0 bytes
+2023-06-01 19:33:48.814442 [info]: Client[6] quit!
+2023-06-01 19:33:48.814525 [info]: Client[6] (192.168.192.1:9418) Close, UserCount:2
+2023-06-01 19:33:48.814540 [debug]: Write Complete
+2023-06-01 19:33:48.814586 [info]: Client[6] (192.168.192.1:9421) Connect, UserCount:3
+2023-06-01 19:33:48.814598 [info]: Client 6 connect !
+2023-06-01 19:33:48.814777 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 19:33:48.815356 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.815385 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.815392 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.815399 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:48.815405 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.815411 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.815417 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.815432 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.815458 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 19:33:48.815502 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 19:33:48.818343 [debug]: Send File 73045 bytes, Remain 0 bytes
+2023-06-01 19:33:48.818397 [info]: Client[7] quit!
+2023-06-01 19:33:48.818467 [info]: Client[7] (192.168.192.1:9419) Close, UserCount:2
+2023-06-01 19:33:48.818483 [debug]: Write Complete
+2023-06-01 19:33:48.818658 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 19:33:48.819300 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.820388 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.820397 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.820450 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:48.820460 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.820468 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.820478 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.820504 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.820530 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 19:33:48.820629 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 19:33:48.820714 [debug]: Send File 7073 bytes, Remain 0 bytes
+2023-06-01 19:33:48.820726 [info]: Client[8] quit!
+2023-06-01 19:33:48.820894 [info]: Client[8] (192.168.192.1:9420) Close, UserCount:1
+2023-06-01 19:33:48.820933 [debug]: Write Complete
+2023-06-01 19:33:48.821056 [info]: Client[7] (192.168.192.1:9422) Connect, UserCount:2
+2023-06-01 19:33:48.821093 [info]: Client 7 connect !
+2023-06-01 19:33:48.821149 [debug]: Send File 27515 bytes, Remain 0 bytes
+2023-06-01 19:33:48.821159 [info]: Client[6] quit!
+2023-06-01 19:33:48.821192 [info]: Client[6] (192.168.192.1:9421) Close, UserCount:1
+2023-06-01 19:33:48.821215 [debug]: Write Complete
+2023-06-01 19:33:48.821263 [info]: Client[6] (192.168.192.1:9423) Connect, UserCount:2
+2023-06-01 19:33:48.821282 [info]: Client 6 connect !
+2023-06-01 19:33:48.821602 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 19:33:48.822417 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.822466 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.822485 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.822503 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:48.822519 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.822535 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.822551 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.822575 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.822613 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 19:33:48.822652 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 19:33:48.823109 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 19:33:48.825063 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.825115 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.825123 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.825130 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.825136 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.825204 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.825329 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.825374 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.825405 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 19:33:48.825429 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 19:33:48.825494 [debug]: Send File 9929 bytes, Remain 0 bytes
+2023-06-01 19:33:48.825506 [info]: Client[7] quit!
+2023-06-01 19:33:48.825559 [info]: Client[7] (192.168.192.1:9422) Close, UserCount:1
+2023-06-01 19:33:48.825569 [debug]: Write Complete
+2023-06-01 19:33:48.825656 [debug]: Send File 85788 bytes, Remain 0 bytes
+2023-06-01 19:33:48.825670 [info]: Client[6] quit!
+2023-06-01 19:33:48.825719 [info]: Client[6] (192.168.192.1:9423) Close, UserCount:0
+2023-06-01 19:33:48.825731 [debug]: Write Complete
+2023-06-01 19:33:48.833548 [info]: Client[6] (192.168.192.1:9424) Connect, UserCount:1
+2023-06-01 19:33:48.833740 [info]: Client 6 connect !
+2023-06-01 19:33:48.834692 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 19:33:48.835704 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.835853 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.835969 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.836063 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.836131 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.836257 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.836508 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.836676 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.836892 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 19:33:48.837063 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 19:33:48.839046 [debug]: Send File 36998 bytes, Remain 0 bytes
+2023-06-01 19:33:48.839217 [info]: Client[6] quit!
+2023-06-01 19:33:48.839419 [info]: Client[6] (192.168.192.1:9424) Close, UserCount:0
+2023-06-01 19:33:48.839567 [debug]: Write Complete
+2023-06-01 19:33:48.841885 [info]: Client[6] (192.168.192.1:9425) Connect, UserCount:1
+2023-06-01 19:33:48.842118 [info]: Client 6 connect !
+2023-06-01 19:33:48.842396 [info]: Client[7] (192.168.192.1:9426) Connect, UserCount:2
+2023-06-01 19:33:48.842552 [info]: Client 7 connect !
+2023-06-01 19:33:48.842844 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 19:33:48.843577 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.843762 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.843851 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.843933 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.844009 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.844086 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.844171 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.844296 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.844509 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 19:33:48.844633 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 19:33:48.845077 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 19:33:48.846013 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.846217 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.846339 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.846425 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.846509 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.846585 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.846841 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.847016 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.847155 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 19:33:48.847287 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 19:33:48.847448 [info]: Client[8] (192.168.192.1:9427) Connect, UserCount:3
+2023-06-01 19:33:48.847541 [info]: Client 8 connect !
+2023-06-01 19:33:48.848139 [debug]: Send File 4603 bytes, Remain 0 bytes
+2023-06-01 19:33:48.848330 [info]: Client[6] quit!
+2023-06-01 19:33:48.848536 [info]: Client[6] (192.168.192.1:9425) Close, UserCount:2
+2023-06-01 19:33:48.849260 [debug]: Write Complete
+2023-06-01 19:33:48.850696 [debug]: Send File 21062 bytes, Remain 0 bytes
+2023-06-01 19:33:48.850891 [info]: Client[7] quit!
+2023-06-01 19:33:48.851184 [info]: Client[7] (192.168.192.1:9426) Close, UserCount:1
+2023-06-01 19:33:48.851328 [debug]: Write Complete
+2023-06-01 19:33:48.851585 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 19:33:48.852536 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.852771 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.852893 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.853064 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.853146 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.853326 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.853452 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.853581 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.853745 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 19:33:48.854067 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 19:33:48.854313 [info]: Client[6] (192.168.192.1:9428) Connect, UserCount:2
+2023-06-01 19:33:48.854492 [info]: Client 6 connect !
+2023-06-01 19:33:48.854783 [debug]: Send File 1198 bytes, Remain 0 bytes
+2023-06-01 19:33:48.854980 [info]: Client[8] quit!
+2023-06-01 19:33:48.855276 [info]: Client[8] (192.168.192.1:9427) Close, UserCount:1
+2023-06-01 19:33:48.855638 [debug]: Write Complete
+2023-06-01 19:33:48.855817 [info]: Client[7] (192.168.192.1:9429) Connect, UserCount:2
+2023-06-01 19:33:48.856117 [info]: Client 7 connect !
+2023-06-01 19:33:48.857057 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 19:33:48.858472 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.858704 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.858883 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.858994 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.859138 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.859332 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.859408 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.859644 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.859872 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 19:33:48.860021 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 19:33:48.860271 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 19:33:48.861059 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:48.861224 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:48.861298 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:48.861366 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:48.861434 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:48.861502 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:48.861570 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:48.861645 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:48.861731 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 19:33:48.861897 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 19:33:48.862111 [debug]: Send File 7211 bytes, Remain 0 bytes
+2023-06-01 19:33:48.862203 [info]: Client[6] quit!
+2023-06-01 19:33:48.862410 [info]: Client[6] (192.168.192.1:9428) Close, UserCount:1
+2023-06-01 19:33:48.862555 [debug]: Write Complete
+2023-06-01 19:33:48.862807 [debug]: Send File 1176 bytes, Remain 0 bytes
+2023-06-01 19:33:48.862973 [info]: Client[7] quit!
+2023-06-01 19:33:48.863441 [info]: Client[7] (192.168.192.1:9429) Close, UserCount:0
+2023-06-01 19:33:48.863622 [debug]: Write Complete
+2023-06-01 19:33:52.433442 [info]: Client[6] (192.168.192.1:9435) Connect, UserCount:1
+2023-06-01 19:33:52.433505 [info]: Client 6 connect !
+2023-06-01 19:33:52.433793 [debug]: Method: GET, Path: /register, Version: HTTP/1.1
+2023-06-01 19:33:52.435507 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.435548 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.435566 [debug]: Request Header REFERER: http://192.168.192.129:8090/login
+2023-06-01 19:33:52.435581 [debug]: Request Header ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-01 19:33:52.435595 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.435607 [debug]: Request Header UPGRADE-INSECURE-REQUESTS: 1
+2023-06-01 19:33:52.435620 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.435632 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.435648 [debug]: Parse Finish:  Method = GET, Path = /register.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.435693 [debug]: Response File Path = ./resources/register.html
+2023-06-01 19:33:52.435751 [debug]: FileSize: 3380, 2 totalSize 3502
+2023-06-01 19:33:52.438254 [debug]: Send File 3502 bytes, Remain 0 bytes
+2023-06-01 19:33:52.438400 [info]: Client[6] quit!
+2023-06-01 19:33:52.439082 [info]: Client[6] (192.168.192.1:9435) Close, UserCount:0
+2023-06-01 19:33:52.439250 [debug]: Write Complete
+2023-06-01 19:33:52.492946 [info]: Client[6] (192.168.192.1:9436) Connect, UserCount:1
+2023-06-01 19:33:52.492994 [info]: Client 6 connect !
+2023-06-01 19:33:52.493289 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 19:33:52.493806 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.493932 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.493951 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.493959 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:52.493966 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.493993 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.494000 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.494014 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.494039 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 19:33:52.494063 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 19:33:52.495884 [debug]: Send File 121384 bytes, Remain 0 bytes
+2023-06-01 19:33:52.495927 [info]: Client[6] quit!
+2023-06-01 19:33:52.495997 [info]: Client[6] (192.168.192.1:9436) Close, UserCount:0
+2023-06-01 19:33:52.496009 [debug]: Write Complete
+2023-06-01 19:33:52.496040 [info]: Client[6] (192.168.192.1:9437) Connect, UserCount:1
+2023-06-01 19:33:52.496049 [info]: Client 6 connect !
+2023-06-01 19:33:52.496069 [info]: Client[7] (192.168.192.1:9438) Connect, UserCount:2
+2023-06-01 19:33:52.496085 [info]: Client 7 connect !
+2023-06-01 19:33:52.498017 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 19:33:52.501826 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.501915 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.501930 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.501938 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:52.501945 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.501953 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.501959 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.501972 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.501997 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 19:33:52.502022 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 19:33:52.502057 [info]: Client[8] (192.168.192.1:9439) Connect, UserCount:3
+2023-06-01 19:33:52.502070 [info]: Client 8 connect !
+2023-06-01 19:33:52.502266 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 19:33:52.503961 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.504012 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.504031 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.504047 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:52.504062 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.504079 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.504094 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.504118 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.504156 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 19:33:52.504201 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 19:33:52.506519 [debug]: Send File 73045 bytes, Remain 0 bytes
+2023-06-01 19:33:52.506606 [info]: Client[6] quit!
+2023-06-01 19:33:52.506686 [info]: Client[6] (192.168.192.1:9437) Close, UserCount:2
+2023-06-01 19:33:52.506710 [debug]: Write Complete
+2023-06-01 19:33:52.506752 [info]: Client[6] (192.168.192.1:9440) Connect, UserCount:3
+2023-06-01 19:33:52.506772 [info]: Client 6 connect !
+2023-06-01 19:33:52.507099 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 19:33:52.508675 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.508835 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.508847 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.508854 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:52.508866 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.508881 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.508895 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.508908 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.508935 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 19:33:52.508969 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 19:33:52.510044 [debug]: Send File 7073 bytes, Remain 0 bytes
+2023-06-01 19:33:52.510120 [info]: Client[7] quit!
+2023-06-01 19:33:52.510303 [info]: Client[7] (192.168.192.1:9438) Close, UserCount:2
+2023-06-01 19:33:52.510337 [debug]: Write Complete
+2023-06-01 19:33:52.510398 [info]: Client[7] (192.168.192.1:9441) Connect, UserCount:3
+2023-06-01 19:33:52.510419 [info]: Client 7 connect !
+2023-06-01 19:33:52.510753 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 19:33:52.511976 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.512098 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.512132 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.512159 [debug]: Request Header ACCEPT: text/css,*/*;q=0.1
+2023-06-01 19:33:52.512176 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.512192 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.512198 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.512208 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.512226 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 19:33:52.512681 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 19:33:52.519128 [debug]: Send File 27515 bytes, Remain 0 bytes
+2023-06-01 19:33:52.519186 [info]: Client[8] quit!
+2023-06-01 19:33:52.519265 [info]: Client[8] (192.168.192.1:9439) Close, UserCount:2
+2023-06-01 19:33:52.519286 [debug]: Write Complete
+2023-06-01 19:33:52.519607 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 19:33:52.521048 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.521093 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.521110 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.521124 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.521138 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.521152 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.521166 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.521188 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.521223 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 19:33:52.521257 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 19:33:52.522654 [debug]: Send File 9929 bytes, Remain 0 bytes
+2023-06-01 19:33:52.522687 [info]: Client[6] quit!
+2023-06-01 19:33:52.522757 [info]: Client[6] (192.168.192.1:9440) Close, UserCount:1
+2023-06-01 19:33:52.522777 [debug]: Write Complete
+2023-06-01 19:33:52.524583 [debug]: Send File 85788 bytes, Remain 0 bytes
+2023-06-01 19:33:52.524618 [info]: Client[7] quit!
+2023-06-01 19:33:52.524830 [info]: Client[7] (192.168.192.1:9441) Close, UserCount:0
+2023-06-01 19:33:52.524856 [debug]: Write Complete
+2023-06-01 19:33:52.539357 [info]: Client[6] (192.168.192.1:9442) Connect, UserCount:1
+2023-06-01 19:33:52.539619 [info]: Client 6 connect !
+2023-06-01 19:33:52.541636 [info]: Client[7] (192.168.192.1:9443) Connect, UserCount:2
+2023-06-01 19:33:52.541709 [info]: Client 7 connect !
+2023-06-01 19:33:52.542017 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 19:33:52.543794 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.543878 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.543894 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.543901 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.543908 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.543916 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.543923 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.543938 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.543966 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 19:33:52.543993 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 19:33:52.544031 [info]: Client[8] (192.168.192.1:9444) Connect, UserCount:3
+2023-06-01 19:33:52.544044 [info]: Client 8 connect !
+2023-06-01 19:33:52.544202 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 19:33:52.544991 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.545090 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.545106 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.545320 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.545680 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.546197 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.546235 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.546258 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.546300 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 19:33:52.546337 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 19:33:52.546567 [debug]: Send File 36998 bytes, Remain 0 bytes
+2023-06-01 19:33:52.546732 [info]: Client[6] quit!
+2023-06-01 19:33:52.546840 [info]: Client[6] (192.168.192.1:9442) Close, UserCount:2
+2023-06-01 19:33:52.546856 [debug]: Write Complete
+2023-06-01 19:33:52.546920 [info]: Client[6] (192.168.192.1:9445) Connect, UserCount:3
+2023-06-01 19:33:52.546935 [info]: Client 6 connect !
+2023-06-01 19:33:52.547157 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 19:33:52.547760 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.547824 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.547838 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.547845 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.547852 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.547859 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.547865 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.547898 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.547921 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 19:33:52.547943 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 19:33:52.548910 [debug]: Send File 4603 bytes, Remain 0 bytes
+2023-06-01 19:33:52.549041 [info]: Client[7] quit!
+2023-06-01 19:33:52.549141 [info]: Client[7] (192.168.192.1:9443) Close, UserCount:2
+2023-06-01 19:33:52.549159 [debug]: Write Complete
+2023-06-01 19:33:52.549194 [info]: Client[7] (192.168.192.1:9446) Connect, UserCount:3
+2023-06-01 19:33:52.549204 [info]: Client 7 connect !
+2023-06-01 19:33:52.549374 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 19:33:52.550096 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.550205 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.550218 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.550225 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.550233 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.550239 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.550246 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.550259 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.550282 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 19:33:52.550303 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 19:33:52.553875 [debug]: Send File 21062 bytes, Remain 0 bytes
+2023-06-01 19:33:52.554017 [info]: Client[8] quit!
+2023-06-01 19:33:52.554100 [info]: Client[8] (192.168.192.1:9444) Close, UserCount:2
+2023-06-01 19:33:52.554124 [debug]: Write Complete
+2023-06-01 19:33:52.554174 [info]: Client[8] (192.168.192.1:9447) Connect, UserCount:3
+2023-06-01 19:33:52.554197 [info]: Client 8 connect !
+2023-06-01 19:33:52.554602 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 19:33:52.556534 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.556619 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.557035 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.557068 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.557083 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.557097 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.557110 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.557216 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.557310 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 19:33:52.557340 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 19:33:52.557427 [debug]: Send File 1198 bytes, Remain 0 bytes
+2023-06-01 19:33:52.557452 [info]: Client[6] quit!
+2023-06-01 19:33:52.558680 [info]: Client[6] (192.168.192.1:9445) Close, UserCount:2
+2023-06-01 19:33:52.558775 [debug]: Write Complete
+2023-06-01 19:33:52.559020 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 19:33:52.559780 [debug]: Request Header ACCEPT-LANGUAGE: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4
+2023-06-01 19:33:52.559869 [debug]: Request Header ACCEPT-ENCODING: gzip, deflate
+2023-06-01 19:33:52.559887 [debug]: Request Header REFERER: http://192.168.192.129:8090/register
+2023-06-01 19:33:52.559895 [debug]: Request Header ACCEPT: */*
+2023-06-01 19:33:52.559923 [debug]: Request Header USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+2023-06-01 19:33:52.559938 [debug]: Request Header CONNECTION: keep-alive
+2023-06-01 19:33:52.559964 [debug]: Request Header HOST: 192.168.192.129:8090
+2023-06-01 19:33:52.559987 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 19:33:52.560031 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 19:33:52.560075 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 19:33:52.561189 [debug]: Send File 7211 bytes, Remain 0 bytes
+2023-06-01 19:33:52.561301 [info]: Client[7] quit!
+2023-06-01 19:33:52.561411 [info]: Client[7] (192.168.192.1:9446) Close, UserCount:1
+2023-06-01 19:33:52.561434 [debug]: Write Complete
+2023-06-01 19:33:52.561513 [debug]: Send File 1176 bytes, Remain 0 bytes
+2023-06-01 19:33:52.561569 [info]: Client[8] quit!
+2023-06-01 19:33:52.562017 [info]: Client[8] (192.168.192.1:9447) Close, UserCount:0
+2023-06-01 19:33:52.562083 [debug]: Write Complete
+2023-06-01 20:29:26.335205 [info]: Server port : 8090
+2023-06-01 20:29:26.335644 [info]: ============ Server Start ============
+2023-06-01 20:30:08.023984 [info]: Client[6] (192.168.192.1:11581) Connect, UserCount:1
+2023-06-01 20:30:08.024118 [info]: Client 6 connect !
+2023-06-01 20:30:08.024658 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-06-01 20:30:08.025713 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.025855 [debug]: Response File Path = ./resources/index.html
+2023-06-01 20:30:08.025911 [debug]: FileSize: 3148, 2 totalSize 3270
+2023-06-01 20:30:08.190244 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:30:08.191253 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.191355 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:30:08.191383 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:30:08.191544 [info]: Client[7] (192.168.192.1:11582) Connect, UserCount:2
+2023-06-01 20:30:08.191564 [info]: Client 7 connect !
+2023-06-01 20:30:08.192481 [info]: Client[8] (192.168.192.1:11583) Connect, UserCount:3
+2023-06-01 20:30:08.192521 [info]: Client 8 connect !
+2023-06-01 20:30:08.192694 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:30:08.193326 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.193361 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:30:08.193383 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:30:08.193438 [info]: Client[9] (192.168.192.1:11584) Connect, UserCount:4
+2023-06-01 20:30:08.193453 [info]: Client 9 connect !
+2023-06-01 20:30:08.193601 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:30:08.194275 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.194383 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:30:08.194413 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:30:08.195606 [info]: Client[10] (192.168.192.1:11585) Connect, UserCount:5
+2023-06-01 20:30:08.195734 [info]: Client 10 connect !
+2023-06-01 20:30:08.196126 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:30:08.197623 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.197695 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:30:08.197738 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:30:08.198450 [info]: Client[11] (192.168.192.1:11586) Connect, UserCount:6
+2023-06-01 20:30:08.198498 [info]: Client 11 connect !
+2023-06-01 20:30:08.198717 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:30:08.199517 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.199569 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:30:08.199610 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:30:08.212099 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 20:30:08.212911 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.213047 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 20:30:08.213093 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 20:30:08.323520 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:30:08.324448 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.324548 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:30:08.324579 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:30:08.324814 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:30:08.325539 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.325653 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:30:08.325689 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:30:08.326004 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:30:08.326667 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.326788 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:30:08.326823 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:30:08.327034 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:30:08.327574 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.327659 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:30:08.327689 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:30:08.327865 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:30:08.328500 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.328659 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:30:08.328704 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:30:08.328922 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:30:08.329603 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.329688 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:30:08.329727 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:30:08.358625 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:30:08.362167 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:08.363191 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:30:08.363571 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 20:30:45.663992 [debug]: Method: GET, Path: /picture, Version: HTTP/1.1
+2023-06-01 20:30:45.664932 [debug]: Parse Finish:  Method = GET, Path = /picture.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.665033 [debug]: Response File Path = ./resources/picture.html
+2023-06-01 20:30:45.665150 [debug]: FileSize: 3960, 2 totalSize 4082
+2023-06-01 20:30:45.714757 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:30:45.715774 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.715935 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:30:45.716002 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:30:45.716181 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:30:45.717130 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.717234 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:30:45.717271 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:30:45.717525 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:30:45.718460 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.718580 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:30:45.718617 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:30:45.728570 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:30:45.730423 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.730565 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:30:45.730603 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:30:45.731412 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:30:45.731966 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.732088 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:30:45.732140 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:30:45.736169 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.736947 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.737100 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 20:30:45.737147 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 20:30:45.740293 [debug]: Method: GET, Path: /images/instagram-image1.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.741597 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image1.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.741805 [debug]: Response File Path = ./resources/images/instagram-image1.jpg
+2023-06-01 20:30:45.741865 [debug]: FileSize: 75836, 2 totalSize 75960
+2023-06-01 20:30:45.742134 [debug]: Method: GET, Path: /images/instagram-image2.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.745140 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image2.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.745298 [debug]: Response File Path = ./resources/images/instagram-image2.jpg
+2023-06-01 20:30:45.745350 [debug]: FileSize: 67313, 2 totalSize 67437
+2023-06-01 20:30:45.749451 [debug]: Method: GET, Path: /images/instagram-image3.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.749993 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image3.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.750059 [debug]: Response File Path = ./resources/images/instagram-image3.jpg
+2023-06-01 20:30:45.750083 [debug]: FileSize: 59528, 2 totalSize 59652
+2023-06-01 20:30:45.750231 [debug]: Method: GET, Path: /images/instagram-image4.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.750758 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image4.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.750802 [debug]: Response File Path = ./resources/images/instagram-image4.jpg
+2023-06-01 20:30:45.750823 [debug]: FileSize: 103418, 2 totalSize 103543
+2023-06-01 20:30:45.751200 [debug]: Method: GET, Path: /images/instagram-image5.jpg, Version: HTTP/1.1
+2023-06-01 20:30:45.752052 [debug]: Parse Finish:  Method = GET, Path = /images/instagram-image5.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.752163 [debug]: Response File Path = ./resources/images/instagram-image5.jpg
+2023-06-01 20:30:45.752286 [debug]: FileSize: 49545, 2 totalSize 49669
+2023-06-01 20:30:45.798145 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:30:45.799368 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.799539 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:30:45.799587 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:30:45.799898 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:30:45.800920 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.801130 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:30:45.801180 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:30:45.801531 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:30:45.802716 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.802875 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:30:45.802918 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:30:45.803230 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:30:45.804417 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.804552 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:30:45.804591 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:30:45.804954 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:30:45.805842 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.805932 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:30:45.805953 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:30:45.806129 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:30:45.806694 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.806769 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:30:45.806790 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:30:45.821985 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:30:45.822923 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:45.823417 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:30:45.823450 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 20:30:54.241486 [debug]: Method: GET, Path: /video, Version: HTTP/1.1
+2023-06-01 20:30:54.242289 [debug]: Parse Finish:  Method = GET, Path = /video.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.242340 [debug]: Response File Path = ./resources/video.html
+2023-06-01 20:30:54.242374 [debug]: FileSize: 3347, 2 totalSize 3469
+2023-06-01 20:30:54.286119 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:30:54.287385 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.287476 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:30:54.287503 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:30:54.287693 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:30:54.288495 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.288580 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:30:54.288608 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:30:54.288907 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:30:54.289686 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.289837 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:30:54.289975 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:30:54.300665 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:30:54.301580 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.301740 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:30:54.301794 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:30:54.302070 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:30:54.302705 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.302816 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:30:54.302850 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:30:54.305822 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 20:30:54.306706 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.306898 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 20:30:54.306985 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 20:30:54.310724 [debug]: Method: GET, Path: /video/xxx.mp4, Version: HTTP/1.1
+2023-06-01 20:30:54.311386 [debug]: Parse Finish:  Method = GET, Path = /video/xxx.mp4, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.311463 [debug]: Response File Path = ./resources/video/xxx.mp4
+2023-06-01 20:30:54.311492 [debug]: FileSize: 39667571, 2 totalSize 39667697
+2023-06-01 20:30:54.342764 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:30:54.343415 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.343740 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:30:54.343864 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:30:54.344143 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:30:54.345130 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.345293 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:30:54.345403 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:30:54.345661 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:30:54.346465 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.346661 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:30:54.346750 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:30:54.347102 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:30:54.348677 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.348986 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:30:54.349143 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:30:54.349902 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:30:54.351102 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.351306 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:30:54.351452 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:30:54.375340 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:30:54.376835 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.377066 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:30:54.377340 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:30:54.377810 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:30:54.379521 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:30:54.379721 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:30:54.379859 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 20:31:21.655124 [debug]: Method: GET, Path: /login, Version: HTTP/1.1
+2023-06-01 20:31:21.655908 [debug]: Parse Finish:  Method = GET, Path = /login.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.658855 [debug]: Response File Path = ./resources/login.html
+2023-06-01 20:31:21.659112 [debug]: FileSize: 3385, 2 totalSize 3507
+2023-06-01 20:31:21.735014 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:31:21.735863 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.735961 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:31:21.736035 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:31:21.736251 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:31:21.736969 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.737111 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:31:21.737166 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:31:21.737405 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:31:21.738058 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.738178 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:31:21.738221 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:31:21.738418 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:31:21.739423 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.739591 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:31:21.739644 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:31:21.740020 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:31:21.741008 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.741197 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:31:21.741252 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:31:21.741433 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:31:21.742746 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.742927 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:31:21.742952 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:31:21.762697 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:31:21.763676 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.763765 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:31:21.763807 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:31:21.770489 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:31:21.771184 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.771332 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:31:21.771371 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:31:21.772259 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:31:21.773188 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.773326 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:31:21.773358 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:31:21.773608 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:31:21.774262 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.774458 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:31:21.774515 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:31:21.776039 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:31:21.777214 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.777414 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:31:21.777517 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:31:21.779088 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:31:21.779944 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:21.780124 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:31:21.780277 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 20:31:25.308428 [debug]: Method: GET, Path: /register, Version: HTTP/1.1
+2023-06-01 20:31:25.309708 [debug]: Parse Finish:  Method = GET, Path = /register.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.309897 [debug]: Response File Path = ./resources/register.html
+2023-06-01 20:31:25.309953 [debug]: FileSize: 3380, 2 totalSize 3502
+2023-06-01 20:31:25.371564 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:31:25.372269 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.372438 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:31:25.372477 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:31:25.374217 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:31:25.375457 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.375534 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:31:25.375558 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:31:25.375734 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:31:25.376228 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.376274 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:31:25.376295 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:31:25.376454 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:31:25.377428 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.377633 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:31:25.377725 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:31:25.377961 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:31:25.378676 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.378892 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:31:25.378993 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:31:25.379176 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:31:25.380097 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.380336 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:31:25.380425 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:31:25.393942 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:31:25.394627 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.394807 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:31:25.394903 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:31:25.399952 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:31:25.401382 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.402417 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:31:25.402842 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:31:25.403224 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:31:25.404223 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.404338 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:31:25.404384 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:31:25.404858 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:31:25.409312 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.409417 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:31:25.409446 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:31:25.409605 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:31:25.410069 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.410116 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:31:25.410137 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:31:25.410278 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:31:25.411260 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:25.411381 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:31:25.411433 [debug]: FileSize: 1047, 2 totalSize 1176
+2023-06-01 20:31:27.903869 [debug]: Method: GET, Path: /, Version: HTTP/1.1
+2023-06-01 20:31:27.905212 [debug]: Parse Finish:  Method = GET, Path = /index.html, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.905443 [debug]: Response File Path = ./resources/index.html
+2023-06-01 20:31:27.905491 [debug]: FileSize: 3148, 2 totalSize 3270
+2023-06-01 20:31:27.962914 [debug]: Method: GET, Path: /css/bootstrap.min.css, Version: HTTP/1.1
+2023-06-01 20:31:27.964898 [debug]: Parse Finish:  Method = GET, Path = /css/bootstrap.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.965013 [debug]: Response File Path = ./resources/css/bootstrap.min.css
+2023-06-01 20:31:27.965078 [debug]: FileSize: 121260, 2 totalSize 121384
+2023-06-01 20:31:27.965331 [debug]: Method: GET, Path: /css/animate.css, Version: HTTP/1.1
+2023-06-01 20:31:27.966283 [debug]: Parse Finish:  Method = GET, Path = /css/animate.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.966367 [debug]: Response File Path = ./resources/css/animate.css
+2023-06-01 20:31:27.966408 [debug]: FileSize: 72922, 2 totalSize 73045
+2023-06-01 20:31:27.967086 [debug]: Method: GET, Path: /css/magnific-popup.css, Version: HTTP/1.1
+2023-06-01 20:31:27.970013 [debug]: Parse Finish:  Method = GET, Path = /css/magnific-popup.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.970153 [debug]: Response File Path = ./resources/css/magnific-popup.css
+2023-06-01 20:31:27.970222 [debug]: FileSize: 6951, 2 totalSize 7073
+2023-06-01 20:31:27.970422 [debug]: Method: GET, Path: /css/font-awesome.min.css, Version: HTTP/1.1
+2023-06-01 20:31:27.972201 [debug]: Parse Finish:  Method = GET, Path = /css/font-awesome.min.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.972312 [debug]: Response File Path = ./resources/css/font-awesome.min.css
+2023-06-01 20:31:27.972348 [debug]: FileSize: 27392, 2 totalSize 27515
+2023-06-01 20:31:27.972534 [debug]: Method: GET, Path: /css/style.css, Version: HTTP/1.1
+2023-06-01 20:31:27.973218 [debug]: Parse Finish:  Method = GET, Path = /css/style.css, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.973354 [debug]: Response File Path = ./resources/css/style.css
+2023-06-01 20:31:27.973547 [debug]: FileSize: 9807, 2 totalSize 9929
+2023-06-01 20:31:27.982786 [debug]: Method: GET, Path: /images/profile-image.jpg, Version: HTTP/1.1
+2023-06-01 20:31:27.983895 [debug]: Parse Finish:  Method = GET, Path = /images/profile-image.jpg, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:27.984057 [debug]: Response File Path = ./resources/images/profile-image.jpg
+2023-06-01 20:31:27.984164 [debug]: FileSize: 47176, 2 totalSize 47300
+2023-06-01 20:31:28.007869 [debug]: Method: GET, Path: /js/jquery.js, Version: HTTP/1.1
+2023-06-01 20:31:28.009017 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.009207 [debug]: Response File Path = ./resources/js/jquery.js
+2023-06-01 20:31:28.009388 [debug]: FileSize: 85658, 2 totalSize 85788
+2023-06-01 20:31:28.009705 [debug]: Method: GET, Path: /js/bootstrap.min.js, Version: HTTP/1.1
+2023-06-01 20:31:28.011226 [debug]: Parse Finish:  Method = GET, Path = /js/bootstrap.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.011518 [debug]: Response File Path = ./resources/js/bootstrap.min.js
+2023-06-01 20:31:28.011725 [debug]: FileSize: 36868, 2 totalSize 36998
+2023-06-01 20:31:28.012144 [debug]: Method: GET, Path: /js/smoothscroll.js, Version: HTTP/1.1
+2023-06-01 20:31:28.013282 [debug]: Parse Finish:  Method = GET, Path = /js/smoothscroll.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.013569 [debug]: Response File Path = ./resources/js/smoothscroll.js
+2023-06-01 20:31:28.013756 [debug]: FileSize: 4474, 2 totalSize 4603
+2023-06-01 20:31:28.014155 [debug]: Method: GET, Path: /js/jquery.magnific-popup.min.js, Version: HTTP/1.1
+2023-06-01 20:31:28.014766 [debug]: Parse Finish:  Method = GET, Path = /js/jquery.magnific-popup.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.014911 [debug]: Response File Path = ./resources/js/jquery.magnific-popup.min.js
+2023-06-01 20:31:28.015100 [debug]: FileSize: 20932, 2 totalSize 21062
+2023-06-01 20:31:28.021669 [debug]: Method: GET, Path: /js/magnific-popup-options.js, Version: HTTP/1.1
+2023-06-01 20:31:28.022836 [debug]: Parse Finish:  Method = GET, Path = /js/magnific-popup-options.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.023052 [debug]: Response File Path = ./resources/js/magnific-popup-options.js
+2023-06-01 20:31:28.023169 [debug]: FileSize: 1069, 2 totalSize 1198
+2023-06-01 20:31:28.023950 [debug]: Method: GET, Path: /js/wow.min.js, Version: HTTP/1.1
+2023-06-01 20:31:28.026215 [debug]: Parse Finish:  Method = GET, Path = /js/wow.min.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.026486 [debug]: Response File Path = ./resources/js/wow.min.js
+2023-06-01 20:31:28.026670 [debug]: FileSize: 7082, 2 totalSize 7211
+2023-06-01 20:31:28.034184 [debug]: Method: GET, Path: /js/custom.js, Version: HTTP/1.1
+2023-06-01 20:31:28.034935 [debug]: Parse Finish:  Method = GET, Path = /js/custom.js, Version = HTTP/1.1, StatusCode = 200
+2023-06-01 20:31:28.035131 [debug]: Response File Path = ./resources/js/custom.js
+2023-06-01 20:31:28.035250 [debug]: FileSize: 1047, 2 totalSize 1176

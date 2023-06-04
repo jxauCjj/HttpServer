@@ -59,6 +59,7 @@
         "buffer": "cpp",
         "netfwd": "cpp",
         "bitset": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "unordered_set": "cpp"
     }
 }
