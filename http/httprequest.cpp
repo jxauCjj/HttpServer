@@ -6,7 +6,7 @@ const std::unordered_set<std::string> HttpRequest::DEFAULT_HTML{
              "/welcome", "/video", "/picture"};
 
 const std::unordered_map<std::string, int> HttpRequest::DEFAULT_HTML_TAG {
-            {"/register.html", 0}, {"/login.html", 1},  };  // 登录为0 注册为1
+            {"/register", 0}, {"/login", 1},  };  // 登录为0 注册为1
 
 static const char *srcDir = "./resources";
 
@@ -320,7 +320,7 @@ bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd, bo
     if(!isLogin && flag == true) {
         LOG_DEBUG("regirster!");
         bzero(order, 256);
-        snprintf(order, 256,"INSERT INTO user(username, password) VALUES('%s','%s')", name.c_str(), pwd.c_str());
+        snprintf(order, 256,"INSERT INTO user(username, passwd) VALUES('%s','%s')", name.c_str(), pwd.c_str());
         LOG_DEBUG( "%s", order);
         if(mysql_query(sql, order)) { 
             LOG_DEBUG( "Insert error!");

@@ -13,7 +13,9 @@
 
 #include "../logger/log.h"
 #include "../pool/threadpool.hpp"
+#include "../pool/sqlconnpool.h"
 #include "../http/httpconn.h"
+#include "../timer/heaptimer.h"
 #include "epoller.h"
 
 class WebServer{
@@ -32,6 +34,8 @@ private:
     void handleWrite(HttpConn &httpConn); // 处理写数据事件(http响应)
     void closeConn(HttpConn &httpConn);   // 关闭连接
 
+    void extentTimer(HttpConn &HttpConn);   // 调整时间堆
+
     static void setNonBlocking(int fd);  // 设置描述符为非阻塞读(事件触发必然有数据,无需阻塞读)
 
 private:
@@ -40,15 +44,17 @@ private:
 
     int m_port;   // 监听的端口
     int m_listenFd;  // 监听文件描述符
+    int m_timoutMS; // 超时时长
     uint32_t m_listenEvent; // 监听套接字事件
     uint32_t m_connEvent;   // 通信套接字事件
 
     bool m_isRunning;   // 服务器是否正在运行
 
-    std::unique_ptr<Epoller> m_epoller = nullptr;
+    std::unique_ptr<Epoller> m_epoller = nullptr;   // Epoll对象
+    std::unique_ptr<HeapTimer> m_timer = nullptr;   // 时间堆
     std::unordered_map<int, HttpConn> m_users;  // 存储已创建的用户连接 fd: httpConn
-
     std::unique_ptr<ThreadPool> m_threadPool = nullptr;   // 线程池
+
 };
 
 

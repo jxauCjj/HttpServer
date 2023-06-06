@@ -65,7 +65,7 @@ private:
     void parsePost(const std::string &data);   // 解析表单并数据库验证数据
     void parseFormData(const std::string &data);    // 解析表单数据
 
-    bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd, bool isLogin);  // 验证表单数据有效性
+    bool UserVerify(const std::string &name, const std::string &pwd, bool isLogin);  // 验证表单数据有效性
 
     HTTP_CODE parseRequest(Buffer &buff); 
 

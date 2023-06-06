@@ -1,11 +1,14 @@
 #include "webserver.h"
 
 WebServer::WebServer(int port): 
-        m_port(port), m_listenFd(-1), m_isRunning(true), 
-        m_epoller(new Epoller()), m_threadPool(new ThreadPool())
+        m_port(port), m_listenFd(-1), m_timoutMS(30000), m_isRunning(true),
+        m_epoller(new Epoller()), m_timer(new HeapTimer()), m_threadPool(new ThreadPool())
 {
     HttpConn::g_userCount = 0;
     Log::getInstance()->init("./log", ".log", 0);    // 初始化日志对象
+
+    // 初始化数据库连接池 TODO 参数暂时写死
+    SqlConnPool::getInstance()->init("localhost", 3306, "root", "root", "yourdb", 10); /* Mysql配置 */
 
     // 初始化监听事件类型
     m_listenEvent = EPOLLRDHUP;
@@ -29,10 +32,14 @@ void WebServer::start() {
     if(m_isRunning){
         LOG_INFO("============ Server Start ============");
     }
-
+    int ms = -1;
     while (m_isRunning){
-        int eventCnt = m_epoller->wait(-1); // 监听事件 
+        
+        if(m_timoutMS > 0)
+            ms = m_timer->getNextTick();
 
+        int eventCnt = m_epoller->wait(ms); // 监听事件 
+        
         for(int i = 0; i < eventCnt; ++i){
             // 获取触发事件的描述符及其对应类型
             int fd = m_epoller->getEventFd(i);
@@ -45,25 +52,30 @@ void WebServer::start() {
             else if(eventsType & (EPOLLHUP | EPOLLERR | EPOLLRDHUP)){
                 // 关闭连接
                 assert(m_users.count(fd) > 0);
+                if(m_timoutMS > 0)
+                    m_timer->doWork(fd);    // 删除时间堆上的结点
                 closeConn(m_users[fd]);
             }
             else if(eventsType & EPOLLIN){
                 // 读取数据
                 assert(m_users.count(fd) > 0);
-                
+                if(m_timoutMS > 0)  extentTimer(m_users[fd]);
                 m_threadPool->addTask(std::bind(&WebServer::handleRead, this, std::ref(m_users[fd])));
                 // handleRead(m_users[fd]);
             }
             else if(eventsType & EPOLLOUT){
                 // 写数据
                 assert(m_users.count(fd) > 0);
+                if(m_timoutMS > 0)  extentTimer(m_users[fd]);
                 m_threadPool->addTask(std::bind(&WebServer::handleWrite, this, std::ref(m_users[fd]))); // bind 默认值传递
                 
                 // handleWrite(m_users[fd]);
             }
+            else {
+                LOG_ERROR("Unexcepted Event");
+            }
         }
     }
-    
 }
 
 bool WebServer::initSocket() {
@@ -139,6 +151,9 @@ void WebServer::handleConn(){
     // 加入epoll监听并创建HttpConn(连接)对象
     m_epoller->addFd(fd, m_connEvent | EPOLLIN);
     m_users[fd].init(fd, addr);
+    
+    if(m_timoutMS > 0)
+        m_timer->add(fd, m_timoutMS, std::bind(&WebServer::closeConn, this, std::ref(m_users[fd])));    // 添加到时间堆
 
     setNonBlocking(fd);
 
@@ -194,4 +209,8 @@ void WebServer::handleWrite(HttpConn &httpConn) {
         // closeConn(httpConn);
         // LOG_DEBUG("Write Complete");
     }
+}
+
+void WebServer::extentTimer(HttpConn &httpConn) {
+    m_timer->adjust(httpConn.getFd(), m_timoutMS);
 }
