@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/buffer/buffer.cpp.o -c /home/cjj/project/HttpServer/src/buffer/buffer.cpp",
+  "file": "/home/cjj/project/HttpServer/src/buffer/buffer.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/http/httpconn.cpp.o -c /home/cjj/project/HttpServer/src/http/httpconn.cpp",
+  "file": "/home/cjj/project/HttpServer/src/http/httpconn.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/http/httprequest.cpp.o -c /home/cjj/project/HttpServer/src/http/httprequest.cpp",
+  "file": "/home/cjj/project/HttpServer/src/http/httprequest.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/http/httpresponse.cpp.o -c /home/cjj/project/HttpServer/src/http/httpresponse.cpp",
+  "file": "/home/cjj/project/HttpServer/src/http/httpresponse.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/logger/log.cpp.o -c /home/cjj/project/HttpServer/src/logger/log.cpp",
+  "file": "/home/cjj/project/HttpServer/src/logger/log.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/main.cpp.o -c /home/cjj/project/HttpServer/src/main.cpp",
+  "file": "/home/cjj/project/HttpServer/src/main.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/pool/sqlconnpool.cpp.o -c /home/cjj/project/HttpServer/src/pool/sqlconnpool.cpp",
+  "file": "/home/cjj/project/HttpServer/src/pool/sqlconnpool.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/server/epoller.cpp.o -c /home/cjj/project/HttpServer/src/server/epoller.cpp",
+  "file": "/home/cjj/project/HttpServer/src/server/epoller.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/server/webserver.cpp.o -c /home/cjj/project/HttpServer/src/server/webserver.cpp",
+  "file": "/home/cjj/project/HttpServer/src/server/webserver.cpp"
+},
+{
+  "directory": "/home/cjj/project/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/cjj/project/HttpServer/src -g -o CMakeFiles/server.dir/src/timer/heaptimer.cpp.o -c /home/cjj/project/HttpServer/src/timer/heaptimer.cpp",
+  "file": "/home/cjj/project/HttpServer/src/timer/heaptimer.cpp"
+}
+]

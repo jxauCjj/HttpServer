@@ -1,0 +1,3 @@
+/home/cjj/project/HttpServer/build/CMakeFiles/server.dir
+/home/cjj/project/HttpServer/build/CMakeFiles/edit_cache.dir
+/home/cjj/project/HttpServer/build/CMakeFiles/rebuild_cache.dir
