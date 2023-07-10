@@ -15,37 +15,38 @@
 
 ## 项目结构
 ```  
-│--main.cpp          // 项目入口  
-│--Makefile          // makefile项目构建文件  
+│--CMakeLists.txt     // cmake项目构建文件  
 │--README.md     
 |--resources         // 网页静态资源
 |--bin               // 生成的可执行文件目录
 |--log               // 日志文件输出目录
-|--buffer            // 循环缓冲区
-|  |--buffer.cpp
-|  └--buffer.h
-|--http              // 解析并处理http请求和响应报文
-|  |--httpconn.cpp
-|  |--httpconn.h
-|  |--httprequest.cpp
-|  |--httprequest.h
-|  |--httpresponse.cpp
-|  └--httpresponse.h
-|--logger            // 日志系统
-|  |--blockqueue.hpp
-|  |--log.cpp
-|  └--log.h
-|--pool              // 线程池和数据库池
-|  |--sqlconnpool.cpp
-|  |--sqlconnpool.h
-|  |--sqlconnRAII.h
-|  └--threadpool.hpp
-|--server            // 服务器主类
-|  |--epoller.cpp
-|  |--epoller.h
-|  |--webserver.cpp
-|  └--webserver.h
-└--timer             // 定时器
-   |--heaptimer.cpp
-   └--heaptimer.h
+|--src
+|  |--main.cpp // 程序入口
+|  |--buffer            // 循环缓冲区
+|  |  |--buffer.cpp
+|  |  └--buffer.h
+|  |--http              // 解析并处理http请求和响应报文
+|  |  |--httpconn.cpp
+|  |  |--httpconn.h
+|  |  |--httprequest.cpp
+|  |  |--httprequest.h
+|  |  |--httpresponse.cpp
+|  |  └--httpresponse.h
+|  |--logger            // 日志系统
+|  |  |--blockqueue.hpp
+|  |  |--log.cpp
+|  |  └--log.h
+|  |--pool              // 线程池和数据库池
+|  |  |--sqlconnpool.cpp
+|  |  |--sqlconnpool.h
+|  |  |--sqlconnRAII.h
+|  |  └--threadpool.hpp
+|  |--server            // 服务器相关类
+|  |  |--epoller.cpp
+|  |  |--epoller.h
+|  |  |--webserver.cpp
+|  |  └--webserver.h
+|--└--timer             // 定时器
+      |--heaptimer.cpp
+      └--heaptimer.h
 ```
